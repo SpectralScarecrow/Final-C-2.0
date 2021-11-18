@@ -1,0 +1,67 @@
+{
+	"name": "player",
+	"plugin-id": "Sprite",
+	"sid": 100233833799867,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "jumpfound",
+			"type": "number",
+			"desc": "\"When checked double jump available\"",
+			"sid": 495748731107672
+		},
+		{
+			"name": "jumpcount",
+			"type": "number",
+			"desc": "number of jumps that can be done in air",
+			"sid": 308171337532146
+		},
+		{
+			"name": "playerhealth",
+			"type": "number",
+			"desc": "",
+			"sid": 365112274082007
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Platform",
+			"name": "Platform",
+			"sid": 522766651926626
+		},
+		{
+			"behaviorId": "scrollto",
+			"name": "ScrollTo",
+			"sid": 717522275173969
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 250,
+						"height": 250,
+						"originX": 1.072,
+						"originY": 0.464,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5250620,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 715655326266966,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

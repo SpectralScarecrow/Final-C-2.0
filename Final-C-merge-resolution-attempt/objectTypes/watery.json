@@ -1,0 +1,26 @@
+{
+	"name": "watery",
+	"plugin-id": "TiledBg",
+	"sid": 911841767443399,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 589479372090388
+		}
+	],
+	"effectTypes": [],
+	"image": {
+		"width": 250,
+		"height": 250,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "",
+		"exportFormat": "png",
+		"exportQuality": 0.8,
+		"imageSpriteId": 8962847,
+		"useCollisionPoly": true
+	}
+}

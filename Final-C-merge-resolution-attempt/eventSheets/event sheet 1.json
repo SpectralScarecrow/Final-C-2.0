@@ -1,0 +1,621 @@
+{
+	"name": "Event sheet 1",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "MagicExpansion",
+					"sid": 133198159941574,
+					"parameters": {
+						"object": "player"
+					}
+				}
+			],
+			"actions": [],
+			"sid": 225754176614623
+		},
+		{
+			"eventType": "block",
+			"conditions": [],
+			"actions": [],
+			"sid": 145040563888010
+		},
+		{
+			"eventType": "block",
+			"conditions": [],
+			"actions": [],
+			"sid": 382368492148717
+		},
+		{
+			"eventType": "block",
+			"conditions": [],
+			"actions": [],
+			"sid": 195082351451179
+		},
+		{
+			"eventType": "block",
+			"conditions": [],
+			"actions": [],
+			"sid": 566396740777183
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-click",
+					"objectClass": "Mouse",
+					"sid": 346067419794134,
+					"parameters": {
+						"mouse-button": "right",
+						"click-type": "clicked"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "spawn-another-object",
+					"objectClass": "player",
+					"sid": 859086467933744,
+					"parameters": {
+						"object": "playerBullet",
+						"layer": "0",
+						"image-point": "0",
+						"create-hierarchy": false
+					}
+				}
+			],
+			"sid": 766594639037849
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-released",
+					"objectClass": "Keyboard",
+					"sid": 747751036968147,
+					"parameters": {
+						"key": 37
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "player",
+					"sid": 602632128823776,
+					"parameters": {
+						"state": "mirrored"
+					}
+				}
+			],
+			"sid": 469981088247629
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-released",
+					"objectClass": "Keyboard",
+					"sid": 373627196515149,
+					"parameters": {
+						"key": 39
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "player",
+					"sid": 442481427683639,
+					"parameters": {
+						"state": "not-mirrored"
+					}
+				}
+			],
+			"sid": 566198377483618
+		},
+		{
+			"eventType": "block",
+			"conditions": [],
+			"actions": [],
+			"sid": 308212148508071
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-mirrored",
+					"objectClass": "player",
+					"sid": 116303361001783
+				}
+			],
+			"actions": [
+				{
+					"id": "set-angle",
+					"objectClass": "playerBullet",
+					"sid": 631103134509881,
+					"parameters": {
+						"angle": "180"
+					}
+				}
+			],
+			"sid": 133756515285237
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-click",
+					"objectClass": "Mouse",
+					"sid": 715913753028869,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "spawn-another-object",
+					"objectClass": "player",
+					"sid": 754228048493278,
+					"parameters": {
+						"object": "melee",
+						"layer": "0",
+						"image-point": "0",
+						"create-hierarchy": false
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 643407955586121,
+					"parameters": {
+						"seconds": "0.25"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "melee",
+					"sid": 383827118596847
+				}
+			],
+			"sid": 535331241110857
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "enemy",
+					"sid": 812726308839280,
+					"parameters": {
+						"object": "melee"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "enemy",
+					"sid": 748738021326875
+				}
+			],
+			"sid": 300178219695547
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "enemy",
+					"sid": 985765094469487,
+					"parameters": {
+						"object": "playerBullet"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "enemy",
+					"sid": 468335652647400
+				}
+			],
+			"sid": 921037131054008
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "enemy",
+					"sid": 369358763975878,
+					"parameters": {
+						"instance-variable": "face",
+						"comparison": 0,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "simulate-control",
+					"objectClass": "enemy",
+					"sid": 618145605244942,
+					"behaviorType": "Platform",
+					"parameters": {
+						"control": "left"
+					}
+				},
+				{
+					"id": "set-mirrored",
+					"objectClass": "enemy",
+					"sid": 611335805656494,
+					"parameters": {
+						"state": "mirrored"
+					}
+				}
+			],
+			"sid": 749637087186680
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "enemy",
+					"sid": 182745572637139,
+					"parameters": {
+						"instance-variable": "face",
+						"comparison": 0,
+						"value": "1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "simulate-control",
+					"objectClass": "enemy",
+					"sid": 167532376038813,
+					"behaviorType": "Platform",
+					"parameters": {
+						"control": "right"
+					}
+				},
+				{
+					"id": "set-mirrored",
+					"objectClass": "enemy",
+					"sid": 834667222652815,
+					"parameters": {
+						"state": "not-mirrored"
+					}
+				}
+			],
+			"sid": 327113142099068
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "enemy",
+					"sid": 175711029059584,
+					"parameters": {
+						"object": "enemyBoundary"
+					}
+				}
+			],
+			"actions": [],
+			"sid": 319995769666872,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "enemy",
+							"sid": 155264335762009,
+							"parameters": {
+								"instance-variable": "face",
+								"comparison": 0,
+								"value": "0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-instvar-value",
+							"objectClass": "enemy",
+							"sid": 200570663212657,
+							"parameters": {
+								"instance-variable": "face",
+								"value": "1"
+							}
+						}
+					],
+					"sid": 859392122548732
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "else",
+							"objectClass": "System",
+							"sid": 956031892336163
+						}
+					],
+					"actions": [
+						{
+							"id": "set-instvar-value",
+							"objectClass": "enemy",
+							"sid": 683994212697218,
+							"parameters": {
+								"instance-variable": "face",
+								"value": "0"
+							}
+						}
+					],
+					"sid": 827404362842969
+				}
+			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "melee",
+					"sid": 982755338686526,
+					"parameters": {
+						"object": "redDoor"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "redDoor",
+					"sid": 158954917453699
+				}
+			],
+			"sid": 140046423243111
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-shoot",
+					"objectClass": "cicadaBoss1",
+					"sid": 396261463272632,
+					"behaviorType": "Turret"
+				}
+			],
+			"actions": [
+				{
+					"id": "spawn-another-object",
+					"objectClass": "cicadaBoss1",
+					"sid": 542181495910615,
+					"parameters": {
+						"object": "bossbullet",
+						"layer": "0",
+						"image-point": "0",
+						"create-hierarchy": false
+					}
+				}
+			],
+			"sid": 792525299748473
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 972210101111185
+				}
+			],
+			"actions": [
+				{
+					"id": "add-object-to-target",
+					"objectClass": "cicadaBoss1",
+					"sid": 626407532148567,
+					"behaviorType": "Turret",
+					"parameters": {
+						"target": "player"
+					}
+				}
+			],
+			"sid": 554542382975891
+		},
+		{
+			"eventType": "block",
+			"conditions": [],
+			"actions": [],
+			"sid": 215295282278097
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "player",
+					"sid": 779013142469496,
+					"parameters": {
+						"object": "TestriaJmpBoots"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-double-jump",
+					"objectClass": "player",
+					"sid": 885197663403289,
+					"behaviorType": "Platform",
+					"parameters": {
+						"state": "enabled"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "TestriaJmpBoots",
+					"sid": 509218135134093
+				}
+			],
+			"sid": 529160770738446
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 200806844504859,
+					"parameters": {
+						"key": 38
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-max-fall-speed",
+					"objectClass": "player",
+					"sid": 278759470138953,
+					"behaviorType": "Platform",
+					"parameters": {
+						"max-fall-speed": "250"
+					}
+				}
+			],
+			"sid": 566033713635376
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-released",
+					"objectClass": "Keyboard",
+					"sid": 202698751768687,
+					"parameters": {
+						"key": 38
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-max-fall-speed",
+					"objectClass": "player",
+					"sid": 746542179380221,
+					"behaviorType": "Platform",
+					"parameters": {
+						"max-fall-speed": "500"
+					}
+				}
+			],
+			"sid": 909530442848662
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "bossbullet",
+					"sid": 413389980599682,
+					"parameters": {
+						"object": "player"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "player",
+					"sid": 963169528053392,
+					"parameters": {
+						"instance-variable": "playerhealth",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 743466774600187
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "enemy",
+					"sid": 136502477218564,
+					"parameters": {
+						"object": "player"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "player",
+					"sid": 425410653258271,
+					"parameters": {
+						"instance-variable": "playerhealth",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 882039021969077
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "playerBullet",
+					"sid": 651371293485511,
+					"parameters": {
+						"object": "cicadaBoss1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "cicadaBoss1",
+					"sid": 875472617035687,
+					"parameters": {
+						"instance-variable": "bosshealth",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 698643148156685
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "melee",
+					"sid": 504686827248179,
+					"parameters": {
+						"object": "cicadaBoss1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "cicadaBoss1",
+					"sid": 611499579501615,
+					"parameters": {
+						"instance-variable": "bosshealth",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 567894732760923
+		}
+	],
+	"sid": 607571918746669
+}
