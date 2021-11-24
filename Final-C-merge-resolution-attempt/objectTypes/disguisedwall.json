@@ -1,14 +1,14 @@
 {
 	"name": "DisguisedWall",
 	"plugin-id": "TiledBg",
-	"sid": 957245175451976,
+	"sid": 839184310435088,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
 			"behaviorId": "solid",
 			"name": "Solid",
-			"sid": 678721882019328
+			"sid": 867628854666338
 		}
 	],
 	"effectTypes": [],
@@ -20,7 +20,7 @@
 		"originalSource": "",
 		"exportFormat": "png",
 		"exportQuality": 0.8,
-		"imageSpriteId": 4597634,
+		"imageSpriteId": 3985101,
 		"useCollisionPoly": true
 	}
 }

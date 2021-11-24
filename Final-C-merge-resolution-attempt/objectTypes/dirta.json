@@ -1,0 +1,26 @@
+{
+	"name": "dirta",
+	"plugin-id": "TiledBg",
+	"sid": 433073060779905,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 847245795334547
+		}
+	],
+	"effectTypes": [],
+	"image": {
+		"width": 250,
+		"height": 250,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "",
+		"exportFormat": "png",
+		"exportQuality": 0.8,
+		"imageSpriteId": 4435970,
+		"useCollisionPoly": true
+	}
+}

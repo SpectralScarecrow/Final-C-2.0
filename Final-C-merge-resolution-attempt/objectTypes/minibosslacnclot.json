@@ -1,0 +1,49 @@
+{
+	"name": "MiniBossLacnclot",
+	"plugin-id": "Sprite",
+	"sid": 107811699131536,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 214,
+						"height": 228,
+						"originX": 0.5887850467289719,
+						"originY": 0.4473684210526316,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4480083,
+						"collisionPoly": {
+							"points": [
+								0.004672897196261682,
+								0,
+								1,
+								0,
+								1,
+								0.9956140350877193,
+								0.004672897196261682,
+								0.9956140350877193
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 173676205197364,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

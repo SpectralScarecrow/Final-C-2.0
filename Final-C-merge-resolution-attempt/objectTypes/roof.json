@@ -1,0 +1,55 @@
+{
+	"name": "roof",
+	"plugin-id": "Sprite",
+	"sid": 960508752696730,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 372962015023024
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 210,
+						"height": 253,
+						"originX": 0.43333333333333335,
+						"originY": 0.4980237154150198,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3066611,
+						"collisionPoly": {
+							"points": [
+								0.5428571428571428,
+								0,
+								0.6095238095238098,
+								0.023715415019762837,
+								1,
+								1,
+								0,
+								0.9920948616600791
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 616143648096330,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

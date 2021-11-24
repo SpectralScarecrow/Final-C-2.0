@@ -1,0 +1,49 @@
+{
+	"name": "spiketable",
+	"plugin-id": "Sprite",
+	"sid": 177513777620718,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 252,
+						"height": 100,
+						"originX": 0.5,
+						"originY": 0.47,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3114982,
+						"collisionPoly": {
+							"points": [
+								0.003968253968253968,
+								0,
+								0.996031746031746,
+								0,
+								0.996031746031746,
+								1,
+								0.003968253968253968,
+								1
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 526602425918472,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

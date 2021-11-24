@@ -1,0 +1,49 @@
+{
+	"name": "ForlornEntityBoss3",
+	"plugin-id": "Sprite",
+	"sid": 171921807556775,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 252,
+						"height": 247,
+						"originX": 0.5,
+						"originY": 0.5101214574898786,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2418337,
+						"collisionPoly": {
+							"points": [
+								0.003968253968253968,
+								0.004048582995951417,
+								0.996031746031746,
+								0.004048582995951417,
+								0.996031746031746,
+								1,
+								0.003968253968253968,
+								1
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 954182120563536,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

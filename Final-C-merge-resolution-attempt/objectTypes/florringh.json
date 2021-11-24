@@ -1,0 +1,26 @@
+{
+	"name": "florringh",
+	"plugin-id": "TiledBg",
+	"sid": 417626432556940,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 132186032933127
+		}
+	],
+	"effectTypes": [],
+	"image": {
+		"width": 250,
+		"height": 250,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "",
+		"exportFormat": "png",
+		"exportQuality": 0.8,
+		"imageSpriteId": 8709515,
+		"useCollisionPoly": true
+	}
+}
