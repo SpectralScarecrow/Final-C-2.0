@@ -9,6 +9,12 @@
 			"type": "number",
 			"desc": "at zero face right, at 1 face left",
 			"sid": 271566377346849
+		},
+		{
+			"name": "ehealth",
+			"type": "number",
+			"desc": "",
+			"sid": 853824418972378
 		}
 	],
 	"behaviorTypes": [

@@ -1,21 +1,14 @@
 {
-	"name": "Waterball",
+	"name": "acid",
 	"plugin-id": "Sprite",
-	"sid": 235528402943750,
+	"sid": 293133696583312,
 	"isGlobal": false,
-	"instanceVariables": [
-		{
-			"name": "bulletDamage",
-			"type": "number",
-			"desc": "",
-			"sid": 178589044263202
-		}
-	],
+	"instanceVariables": [],
 	"behaviorTypes": [
 		{
 			"behaviorId": "Bullet",
 			"name": "Bullet",
-			"sid": 611895580131107
+			"sid": 493886587258142
 		}
 	],
 	"effectTypes": [],
@@ -24,19 +17,19 @@
 			{
 				"frames": [
 					{
-						"width": 121,
-						"height": 103,
-						"originX": 0.35537190082644626,
-						"originY": 0.7184466019417476,
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 5543322,
+						"imageSpriteId": 3853614,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 681007716417492,
+				"sid": 498534159133285,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

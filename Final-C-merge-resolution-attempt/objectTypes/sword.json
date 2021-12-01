@@ -3,7 +3,14 @@
 	"plugin-id": "Sprite",
 	"sid": 132707609638475,
 	"isGlobal": false,
-	"instanceVariables": [],
+	"instanceVariables": [
+		{
+			"name": "meleedamage",
+			"type": "number",
+			"desc": "",
+			"sid": 996401898707124
+		}
+	],
 	"behaviorTypes": [],
 	"effectTypes": [],
 	"animations": {

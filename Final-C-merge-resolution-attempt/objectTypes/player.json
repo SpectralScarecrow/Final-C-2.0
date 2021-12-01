@@ -21,6 +21,30 @@
 			"type": "number",
 			"desc": "",
 			"sid": 365112274082007
+		},
+		{
+			"name": "waterfound",
+			"type": "boolean",
+			"desc": "",
+			"sid": 425667103496591
+		},
+		{
+			"name": "magammo",
+			"type": "number",
+			"desc": "",
+			"sid": 166933202028121
+		},
+		{
+			"name": "maxammo",
+			"type": "number",
+			"desc": "",
+			"sid": 973287779416877
+		},
+		{
+			"name": "hookfound",
+			"type": "boolean",
+			"desc": "",
+			"sid": 481985354354082
 		}
 	],
 	"behaviorTypes": [
@@ -70,6 +94,13 @@
 							]
 						},
 						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "Image Point 1",
+								"x": 1,
+								"y": 0.5319148936170213
+							}
+						],
 						"duration": 1
 					},
 					{

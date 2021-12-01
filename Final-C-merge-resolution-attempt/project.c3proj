@@ -120,6 +120,14 @@
 		},
 		{
 			"type": "behavior",
+			"id": "Sin",
+			"name": "Sine",
+			"author": "Scirra",
+			"version": "r268",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
 			"id": "Pin",
 			"name": "Pin",
 			"author": "Scirra",
@@ -241,7 +249,8 @@
 			"Boottext",
 			"MagicTxt",
 			"health",
-			"magic"
+			"magic",
+			"acid"
 		],
 		"subfolders": []
 	},

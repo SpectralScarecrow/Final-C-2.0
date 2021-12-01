@@ -15,9 +15,34 @@
 					"parameters": {
 						"object": "health"
 					}
+				},
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "player",
+					"sid": 701616394259138,
+					"parameters": {
+						"instance-variable": "playerhealth",
+						"comparison": 2,
+						"value": "5"
+					}
 				}
 			],
-			"actions": [],
+			"actions": [
+				{
+					"id": "add-to-instvar",
+					"objectClass": "player",
+					"sid": 959710777700753,
+					"parameters": {
+						"instance-variable": "playerhealth",
+						"value": "1"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "health",
+					"sid": 272368720955505
+				}
+			],
 			"sid": 639516013239204
 		},
 		{
@@ -30,9 +55,34 @@
 					"parameters": {
 						"object": "magic"
 					}
+				},
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "player",
+					"sid": 549812134553648,
+					"parameters": {
+						"instance-variable": "magammo",
+						"comparison": 2,
+						"value": "player.maxammo"
+					}
 				}
 			],
-			"actions": [],
+			"actions": [
+				{
+					"id": "add-to-instvar",
+					"objectClass": "player",
+					"sid": 307344542507500,
+					"parameters": {
+						"instance-variable": "magammo",
+						"value": "1"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "magic",
+					"sid": 387480237786381
+				}
+			],
 			"sid": 833559269361950
 		},
 		{
@@ -47,7 +97,31 @@
 					}
 				}
 			],
-			"actions": [],
+			"actions": [
+				{
+					"id": "add-to-instvar",
+					"objectClass": "player",
+					"sid": 201936097175359,
+					"parameters": {
+						"instance-variable": "maxammo",
+						"value": "2"
+					}
+				},
+				{
+					"id": "set-instvar-value",
+					"objectClass": "player",
+					"sid": 272537711140670,
+					"parameters": {
+						"instance-variable": "magammo",
+						"value": "player.maxammo"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "MagicExpansion",
+					"sid": 418713848116346
+				}
+			],
 			"sid": 225754176614623
 		},
 		{
@@ -100,7 +174,22 @@
 					}
 				}
 			],
-			"actions": [],
+			"actions": [
+				{
+					"id": "set-boolean-instvar",
+					"objectClass": "player",
+					"sid": 285078680839326,
+					"parameters": {
+						"instance-variable": "waterfound",
+						"value": "true"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "WaterBallUpgrade",
+					"sid": 916893776771698
+				}
+			],
 			"sid": 189499707324795
 		},
 		{
@@ -115,7 +204,30 @@
 					}
 				}
 			],
-			"actions": [],
+			"actions": [
+				{
+					"id": "toggle-boolean-instvar",
+					"objectClass": "player",
+					"sid": 626596685166192,
+					"parameters": {
+						"instance-variable": "hookfound"
+					}
+				},
+				{
+					"id": "add-to-instvar",
+					"objectClass": "sword",
+					"sid": 803878365374133,
+					"parameters": {
+						"instance-variable": "meleedamage",
+						"value": "2"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "TestrianHook",
+					"sid": 706018130399314
+				}
+			],
 			"sid": 328405216373593
 		},
 		{
@@ -300,11 +412,11 @@
 				{
 					"id": "spawn-another-object",
 					"objectClass": "player",
-					"sid": 127023922491885,
+					"sid": 511032720520848,
 					"parameters": {
 						"object": "sword",
 						"layer": "0",
-						"image-point": "0",
+						"image-point": "1",
 						"create-hierarchy": false
 					}
 				},
@@ -337,20 +449,79 @@
 					}
 				}
 			],
-			"actions": [
+			"actions": [],
+			"sid": 766594639037849,
+			"children": [
 				{
-					"id": "spawn-another-object",
-					"objectClass": "player",
-					"sid": 747355147809566,
-					"parameters": {
-						"object": "Fireball",
-						"layer": "0",
-						"image-point": "0",
-						"create-hierarchy": false
-					}
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "player",
+							"sid": 220976156680550,
+							"parameters": {
+								"instance-variable": "waterfound"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "spawn-another-object",
+							"objectClass": "player",
+							"sid": 516682886407415,
+							"parameters": {
+								"object": "Waterball",
+								"layer": "0",
+								"image-point": "1",
+								"create-hierarchy": false
+							}
+						},
+						{
+							"id": "subtract-from-instvar",
+							"objectClass": "player",
+							"sid": 909727397895721,
+							"parameters": {
+								"instance-variable": "magammo",
+								"value": "1"
+							}
+						}
+					],
+					"sid": 118979188059415
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "else",
+							"objectClass": "System",
+							"sid": 119723697475827
+						}
+					],
+					"actions": [
+						{
+							"id": "spawn-another-object",
+							"objectClass": "player",
+							"sid": 213193330650763,
+							"parameters": {
+								"object": "Fireball",
+								"layer": "0",
+								"image-point": "1",
+								"create-hierarchy": false
+							}
+						},
+						{
+							"id": "subtract-from-instvar",
+							"objectClass": "player",
+							"sid": 671785340855677,
+							"parameters": {
+								"instance-variable": "magammo",
+								"value": "1"
+							}
+						}
+					],
+					"sid": 211350842395467
 				}
-			],
-			"sid": 766594639037849
+			]
 		},
 		{
 			"eventType": "block",
@@ -401,6 +572,156 @@
 			"sid": 566198377483618
 		},
 		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "sword",
+					"sid": 221735790347879,
+					"parameters": {
+						"object": "platformwallfloor4"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "reset-double-jump",
+					"objectClass": "player",
+					"sid": 499582550015615,
+					"behaviorType": "Platform",
+					"parameters": {
+						"double-jump-allowed": true
+					}
+				}
+			],
+			"sid": 864460210686972
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "sword",
+					"sid": 195046608852510,
+					"parameters": {
+						"object": "platformwallfloor3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "reset-double-jump",
+					"objectClass": "player",
+					"sid": 180776000819385,
+					"behaviorType": "Platform",
+					"parameters": {
+						"double-jump-allowed": true
+					}
+				}
+			],
+			"sid": 173266168196960
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "sword",
+					"sid": 765556082305984,
+					"parameters": {
+						"object": "platformwallfloor2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "reset-double-jump",
+					"objectClass": "player",
+					"sid": 201771248625257,
+					"behaviorType": "Platform",
+					"parameters": {
+						"double-jump-allowed": true
+					}
+				}
+			],
+			"sid": 906342906960911
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "sword",
+					"sid": 721665922192571,
+					"parameters": {
+						"object": "platformwallfloor1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "reset-double-jump",
+					"objectClass": "player",
+					"sid": 643766282435305,
+					"behaviorType": "Platform",
+					"parameters": {
+						"double-jump-allowed": true
+					}
+				}
+			],
+			"sid": 831593892133178
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "sword",
+					"sid": 688400860931338,
+					"parameters": {
+						"object": "border2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "reset-double-jump",
+					"objectClass": "player",
+					"sid": 311638582154404,
+					"behaviorType": "Platform",
+					"parameters": {
+						"double-jump-allowed": true
+					}
+				}
+			],
+			"sid": 195258893820346
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "sword",
+					"sid": 392765915250508,
+					"parameters": {
+						"object": "border"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "reset-double-jump",
+					"objectClass": "player",
+					"sid": 113170028191868,
+					"behaviorType": "Platform",
+					"parameters": {
+						"double-jump-allowed": true
+					}
+				}
+			],
+			"sid": 518752977156779
+		},
+		{
 			"eventType": "comment",
 			"text": "[h1]Angling[/h1]"
 		},
@@ -423,7 +744,15 @@
 				{
 					"id": "set-angle",
 					"objectClass": "Fireball",
-					"sid": 803531962547458,
+					"sid": 618202795393191,
+					"parameters": {
+						"angle": "180"
+					}
+				},
+				{
+					"id": "set-angle",
+					"objectClass": "Waterball",
+					"sid": 831966970110912,
 					"parameters": {
 						"angle": "180"
 					}
@@ -470,9 +799,13 @@
 			],
 			"actions": [
 				{
-					"id": "destroy",
+					"id": "subtract-from-instvar",
 					"objectClass": "enemy",
-					"sid": 748738021326875
+					"sid": 753492812778401,
+					"parameters": {
+						"instance-variable": "ehealth",
+						"value": "sword.meleedamage"
+					}
 				}
 			],
 			"sid": 300178219695547
@@ -491,12 +824,41 @@
 			],
 			"actions": [
 				{
-					"id": "destroy",
+					"id": "subtract-from-instvar",
 					"objectClass": "enemy",
-					"sid": 468335652647400
+					"sid": 181944358133921,
+					"parameters": {
+						"instance-variable": "ehealth",
+						"value": "Fireball.bulletdamage"
+					}
 				}
 			],
 			"sid": 921037131054008
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "enemy",
+					"sid": 406649828157953,
+					"parameters": {
+						"object": "Waterball"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "enemy",
+					"sid": 565088859816949,
+					"parameters": {
+						"instance-variable": "ehealth",
+						"value": "Waterball.bulletDamage"
+					}
+				}
+			],
+			"sid": 704931699961836
 		},
 		{
 			"eventType": "block",
@@ -631,6 +993,29 @@
 						}
 					],
 					"sid": 827404362842969
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "enemy",
+							"sid": 228442890025839,
+							"parameters": {
+								"instance-variable": "ehealth",
+								"comparison": 0,
+								"value": "0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "enemy",
+							"sid": 781966566650085
+						}
+					],
+					"sid": 975699672278123
 				}
 			]
 		},
@@ -809,8 +1194,8 @@
 			"conditions": [
 				{
 					"id": "on-collision-with-another-object",
-					"objectClass": "playerBullet",
-					"sid": 651371293485511,
+					"objectClass": "Fireball",
+					"sid": 269514509182639,
 					"parameters": {
 						"object": "cicadaBoss1"
 					}
@@ -820,10 +1205,10 @@
 				{
 					"id": "subtract-from-instvar",
 					"objectClass": "cicadaBoss1",
-					"sid": 875472617035687,
+					"sid": 741369592226203,
 					"parameters": {
 						"instance-variable": "bosshealth",
-						"value": "1"
+						"value": "Fireball.bulletdamage"
 					}
 				}
 			],
@@ -845,10 +1230,10 @@
 				{
 					"id": "subtract-from-instvar",
 					"objectClass": "cicadaBoss1",
-					"sid": 611499579501615,
+					"sid": 377601918129443,
 					"parameters": {
 						"instance-variable": "bosshealth",
-						"value": "1"
+						"value": "sword.meleedamage"
 					}
 				}
 			],
@@ -900,6 +1285,53 @@
 				}
 			],
 			"sid": 243510648355211
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 319809928412271
+				}
+			],
+			"actions": [
+				{
+					"id": "add-object-to-target",
+					"objectClass": "WaterSrpntBoss2",
+					"sid": 617299720903835,
+					"behaviorType": "Turret",
+					"parameters": {
+						"target": "player"
+					}
+				}
+			],
+			"sid": 860759025985878
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-shoot",
+					"objectClass": "WaterSrpntBoss2",
+					"sid": 788994163710263,
+					"behaviorType": "Turret"
+				}
+			],
+			"actions": [
+				{
+					"id": "spawn-another-object",
+					"objectClass": "WaterSrpntBoss2",
+					"sid": 293340279259904,
+					"parameters": {
+						"object": "acid",
+						"layer": "0",
+						"image-point": "0",
+						"create-hierarchy": false
+					}
+				}
+			],
+			"sid": 134055505509836
 		},
 		{
 			"eventType": "comment",
@@ -1134,6 +1566,89 @@
 				}
 			],
 			"sid": 854734172218736
+		},
+		{
+			"eventType": "script",
+			"script": ""
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Waterball",
+					"sid": 132203306859828,
+					"parameters": {
+						"object": "blueDoor"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "blueDoor",
+					"sid": 696000157595202
+				}
+			],
+			"sid": 239388220502892
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-x-seconds",
+					"objectClass": "System",
+					"sid": 670433882757176,
+					"parameters": {
+						"interval-seconds": "5"
+					}
+				},
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "player",
+					"sid": 597447356094329,
+					"parameters": {
+						"instance-variable": "magammo",
+						"comparison": 2,
+						"value": "player.maxammo"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "add-to-instvar",
+					"objectClass": "player",
+					"sid": 519465111930008,
+					"parameters": {
+						"instance-variable": "magammo",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 816584462994058
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "cicadaBoss1",
+					"sid": 180799350020545,
+					"parameters": {
+						"instance-variable": "bosshealth",
+						"comparison": 0,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "cicadaBoss1",
+					"sid": 801519535520342
+				}
+			],
+			"sid": 119662196296116
 		}
 	],
 	"sid": 607571918746669

@@ -3,7 +3,14 @@
 	"plugin-id": "Sprite",
 	"sid": 566488717842856,
 	"isGlobal": false,
-	"instanceVariables": [],
+	"instanceVariables": [
+		{
+			"name": "bulletdamage",
+			"type": "number",
+			"desc": "",
+			"sid": 373791297808652
+		}
+	],
 	"behaviorTypes": [
 		{
 			"behaviorId": "Bullet",

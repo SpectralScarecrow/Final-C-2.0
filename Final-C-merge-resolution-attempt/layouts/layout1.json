@@ -13459,7 +13459,11 @@
 					"instanceVariables": {
 						"jumpfound": 0,
 						"jumpcount": 2,
-						"playerhealth": 5
+						"playerhealth": 5,
+						"waterfound": false,
+						"magammo": 10,
+						"maxammo": 10,
+						"hookfound": false
 					},
 					"behaviors": {
 						"Platform": {
@@ -14499,7 +14503,8 @@
 					},
 					"uid": 708,
 					"instanceVariables": {
-						"face": 0
+						"face": 0,
+						"ehealth": 2
 					},
 					"behaviors": {
 						"Platform": {
@@ -14545,7 +14550,8 @@
 					},
 					"uid": 709,
 					"instanceVariables": {
-						"face": 0
+						"face": 0,
+						"ehealth": 2
 					},
 					"behaviors": {
 						"Platform": {
@@ -14591,7 +14597,8 @@
 					},
 					"uid": 710,
 					"instanceVariables": {
-						"face": 0
+						"face": 0,
+						"ehealth": 2
 					},
 					"behaviors": {
 						"Platform": {
@@ -14851,7 +14858,9 @@
 						"live-preview": false
 					},
 					"uid": 718,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"bulletdamage": 1
+					},
 					"behaviors": {
 						"Bullet": {
 							"properties": {
@@ -14892,7 +14901,9 @@
 						"live-preview": false
 					},
 					"uid": 719,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"meleedamage": 1
+					},
 					"behaviors": {},
 					"world": {
 						"x": 14388,
@@ -14962,7 +14973,8 @@
 					},
 					"uid": 721,
 					"instanceVariables": {
-						"face": 0
+						"face": 0,
+						"ehealth": 2
 					},
 					"behaviors": {
 						"Platform": {
@@ -15008,7 +15020,8 @@
 					},
 					"uid": 722,
 					"instanceVariables": {
-						"face": 0
+						"face": 0,
+						"ehealth": 2
 					},
 					"behaviors": {
 						"Platform": {
@@ -15054,7 +15067,8 @@
 					},
 					"uid": 723,
 					"instanceVariables": {
-						"face": 0
+						"face": 0,
+						"ehealth": 2
 					},
 					"behaviors": {
 						"Platform": {
@@ -15100,7 +15114,8 @@
 					},
 					"uid": 724,
 					"instanceVariables": {
-						"face": 0
+						"face": 0,
+						"ehealth": 2
 					},
 					"behaviors": {
 						"Platform": {
@@ -15146,7 +15161,8 @@
 					},
 					"uid": 725,
 					"instanceVariables": {
-						"face": 0
+						"face": 0,
+						"ehealth": 2
 					},
 					"behaviors": {
 						"Platform": {
@@ -15192,7 +15208,8 @@
 					},
 					"uid": 726,
 					"instanceVariables": {
-						"face": 0
+						"face": 0,
+						"ehealth": 2
 					},
 					"behaviors": {
 						"Platform": {
@@ -15238,7 +15255,8 @@
 					},
 					"uid": 727,
 					"instanceVariables": {
-						"face": 0
+						"face": 0,
+						"ehealth": 2
 					},
 					"behaviors": {
 						"Platform": {
@@ -15284,7 +15302,8 @@
 					},
 					"uid": 728,
 					"instanceVariables": {
-						"face": 0
+						"face": 0,
+						"ehealth": 2
 					},
 					"behaviors": {
 						"Platform": {
@@ -37142,7 +37161,8 @@
 					},
 					"uid": 1339,
 					"instanceVariables": {
-						"face": 0
+						"face": 0,
+						"ehealth": 2
 					},
 					"behaviors": {
 						"Platform": {
@@ -37188,7 +37208,8 @@
 					},
 					"uid": 1340,
 					"instanceVariables": {
-						"face": 0
+						"face": 0,
+						"ehealth": 2
 					},
 					"behaviors": {
 						"Platform": {
@@ -37234,7 +37255,8 @@
 					},
 					"uid": 1341,
 					"instanceVariables": {
-						"face": 0
+						"face": 0,
+						"ehealth": 2
 					},
 					"behaviors": {
 						"Platform": {
@@ -37280,7 +37302,8 @@
 					},
 					"uid": 1342,
 					"instanceVariables": {
-						"face": 0
+						"face": 0,
+						"ehealth": 2
 					},
 					"behaviors": {
 						"Platform": {
@@ -37326,7 +37349,8 @@
 					},
 					"uid": 1343,
 					"instanceVariables": {
-						"face": 0
+						"face": 0,
+						"ehealth": 2
 					},
 					"behaviors": {
 						"Platform": {
@@ -37372,7 +37396,8 @@
 					},
 					"uid": 1344,
 					"instanceVariables": {
-						"face": 0
+						"face": 0,
+						"ehealth": 2
 					},
 					"behaviors": {
 						"Platform": {
@@ -37418,7 +37443,8 @@
 					},
 					"uid": 1345,
 					"instanceVariables": {
-						"face": 0
+						"face": 0,
+						"ehealth": 2
 					},
 					"behaviors": {
 						"Platform": {
@@ -37464,7 +37490,8 @@
 					},
 					"uid": 1346,
 					"instanceVariables": {
-						"face": 0
+						"face": 0,
+						"ehealth": 2
 					},
 					"behaviors": {
 						"Platform": {
@@ -37510,7 +37537,8 @@
 					},
 					"uid": 1347,
 					"instanceVariables": {
-						"face": 0
+						"face": 0,
+						"ehealth": 2
 					},
 					"behaviors": {
 						"Platform": {
@@ -37556,7 +37584,8 @@
 					},
 					"uid": 1348,
 					"instanceVariables": {
-						"face": 0
+						"face": 0,
+						"ehealth": 2
 					},
 					"behaviors": {
 						"Platform": {
@@ -37602,7 +37631,8 @@
 					},
 					"uid": 1349,
 					"instanceVariables": {
-						"face": 0
+						"face": 0,
+						"ehealth": 2
 					},
 					"behaviors": {
 						"Platform": {
@@ -37648,7 +37678,8 @@
 					},
 					"uid": 1350,
 					"instanceVariables": {
-						"face": 0
+						"face": 0,
+						"ehealth": 2
 					},
 					"behaviors": {
 						"Platform": {
@@ -37730,7 +37761,8 @@
 					},
 					"uid": 1352,
 					"instanceVariables": {
-						"face": 0
+						"face": 0,
+						"ehealth": 2
 					},
 					"behaviors": {
 						"Platform": {
@@ -37776,7 +37808,8 @@
 					},
 					"uid": 1353,
 					"instanceVariables": {
-						"face": 0
+						"face": 0,
+						"ehealth": 2
 					},
 					"behaviors": {
 						"Platform": {
@@ -37822,7 +37855,8 @@
 					},
 					"uid": 1354,
 					"instanceVariables": {
-						"face": 0
+						"face": 0,
+						"ehealth": 2
 					},
 					"behaviors": {
 						"Platform": {
@@ -37868,7 +37902,8 @@
 					},
 					"uid": 1355,
 					"instanceVariables": {
-						"face": 0
+						"face": 0,
+						"ehealth": 2
 					},
 					"behaviors": {
 						"Platform": {
@@ -37914,7 +37949,8 @@
 					},
 					"uid": 1356,
 					"instanceVariables": {
-						"face": 0
+						"face": 0,
+						"ehealth": 2
 					},
 					"behaviors": {
 						"Platform": {
@@ -37960,7 +37996,8 @@
 					},
 					"uid": 1357,
 					"instanceVariables": {
-						"face": 0
+						"face": 0,
+						"ehealth": 2
 					},
 					"behaviors": {
 						"Platform": {
@@ -38006,7 +38043,8 @@
 					},
 					"uid": 1358,
 					"instanceVariables": {
-						"face": 0
+						"face": 0,
+						"ehealth": 2
 					},
 					"behaviors": {
 						"Platform": {
@@ -38092,7 +38130,8 @@
 					},
 					"uid": 1360,
 					"instanceVariables": {
-						"face": 0
+						"face": 0,
+						"ehealth": 2
 					},
 					"behaviors": {
 						"Platform": {
@@ -38138,7 +38177,8 @@
 					},
 					"uid": 1361,
 					"instanceVariables": {
-						"face": 0
+						"face": 0,
+						"ehealth": 2
 					},
 					"behaviors": {
 						"Platform": {
@@ -38435,7 +38475,8 @@
 					},
 					"uid": 1367,
 					"instanceVariables": {
-						"face": 0
+						"face": 0,
+						"ehealth": 2
 					},
 					"behaviors": {
 						"Platform": {
@@ -38481,7 +38522,8 @@
 					},
 					"uid": 1368,
 					"instanceVariables": {
-						"face": 0
+						"face": 0,
+						"ehealth": 2
 					},
 					"behaviors": {
 						"Platform": {
@@ -38647,7 +38689,8 @@
 					},
 					"uid": 1372,
 					"instanceVariables": {
-						"face": 0
+						"face": 0,
+						"ehealth": 2
 					},
 					"behaviors": {
 						"Platform": {
@@ -38693,7 +38736,8 @@
 					},
 					"uid": 1373,
 					"instanceVariables": {
-						"face": 0
+						"face": 0,
+						"ehealth": 2
 					},
 					"behaviors": {
 						"Platform": {
@@ -38739,7 +38783,8 @@
 					},
 					"uid": 1374,
 					"instanceVariables": {
-						"face": 0
+						"face": 0,
+						"ehealth": 2
 					},
 					"behaviors": {
 						"Platform": {
@@ -38880,6 +38925,90 @@
 						"height": 438,
 						"originX": 0.4451219512195122,
 						"originY": 0.48148148148148145,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Waterball",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1376,
+					"instanceVariables": {
+						"bulletDamage": 3
+					},
+					"behaviors": {
+						"Bullet": {
+							"properties": {
+								"speed": 400,
+								"acceleration": 0,
+								"gravity": 0,
+								"bounce-off-solids": false,
+								"set-angle": true,
+								"step": false,
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": 14723,
+						"y": -418,
+						"width": 33,
+						"height": 35,
+						"originX": 0.35537190082644626,
+						"originY": 0.7184466019417476,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "acid",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1377,
+					"instanceVariables": {},
+					"behaviors": {
+						"Bullet": {
+							"properties": {
+								"speed": 400,
+								"acceleration": 0,
+								"gravity": 0,
+								"bounce-off-solids": false,
+								"set-angle": true,
+								"step": false,
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": 30000,
+						"y": -453.5,
+						"width": 118,
+						"height": 105,
+						"originX": 0.5,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,
@@ -47548,7 +47677,35 @@
 					},
 					"uid": 596,
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"Sine": {
+							"properties": {
+								"movement": "vertical",
+								"wave": "sine",
+								"period": 15,
+								"period-random": 0,
+								"period-offset": 0,
+								"period-offset-random": 0,
+								"magnitude": 95,
+								"magnitude-random": 0,
+								"enabled": true,
+								"live-preview": false
+							}
+						},
+						"Turret": {
+							"properties": {
+								"range": 300,
+								"rate-of-fire": 2,
+								"rotate": true,
+								"rotate-speed": 180,
+								"target-mode": "first-in-range",
+								"predictive-aim": false,
+								"projectile-speed": 500,
+								"use-collision-cells": true,
+								"enabled": true
+							}
+						}
+					},
 					"world": {
 						"x": 32527.40740740741,
 						"y": 25638.16143497758,
