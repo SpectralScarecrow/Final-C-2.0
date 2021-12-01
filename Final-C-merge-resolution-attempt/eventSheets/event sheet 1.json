@@ -218,6 +218,15 @@
 					"parameters": {
 						"control": "left"
 					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "player",
+					"sid": 282024948481944,
+					"parameters": {
+						"animation": "\"Run\"",
+						"from": "beginning"
+					}
 				}
 			],
 			"sid": 462489017076471
@@ -235,6 +244,15 @@
 				}
 			],
 			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "player",
+					"sid": 172763171388514,
+					"parameters": {
+						"animation": "\"Run\"",
+						"from": "beginning"
+					}
+				},
 				{
 					"id": "simulate-control",
 					"objectClass": "player",

@@ -2450,8 +2450,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 18584,
-						"y": 4064,
+						"x": 18600,
+						"y": 4016,
 						"width": 8084.287999999999,
 						"height": 6304.976000000001,
 						"originX": 0.48672566371681414,
@@ -13431,7 +13431,7 @@
 					"behaviors": {},
 					"world": {
 						"x": 5971,
-						"y": 698,
+						"y": 684.0071894800461,
 						"width": 8747,
 						"height": 100,
 						"originX": 0,
@@ -13450,7 +13450,7 @@
 					"type": "player",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "Idle",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -13483,12 +13483,12 @@
 						}
 					},
 					"world": {
-						"x": 13841.448065262864,
-						"y": 673.0409101150183,
-						"width": 35.56662182767536,
-						"height": 35.06141499945579,
-						"originX": 1.072,
-						"originY": 0.464,
+						"x": 13856.102135377112,
+						"y": 663.9604679680124,
+						"width": 63.553324421008696,
+						"height": 66.0610607888342,
+						"originX": 0.3902439024390244,
+						"originY": 0.5531914893617021,
 						"color": [
 							1,
 							1,
