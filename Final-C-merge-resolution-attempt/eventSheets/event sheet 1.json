@@ -168,6 +168,15 @@
 					"parameters": {
 						"max-fall-speed": "250"
 					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "player",
+					"sid": 162201017066931,
+					"parameters": {
+						"animation": "\"Jump\"",
+						"from": "beginning"
+					}
 				}
 			],
 			"sid": 135163480298378
@@ -192,6 +201,15 @@
 					"behaviorType": "Platform",
 					"parameters": {
 						"max-fall-speed": "500"
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "player",
+					"sid": 458306514137349,
+					"parameters": {
+						"animation": "\"Fall\"",
+						"from": "beginning"
 					}
 				}
 			],
