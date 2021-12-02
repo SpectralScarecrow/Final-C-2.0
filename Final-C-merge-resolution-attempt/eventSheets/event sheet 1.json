@@ -581,6 +581,14 @@
 					"parameters": {
 						"object": "platformwallfloor4"
 					}
+				},
+				{
+					"id": "is-boolean-instance-variable-set",
+					"objectClass": "player",
+					"sid": 979544607472987,
+					"parameters": {
+						"instance-variable": "hookfound"
+					}
 				}
 			],
 			"actions": [
@@ -605,6 +613,14 @@
 					"sid": 195046608852510,
 					"parameters": {
 						"object": "platformwallfloor3"
+					}
+				},
+				{
+					"id": "is-boolean-instance-variable-set",
+					"objectClass": "player",
+					"sid": 382609809029665,
+					"parameters": {
+						"instance-variable": "hookfound"
 					}
 				}
 			],
@@ -631,6 +647,14 @@
 					"parameters": {
 						"object": "platformwallfloor2"
 					}
+				},
+				{
+					"id": "is-boolean-instance-variable-set",
+					"objectClass": "player",
+					"sid": 817282905139138,
+					"parameters": {
+						"instance-variable": "hookfound"
+					}
 				}
 			],
 			"actions": [
@@ -655,6 +679,14 @@
 					"sid": 721665922192571,
 					"parameters": {
 						"object": "platformwallfloor1"
+					}
+				},
+				{
+					"id": "is-boolean-instance-variable-set",
+					"objectClass": "player",
+					"sid": 738106349797691,
+					"parameters": {
+						"instance-variable": "hookfound"
 					}
 				}
 			],
@@ -681,6 +713,14 @@
 					"parameters": {
 						"object": "border2"
 					}
+				},
+				{
+					"id": "is-boolean-instance-variable-set",
+					"objectClass": "player",
+					"sid": 100433920655251,
+					"parameters": {
+						"instance-variable": "hookfound"
+					}
 				}
 			],
 			"actions": [
@@ -705,6 +745,14 @@
 					"sid": 392765915250508,
 					"parameters": {
 						"object": "border"
+					}
+				},
+				{
+					"id": "is-boolean-instance-variable-set",
+					"objectClass": "player",
+					"sid": 422153283653044,
+					"parameters": {
+						"instance-variable": "hookfound"
 					}
 				}
 			],
