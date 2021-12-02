@@ -497,29 +497,48 @@
 							"sid": 119723697475827
 						}
 					],
-					"actions": [
+					"actions": [],
+					"sid": 211350842395467,
+					"children": [
 						{
-							"id": "spawn-another-object",
-							"objectClass": "player",
-							"sid": 213193330650763,
-							"parameters": {
-								"object": "Fireball",
-								"layer": "0",
-								"image-point": "1",
-								"create-hierarchy": false
-							}
-						},
-						{
-							"id": "subtract-from-instvar",
-							"objectClass": "player",
-							"sid": 671785340855677,
-							"parameters": {
-								"instance-variable": "magammo",
-								"value": "1"
-							}
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "player",
+									"sid": 727714394774711,
+									"parameters": {
+										"instance-variable": "magammo",
+										"comparison": 4,
+										"value": "0"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "subtract-from-instvar",
+									"objectClass": "player",
+									"sid": 957692353544482,
+									"parameters": {
+										"instance-variable": "magammo",
+										"value": "1"
+									}
+								},
+								{
+									"id": "spawn-another-object",
+									"objectClass": "player",
+									"sid": 213193330650763,
+									"parameters": {
+										"object": "Fireball",
+										"layer": "0",
+										"image-point": "1",
+										"create-hierarchy": false
+									}
+								}
+							],
+							"sid": 874026865216394
 						}
-					],
-					"sid": 211350842395467
+					]
 				}
 			]
 		},
@@ -885,6 +904,35 @@
 		},
 		{
 			"eventType": "block",
+			"conditions": [],
+			"actions": [],
+			"sid": 369822288244158
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "enemy",
+					"sid": 228442890025839,
+					"parameters": {
+						"instance-variable": "ehealth",
+						"comparison": 0,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "enemy",
+					"sid": 781966566650085
+				}
+			],
+			"sid": 975699672278123
+		},
+		{
+			"eventType": "block",
 			"conditions": [
 				{
 					"id": "on-collision-with-another-object",
@@ -1041,29 +1089,6 @@
 						}
 					],
 					"sid": 827404362842969
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "compare-instance-variable",
-							"objectClass": "enemy",
-							"sid": 228442890025839,
-							"parameters": {
-								"instance-variable": "ehealth",
-								"comparison": 0,
-								"value": "0"
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "destroy",
-							"objectClass": "enemy",
-							"sid": 781966566650085
-						}
-					],
-					"sid": 975699672278123
 				}
 			]
 		},

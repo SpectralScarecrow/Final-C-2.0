@@ -13474,7 +13474,7 @@
 								"jump-strength": 650,
 								"gravity": 1500,
 								"max-fall-speed": 500,
-								"double-jump": true,
+								"double-jump": false,
 								"jump-sustain": 0,
 								"default-controls": true,
 								"enabled": true
@@ -13487,8 +13487,8 @@
 						}
 					},
 					"world": {
-						"x": 13856.102135377112,
-						"y": 663.9604679680124,
+						"x": 13793,
+						"y": 606,
 						"width": 63.553324421008696,
 						"height": 66.0610607888342,
 						"originX": 0.4146341463414634,
