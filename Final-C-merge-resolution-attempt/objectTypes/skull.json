@@ -1,7 +1,7 @@
 {
-	"name": "bottomlessPitDarkpt",
+	"name": "skull",
 	"plugin-id": "Sprite",
-	"sid": 997759332266251,
+	"sid": 421754099235980,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -11,19 +11,19 @@
 			{
 				"frames": [
 					{
-						"width": 250,
-						"height": 250,
-						"originX": 0.5,
-						"originY": 0.5,
+						"width": 140,
+						"height": 159,
+						"originX": 0.4357142857142857,
+						"originY": 0.6037735849056604,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 6386111,
+						"imageSpriteId": 147968,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 884805061745471,
+				"sid": 820096812784498,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

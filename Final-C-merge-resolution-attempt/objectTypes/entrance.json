@@ -1,7 +1,7 @@
 {
-	"name": "bottomlessPitDarkpt",
+	"name": "entrance",
 	"plugin-id": "Sprite",
-	"sid": 997759332266251,
+	"sid": 942522427907750,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -11,19 +11,31 @@
 			{
 				"frames": [
 					{
-						"width": 250,
-						"height": 250,
-						"originX": 0.5,
-						"originY": 0.5,
+						"width": 234,
+						"height": 141,
+						"originX": 0.46153846153846156,
+						"originY": 0.48936170212765956,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 6386111,
+						"imageSpriteId": 4091993,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.9957264957264957,
+								0,
+								0.9957264957264957,
+								1,
+								0,
+								1
+							]
+						},
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 884805061745471,
+				"sid": 499267473348726,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

@@ -120,6 +120,14 @@
 					"id": "destroy",
 					"objectClass": "MagicExpansion",
 					"sid": 418713848116346
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "magitxt",
+					"sid": 105891890077447,
+					"parameters": {
+						"visibility": "visible"
+					}
 				}
 			],
 			"sid": 225754176614623
@@ -188,6 +196,14 @@
 					"id": "destroy",
 					"objectClass": "WaterBallUpgrade",
 					"sid": 916893776771698
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "waterblltxt",
+					"sid": 964312381542293,
+					"parameters": {
+						"visibility": "visible"
+					}
 				}
 			],
 			"sid": 189499707324795
@@ -1266,6 +1282,34 @@
 			"eventType": "block",
 			"conditions": [
 				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 340210802798472
+				}
+			],
+			"actions": [
+				{
+					"id": "pin-to-object-properties",
+					"objectClass": "FinalBossHlth",
+					"sid": 413888694224499,
+					"behaviorType": "Pin",
+					"parameters": {
+						"pin-to": "ValerianFarnhameFinalBss",
+						"x": true,
+						"y": true,
+						"angle": true,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
+				}
+			],
+			"sid": 123519197764583
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
 					"id": "on-collision-with-another-object",
 					"objectClass": "Fireball",
 					"sid": 269514509182639,
@@ -1408,186 +1452,6 @@
 		},
 		{
 			"eventType": "comment",
-			"text": "[h1]Tried making ladders work but didn't go as planned[/h1]"
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "is-overlapping-another-object",
-					"objectClass": "player",
-					"sid": 602734251645540,
-					"disabled": true,
-					"parameters": {
-						"object": "Ladder"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "set-max-fall-speed",
-					"objectClass": "player",
-					"sid": 198947328143646,
-					"behaviorType": "Platform",
-					"parameters": {
-						"max-fall-speed": "0"
-					}
-				}
-			],
-			"sid": 268680800695972,
-			"disabled": true,
-			"children": [
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "key-is-down",
-							"objectClass": "Keyboard",
-							"sid": 612977896248633,
-							"parameters": {
-								"key": 87
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "set-y",
-							"objectClass": "player",
-							"sid": 533623288498745,
-							"parameters": {
-								"y": "player.Y-2"
-							}
-						}
-					],
-					"sid": 585383139917214,
-					"disabled": true
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "key-is-down",
-							"objectClass": "Keyboard",
-							"sid": 886312431296972,
-							"parameters": {
-								"key": 83
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "set-y",
-							"objectClass": "player",
-							"sid": 612032193603802,
-							"parameters": {
-								"y": "player.Y+2"
-							}
-						}
-					],
-					"sid": 305414014961538,
-					"disabled": true
-				}
-			]
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "is-overlapping-another-object",
-					"objectClass": "player",
-					"sid": 499963756124755,
-					"parameters": {
-						"object": "Ladder"
-					},
-					"isInverted": true
-				}
-			],
-			"actions": [
-				{
-					"id": "set-max-fall-speed",
-					"objectClass": "player",
-					"sid": 484848703832116,
-					"behaviorType": "Platform",
-					"parameters": {
-						"max-fall-speed": "1500"
-					}
-				}
-			],
-			"sid": 429426365259613,
-			"disabled": true
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-collision-with-another-object",
-					"objectClass": "player",
-					"sid": 612884855370528,
-					"parameters": {
-						"object": "BringBack"
-					}
-				}
-			],
-			"actions": [],
-			"sid": 625398800314765,
-			"disabled": true,
-			"children": [
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "key-is-down",
-							"objectClass": "Keyboard",
-							"sid": 347026124783700,
-							"parameters": {
-								"key": 38
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "set-max-fall-speed",
-							"objectClass": "player",
-							"sid": 224265479476795,
-							"behaviorType": "Platform",
-							"parameters": {
-								"max-fall-speed": "250"
-							}
-						}
-					],
-					"sid": 339535315820253,
-					"disabled": true
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "key-is-down",
-							"objectClass": "Keyboard",
-							"sid": 724956815836388,
-							"parameters": {
-								"key": 40
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "set-max-fall-speed",
-							"objectClass": "player",
-							"sid": 875217527533525,
-							"behaviorType": "Platform",
-							"parameters": {
-								"max-fall-speed": "500"
-							}
-						}
-					],
-					"sid": 503141519030187,
-					"disabled": true
-				}
-			]
-		},
-		{
-			"eventType": "comment",
 			"text": "[h1]Other [/h1]"
 		},
 		{
@@ -1633,6 +1497,22 @@
 					"id": "set-visible",
 					"objectClass": "MagicTxt",
 					"sid": 192925844688145,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "waterblltxt",
+					"sid": 823595721173824,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "magitxt",
+					"sid": 247266887609242,
 					"parameters": {
 						"visibility": "invisible"
 					}
@@ -1722,6 +1602,30 @@
 				}
 			],
 			"sid": 119662196296116
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 212574279644869
+				}
+			],
+			"actions": [
+				{
+					"id": "flash",
+					"objectClass": "thunder",
+					"sid": 762080504741906,
+					"behaviorType": "Flash",
+					"parameters": {
+						"on-time": "1.5",
+						"off-time": "0.14",
+						"duration": "60.0"
+					}
+				}
+			],
+			"sid": 722298236358372
 		}
 	],
 	"sid": 607571918746669

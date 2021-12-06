@@ -1,10 +1,16 @@
 {
-	"name": "bottomlessPitDarkpt",
+	"name": "FinalBossHlth",
 	"plugin-id": "Sprite",
-	"sid": 997759332266251,
+	"sid": 961112175430293,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Pin",
+			"name": "Pin",
+			"sid": 862411105417840
+		}
+	],
 	"effectTypes": [],
 	"animations": {
 		"items": [
@@ -18,12 +24,12 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 6386111,
+						"imageSpriteId": 1658941,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 884805061745471,
+				"sid": 683048849975342,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

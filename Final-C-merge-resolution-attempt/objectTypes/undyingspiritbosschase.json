@@ -1,7 +1,7 @@
 {
-	"name": "bottomlessPitDarkpt",
+	"name": "UndyingSpiritBossChase",
 	"plugin-id": "Sprite",
-	"sid": 997759332266251,
+	"sid": 180686049758943,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -18,12 +18,12 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 6386111,
+						"imageSpriteId": 5163573,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 884805061745471,
+				"sid": 285235859836705,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

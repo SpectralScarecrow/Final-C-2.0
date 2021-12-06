@@ -1,7 +1,7 @@
 {
-	"name": "bottomlessPitDarkpt",
+	"name": "teleport2",
 	"plugin-id": "Sprite",
-	"sid": 997759332266251,
+	"sid": 788929626094422,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -11,19 +11,31 @@
 			{
 				"frames": [
 					{
-						"width": 250,
-						"height": 250,
-						"originX": 0.5,
-						"originY": 0.5,
+						"width": 115,
+						"height": 221,
+						"originX": 0.4956521739130435,
+						"originY": 0.4298642533936652,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 6386111,
+						"imageSpriteId": 9710135,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								1,
+								0,
+								1,
+								0.995475113122172,
+								0,
+								0.995475113122172
+							]
+						},
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 884805061745471,
+				"sid": 172809610805926,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

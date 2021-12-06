@@ -1,29 +1,34 @@
 {
-	"name": "bottomlessPitDarkpt",
+	"name": "spikey",
 	"plugin-id": "Sprite",
-	"sid": 997759332266251,
+	"sid": 677186007349281,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
-	"effectTypes": [],
+	"effectTypes": [
+		{
+			"effectId": "glowvertical",
+			"name": "GlowVertical"
+		}
+	],
 	"animations": {
 		"items": [
 			{
 				"frames": [
 					{
-						"width": 250,
-						"height": 250,
-						"originX": 0.5,
-						"originY": 0.5,
+						"width": 216,
+						"height": 90,
+						"originX": 0.4444444444444444,
+						"originY": 0.8111111111111111,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 6386111,
+						"imageSpriteId": 7396980,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 884805061745471,
+				"sid": 479375913064712,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

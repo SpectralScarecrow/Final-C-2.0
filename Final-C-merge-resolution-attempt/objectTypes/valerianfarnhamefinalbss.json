@@ -1,7 +1,7 @@
 {
-	"name": "bottomlessPitDarkpt",
+	"name": "ValerianFarnhameFinalBss",
 	"plugin-id": "Sprite",
-	"sid": 997759332266251,
+	"sid": 596382348619496,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -11,19 +11,31 @@
 			{
 				"frames": [
 					{
-						"width": 250,
+						"width": 245,
 						"height": 250,
-						"originX": 0.5,
-						"originY": 0.5,
+						"originX": 0.4857142857142857,
+						"originY": 0.504,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 6386111,
+						"imageSpriteId": 6463900,
+						"collisionPoly": {
+							"points": [
+								0,
+								0.004,
+								0.9959183673469387,
+								0.004,
+								0.9959183673469387,
+								1,
+								0,
+								1
+							]
+						},
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 884805061745471,
+				"sid": 310334403529435,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

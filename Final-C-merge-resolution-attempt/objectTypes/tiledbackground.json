@@ -1,14 +1,14 @@
 {
-	"name": "platformwallfloor4",
+	"name": "TiledBackground",
 	"plugin-id": "TiledBg",
-	"sid": 116120973982982,
+	"sid": 690593277933460,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
 			"behaviorId": "solid",
 			"name": "Solid",
-			"sid": 341787409212853
+			"sid": 442329460233864
 		}
 	],
 	"effectTypes": [],
@@ -20,7 +20,7 @@
 		"originalSource": "",
 		"exportFormat": "png",
 		"exportQuality": 0.8,
-		"imageSpriteId": 2134338,
+		"imageSpriteId": 4745953,
 		"useCollisionPoly": true
 	}
 }

@@ -1,7 +1,7 @@
 {
-	"name": "bottomlessPitDarkpt",
+	"name": "rocks2",
 	"plugin-id": "Sprite",
-	"sid": 997759332266251,
+	"sid": 432545746388399,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -11,19 +11,19 @@
 			{
 				"frames": [
 					{
-						"width": 250,
-						"height": 250,
-						"originX": 0.5,
-						"originY": 0.5,
+						"width": 148,
+						"height": 75,
+						"originX": 0.3918918918918919,
+						"originY": 0.88,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 6386111,
+						"imageSpriteId": 3876589,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 884805061745471,
+				"sid": 434861504660712,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

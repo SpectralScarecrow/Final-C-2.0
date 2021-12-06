@@ -1,16 +1,10 @@
 {
-	"name": "platformwallfloor4",
+	"name": "wavy",
 	"plugin-id": "TiledBg",
-	"sid": 116120973982982,
+	"sid": 533273403073422,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [
-		{
-			"behaviorId": "solid",
-			"name": "Solid",
-			"sid": 341787409212853
-		}
-	],
+	"behaviorTypes": [],
 	"effectTypes": [],
 	"image": {
 		"width": 250,
@@ -20,7 +14,7 @@
 		"originalSource": "",
 		"exportFormat": "png",
 		"exportQuality": 0.8,
-		"imageSpriteId": 2134338,
+		"imageSpriteId": 3786465,
 		"useCollisionPoly": true
 	}
 }

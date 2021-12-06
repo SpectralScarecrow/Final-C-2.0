@@ -1,10 +1,16 @@
 {
-	"name": "bottomlessPitDarkpt",
+	"name": "thunder",
 	"plugin-id": "Sprite",
-	"sid": 997759332266251,
+	"sid": 830384364895428,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Flash",
+			"name": "Flash",
+			"sid": 243027962185567
+		}
+	],
 	"effectTypes": [],
 	"animations": {
 		"items": [
@@ -18,12 +24,12 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 6386111,
+						"imageSpriteId": 1295221,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 884805061745471,
+				"sid": 930271312213403,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,
