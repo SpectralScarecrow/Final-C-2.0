@@ -9,7 +9,7 @@
 		{
 			"type": "plugin",
 			"id": "Keyboard",
-			"name": "Keyboard",
+			"name": "Clavier",
 			"author": "Scirra",
 			"version": "r268",
 			"bundled": false
@@ -25,7 +25,7 @@
 		{
 			"type": "plugin",
 			"id": "PlatformInfo",
-			"name": "Platform info",
+			"name": "Info plate-forme",
 			"author": "Scirra",
 			"version": "r268",
 			"bundled": false
@@ -33,7 +33,7 @@
 		{
 			"type": "plugin",
 			"id": "TiledBg",
-			"name": "Tiled Background",
+			"name": "Arrière-plan Répété",
 			"author": "Scirra",
 			"version": "r268",
 			"bundled": false
@@ -41,7 +41,7 @@
 		{
 			"type": "plugin",
 			"id": "Text",
-			"name": "Text",
+			"name": "Texte",
 			"author": "Scirra",
 			"version": "r268",
 			"bundled": false
@@ -49,7 +49,7 @@
 		{
 			"type": "plugin",
 			"id": "Tilemap",
-			"name": "Tilemap",
+			"name": "Tuilage",
 			"author": "Scirra",
 			"version": "r268",
 			"bundled": false
@@ -57,7 +57,7 @@
 		{
 			"type": "plugin",
 			"id": "Mouse",
-			"name": "Mouse",
+			"name": "Souris",
 			"author": "Scirra",
 			"version": "r268",
 			"bundled": false
@@ -73,7 +73,7 @@
 		{
 			"type": "plugin",
 			"id": "Camera3D",
-			"name": "3D camera",
+			"name": "Caméra 3D",
 			"author": "Scirra",
 			"version": "r268",
 			"bundled": false
@@ -81,7 +81,7 @@
 		{
 			"type": "behavior",
 			"id": "Platform",
-			"name": "Platform",
+			"name": "Plate-forme",
 			"author": "Scirra",
 			"version": "r268",
 			"bundled": false
@@ -89,7 +89,7 @@
 		{
 			"type": "behavior",
 			"id": "scrollto",
-			"name": "Scroll To",
+			"name": "Défiler vers",
 			"author": "Scirra",
 			"version": "r268",
 			"bundled": false
@@ -97,7 +97,7 @@
 		{
 			"type": "behavior",
 			"id": "solid",
-			"name": "Solid",
+			"name": "Solide",
 			"author": "Scirra",
 			"version": "r268",
 			"bundled": false
@@ -105,7 +105,7 @@
 		{
 			"type": "behavior",
 			"id": "Turret",
-			"name": "Turret",
+			"name": "Tourelle",
 			"author": "Scirra",
 			"version": "r268",
 			"bundled": false
@@ -113,7 +113,7 @@
 		{
 			"type": "behavior",
 			"id": "Bullet",
-			"name": "Bullet",
+			"name": "Projectile",
 			"author": "Scirra",
 			"version": "r268",
 			"bundled": false
@@ -121,7 +121,7 @@
 		{
 			"type": "behavior",
 			"id": "Sin",
-			"name": "Sine",
+			"name": "Sinus",
 			"author": "Scirra",
 			"version": "r268",
 			"bundled": false
@@ -129,7 +129,7 @@
 		{
 			"type": "behavior",
 			"id": "Pin",
-			"name": "Pin",
+			"name": "Epingle",
 			"author": "Scirra",
 			"version": "r268",
 			"bundled": false
@@ -137,7 +137,7 @@
 		{
 			"type": "behavior",
 			"id": "Flash",
-			"name": "Flash",
+			"name": "Clignotement",
 			"author": "Scirra",
 			"version": "r268",
 			"bundled": false
@@ -145,7 +145,7 @@
 		{
 			"type": "effect",
 			"id": "glowvertical",
-			"name": "Glow vertical",
+			"name": "Lueur verticale",
 			"author": "Scirra",
 			"version": "r268",
 			"bundled": false
