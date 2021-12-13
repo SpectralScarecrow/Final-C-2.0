@@ -1528,6 +1528,38 @@
 			"eventType": "block",
 			"conditions": [
 				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 534369581711086
+				}
+			],
+			"actions": [
+				{
+					"id": "flash",
+					"objectClass": "thunder",
+					"sid": 390685684809189,
+					"behaviorType": "Flash",
+					"parameters": {
+						"on-time": "1.5",
+						"off-time": "0.14",
+						"duration": "60.0"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "unlck",
+					"sid": 449711068212759,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 644393370629090
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
 					"id": "on-collision-with-another-object",
 					"objectClass": "Waterball",
 					"sid": 132203306859828,
@@ -1599,6 +1631,29 @@
 					"id": "destroy",
 					"objectClass": "cicadaBoss1",
 					"sid": 801519535520342
+				},
+				{
+					"id": "destroy",
+					"objectClass": "DisguisedWall",
+					"sid": 881926066843622
+				},
+				{
+					"id": "destroy",
+					"objectClass": "bosscolli",
+					"sid": 603068158462372
+				},
+				{
+					"id": "destroy",
+					"objectClass": "BossHlth1",
+					"sid": 242205966396209
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "unlck",
+					"sid": 706791646380629,
+					"parameters": {
+						"visibility": "visible"
+					}
 				}
 			],
 			"sid": 119662196296116
@@ -1607,25 +1662,43 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "on-start-of-layout",
-					"objectClass": "System",
-					"sid": 212574279644869
+					"id": "on-collision-with-another-object",
+					"objectClass": "rocks",
+					"sid": 402092627612243,
+					"parameters": {
+						"object": "sword"
+					}
 				}
 			],
 			"actions": [
 				{
-					"id": "flash",
-					"objectClass": "thunder",
-					"sid": 762080504741906,
-					"behaviorType": "Flash",
+					"id": "destroy",
+					"objectClass": "rocks",
+					"sid": 114043353600675
+				}
+			],
+			"sid": 173221606762738
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "rocks2",
+					"sid": 691028791596082,
 					"parameters": {
-						"on-time": "1.5",
-						"off-time": "0.14",
-						"duration": "60.0"
+						"object": "sword"
 					}
 				}
 			],
-			"sid": 722298236358372
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "rocks2",
+					"sid": 225636174241911
+				}
+			],
+			"sid": 844197551429684
 		}
 	],
 	"sid": 607571918746669
