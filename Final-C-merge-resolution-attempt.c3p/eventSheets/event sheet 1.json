@@ -29,11 +29,11 @@
 				{
 					"id": "compare-instance-variable",
 					"objectClass": "player",
-					"sid": 701616394259138,
+					"sid": 971854778688525,
 					"parameters": {
 						"instance-variable": "playerhealth",
 						"comparison": 2,
-						"value": "5"
+						"value": "12"
 					}
 				}
 			],
@@ -91,6 +91,15 @@
 					"id": "destroy",
 					"objectClass": "magic",
 					"sid": 387480237786381
+				},
+				{
+					"id": "add-to-instvar",
+					"objectClass": "magMeter",
+					"sid": 282665967265067,
+					"parameters": {
+						"instance-variable": "expansion",
+						"value": "1"
+					}
 				}
 			],
 			"sid": 833559269361950
@@ -354,11 +363,11 @@
 				{
 					"id": "play",
 					"objectClass": "Audio",
-					"sid": 492149563264523,
+					"sid": 438680405930523,
 					"parameters": {
 						"audio-file": "mixkit-light-wind-1165",
 						"loop": "not-looping",
-						"volume": "-5",
+						"volume": "-12",
 						"tag-optional": "\"\""
 					}
 				}
@@ -576,11 +585,11 @@
 								{
 									"id": "play",
 									"objectClass": "Audio",
-									"sid": 541158816251531,
+									"sid": 174955509574994,
 									"parameters": {
 										"audio-file": "mixkit-fireball-spell-1347",
 										"loop": "not-looping",
-										"volume": "-15",
+										"volume": "-20",
 										"tag-optional": "\"\""
 									}
 								},
@@ -610,22 +619,29 @@
 										{
 											"id": "compare-eventvar",
 											"objectClass": "System",
-											"sid": 448579690113914,
+											"sid": 802225383123895,
 											"parameters": {
 												"variable": "Magic",
-												"comparison": 2,
+												"comparison": 4,
 												"value": "0"
 											}
 										}
 									],
 									"actions": [
 										{
-											"id": "stop-animation",
-											"objectClass": "Fireball",
-											"sid": 120992704841586
+											"id": "spawn-another-object",
+											"objectClass": "player",
+											"sid": 610187830980475,
+											"parameters": {
+												"object": "Fireball",
+												"layer": "0",
+												"image-point": "0",
+												"create-hierarchy": false
+											}
 										}
 									],
-									"sid": 531530068991238
+									"sid": 531530068991238,
+									"disabled": true
 								}
 							]
 						}
@@ -940,6 +956,53 @@
 			"sid": 905913215923001
 		},
 		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-between-values",
+					"objectClass": "System",
+					"sid": 323862373825367,
+					"parameters": {
+						"value": "lizard.Sine.CyclePosition",
+						"lower-bound": "0.27",
+						"upper-bound": "0.77"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "lizard",
+					"sid": 625862941161833,
+					"parameters": {
+						"state": "mirrored"
+					}
+				}
+			],
+			"sid": 848288815724338
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "else",
+					"objectClass": "System",
+					"sid": 187011607562864
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "lizard",
+					"sid": 797260296360660,
+					"parameters": {
+						"state": "not-mirrored"
+					}
+				}
+			],
+			"sid": 857476744054257
+		},
+		{
 			"eventType": "comment",
 			"text": "[h1]Hurting the Enemy[/h1]"
 		},
@@ -973,6 +1036,56 @@
 			"conditions": [
 				{
 					"id": "on-collision-with-another-object",
+					"objectClass": "lizard",
+					"sid": 797576135590561,
+					"parameters": {
+						"object": "sword"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "lizard",
+					"sid": 870989059341553,
+					"parameters": {
+						"instance-variable": "ehealth",
+						"value": "sword.meleedamage"
+					}
+				}
+			],
+			"sid": 541511645532311
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "blob",
+					"sid": 850662343835805,
+					"parameters": {
+						"object": "sword"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "blob",
+					"sid": 317747762225477,
+					"parameters": {
+						"instance-variable": "ehealth",
+						"value": "sword.meleedamage"
+					}
+				}
+			],
+			"sid": 201399164458875
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
 					"objectClass": "sword",
 					"sid": 595640425137931,
 					"parameters": {
@@ -984,11 +1097,11 @@
 				{
 					"id": "play",
 					"objectClass": "Audio",
-					"sid": 287867542279685,
+					"sid": 809413263398023,
 					"parameters": {
 						"audio-file": "mixkit-sword-slides-a-body-2791",
 						"loop": "not-looping",
-						"volume": "0",
+						"volume": "-12",
 						"tag-optional": "\"\""
 					}
 				}
@@ -1044,11 +1157,11 @@
 				{
 					"id": "play",
 					"objectClass": "Audio",
-					"sid": 473048203250559,
+					"sid": 122514334229263,
 					"parameters": {
 						"audio-file": "mixkit-angry-dragon-roar-echo-1727",
 						"loop": "not-looping",
-						"volume": "0",
+						"volume": "-12",
 						"tag-optional": "\"\""
 					}
 				},
@@ -1056,9 +1169,88 @@
 					"id": "destroy",
 					"objectClass": "enemy",
 					"sid": 781966566650085
+				},
+				{
+					"id": "spawn-another-object",
+					"objectClass": "enemy",
+					"sid": 682828520965033,
+					"parameters": {
+						"object": "health",
+						"layer": "0",
+						"image-point": "0",
+						"create-hierarchy": false
+					}
 				}
 			],
 			"sid": 975699672278123
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "lizard",
+					"sid": 476810796099049,
+					"parameters": {
+						"instance-variable": "ehealth",
+						"comparison": 0,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "lizard",
+					"sid": 441340221462773
+				},
+				{
+					"id": "spawn-another-object",
+					"objectClass": "lizard",
+					"sid": 954922668560609,
+					"parameters": {
+						"object": "health",
+						"layer": "0",
+						"image-point": "0",
+						"create-hierarchy": false
+					}
+				}
+			],
+			"sid": 137688585028376
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "blob",
+					"sid": 761110980371722,
+					"parameters": {
+						"instance-variable": "ehealth",
+						"comparison": 0,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "blob",
+					"sid": 853194853444015
+				},
+				{
+					"id": "spawn-another-object",
+					"objectClass": "blob",
+					"sid": 723842344746091,
+					"parameters": {
+						"object": "health",
+						"layer": "0",
+						"image-point": "0",
+						"create-hierarchy": false
+					}
+				}
+			],
+			"sid": 329764104725201
 		},
 		{
 			"eventType": "block",
@@ -1255,6 +1447,31 @@
 			"conditions": [
 				{
 					"id": "on-collision-with-another-object",
+					"objectClass": "acid",
+					"sid": 876629040296386,
+					"parameters": {
+						"object": "player"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "player",
+					"sid": 515068222068410,
+					"parameters": {
+						"instance-variable": "playerhealth",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 984474246061035
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
 					"objectClass": "enemy",
 					"sid": 136502477218564,
 					"parameters": {
@@ -1299,6 +1516,74 @@
 				}
 			],
 			"sid": 105822028255922
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "lizard",
+					"sid": 567404094781998,
+					"parameters": {
+						"object": "player"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "lizard",
+					"sid": 899673641027617,
+					"parameters": {
+						"animation": "\"attack\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "player",
+					"sid": 709915519692281,
+					"parameters": {
+						"instance-variable": "playerhealth",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 877197083909985
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "blob",
+					"sid": 609642974207756,
+					"parameters": {
+						"object": "player"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "blob",
+					"sid": 975274234781501,
+					"parameters": {
+						"animation": "\"attack\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "player",
+					"sid": 104490977686707,
+					"parameters": {
+						"instance-variable": "playerhealth",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 375028425144831
 		},
 		{
 			"eventType": "block",
@@ -1529,14 +1814,81 @@
 				{
 					"id": "subtract-from-instvar",
 					"objectClass": "cicadaBoss1",
-					"sid": 377601918129443,
+					"sid": 745859204641625,
 					"parameters": {
 						"instance-variable": "bosshealth",
-						"value": "sword.meleedamage"
+						"value": "1"
 					}
 				}
 			],
 			"sid": 567894732760923
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "sword",
+					"sid": 508012768332362,
+					"parameters": {
+						"object": "WaterSrpntBoss2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "WaterSrpntBoss2",
+					"sid": 747657257287904,
+					"parameters": {
+						"instance-variable": "bosshealth",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 317631085455989
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 529549177397585
+				}
+			],
+			"actions": [
+				{
+					"id": "set-width",
+					"objectClass": "BossHlth1",
+					"sid": 661823270771029,
+					"parameters": {
+						"width": "502*(cicadaBoss1.bosshealth/15)"
+					}
+				}
+			],
+			"sid": 983602314849872
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 770814722808604
+				}
+			],
+			"actions": [
+				{
+					"id": "set-width",
+					"objectClass": "BossHlth2",
+					"sid": 312968224302221,
+					"parameters": {
+						"width": "837*(WaterSrpntBoss2.bosshealth/24)"
+					}
+				}
+			],
+			"sid": 907548607240689
 		},
 		{
 			"eventType": "block",
@@ -1698,6 +2050,14 @@
 					"parameters": {
 						"visibility": "invisible"
 					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "boss2",
+					"sid": 143256120776158,
+					"parameters": {
+						"visibility": "invisible"
+					}
 				}
 			],
 			"sid": 854734172218736
@@ -1800,10 +2160,10 @@
 				{
 					"id": "compare-instance-variable",
 					"objectClass": "cicadaBoss1",
-					"sid": 180799350020545,
+					"sid": 553005756497653,
 					"parameters": {
 						"instance-variable": "bosshealth",
-						"comparison": 0,
+						"comparison": 3,
 						"value": "0"
 					}
 				}
@@ -1839,6 +2199,47 @@
 				}
 			],
 			"sid": 119662196296116
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "WaterSrpntBoss2",
+					"sid": 693614151060344,
+					"parameters": {
+						"instance-variable": "bosshealth",
+						"comparison": 3,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "WaterSrpntBoss2",
+					"sid": 314851164940377
+				},
+				{
+					"id": "destroy",
+					"objectClass": "BossHlth2",
+					"sid": 962288562049562
+				},
+				{
+					"id": "destroy",
+					"objectClass": "bosscolli2",
+					"sid": 993288283304136
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "boss2",
+					"sid": 223893119921811,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 325125832946686
 		},
 		{
 			"eventType": "block",

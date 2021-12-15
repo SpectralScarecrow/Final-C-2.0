@@ -1,0 +1,57 @@
+{
+	"name": "spider",
+	"plugin-id": "Sprite",
+	"sid": 526447590687165,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 415,
+						"height": 295,
+						"originX": 0.3855421686746988,
+						"originY": 0.6576271186440678,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4571817,
+						"collisionPoly": {
+							"points": [
+								0.9614457831325302,
+								0.6576271186440678,
+								0.616867469879518,
+								0.8745762711864407,
+								0.3855421686746988,
+								0.8915254237288136,
+								0.16385542168674694,
+								0.864406779661017,
+								0.11325301204819282,
+								0.6576271186440678,
+								0.012048192771084376,
+								0.23389830508474577,
+								0.3855421686746988,
+								0.10508474576271186,
+								0.689156626506024,
+								0.33559322033898303
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 779993256893979,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

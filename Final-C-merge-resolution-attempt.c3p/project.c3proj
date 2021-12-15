@@ -337,7 +337,14 @@
 			"Text8",
 			"Audio",
 			"PLAY",
-			"enemy2"
+			"enemy2",
+			"boss2",
+			"mushroom",
+			"lizard",
+			"Sprite9",
+			"Sprite10",
+			"spider",
+			"blob"
 		],
 		"subfolders": []
 	},

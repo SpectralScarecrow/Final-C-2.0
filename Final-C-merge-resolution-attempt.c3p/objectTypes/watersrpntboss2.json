@@ -3,7 +3,14 @@
 	"plugin-id": "Sprite",
 	"sid": 798410769381469,
 	"isGlobal": false,
-	"instanceVariables": [],
+	"instanceVariables": [
+		{
+			"name": "bosshealth",
+			"type": "number",
+			"desc": "",
+			"sid": 655728610762745
+		}
+	],
 	"behaviorTypes": [
 		{
 			"behaviorId": "Sin",
