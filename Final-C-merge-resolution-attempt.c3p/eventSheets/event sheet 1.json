@@ -2,6 +2,16 @@
 	"name": "Event sheet 1",
 	"events": [
 		{
+			"eventType": "variable",
+			"name": "Magic",
+			"type": "number",
+			"initialValue": "10",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 772767146415964
+		},
+		{
 			"eventType": "comment",
 			"text": "[h1]Items and Upgrades[/h1]"
 		},
@@ -122,11 +132,12 @@
 					"sid": 418713848116346
 				},
 				{
-					"id": "set-visible",
-					"objectClass": "magitxt",
-					"sid": 105891890077447,
+					"id": "add-to-instvar",
+					"objectClass": "magMeter",
+					"sid": 160087894247383,
 					"parameters": {
-						"visibility": "visible"
+						"instance-variable": "expansion",
+						"value": "5"
 					}
 				}
 			],
@@ -343,11 +354,11 @@
 				{
 					"id": "play",
 					"objectClass": "Audio",
-					"sid": 641885812659166,
+					"sid": 492149563264523,
 					"parameters": {
 						"audio-file": "mixkit-light-wind-1165",
 						"loop": "not-looping",
-						"volume": "0",
+						"volume": "-5",
 						"tag-optional": "\"\""
 					}
 				}
@@ -565,16 +576,58 @@
 								{
 									"id": "play",
 									"objectClass": "Audio",
-									"sid": 293652895036859,
+									"sid": 541158816251531,
 									"parameters": {
 										"audio-file": "mixkit-fireball-spell-1347",
 										"loop": "not-looping",
-										"volume": "0",
+										"volume": "-15",
 										"tag-optional": "\"\""
+									}
+								},
+								{
+									"id": "subtract-from-eventvar",
+									"objectClass": "System",
+									"sid": 339614681761037,
+									"parameters": {
+										"variable": "Magic",
+										"value": "1"
+									}
+								},
+								{
+									"id": "set-text",
+									"objectClass": "magMeter",
+									"sid": 783805045737304,
+									"parameters": {
+										"text": "\"Magic: \" &Magic"
 									}
 								}
 							],
-							"sid": 874026865216394
+							"sid": 874026865216394,
+							"children": [
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "compare-eventvar",
+											"objectClass": "System",
+											"sid": 448579690113914,
+											"parameters": {
+												"variable": "Magic",
+												"comparison": 2,
+												"value": "0"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "stop-animation",
+											"objectClass": "Fireball",
+											"sid": 120992704841586
+										}
+									],
+									"sid": 531530068991238
+								}
+							]
 						}
 					]
 				}
@@ -1223,6 +1276,75 @@
 			"sid": 882039021969077
 		},
 		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "enemy2",
+					"sid": 376886536747205,
+					"parameters": {
+						"object": "player"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "player",
+					"sid": 297274923627029,
+					"parameters": {
+						"instance-variable": "playerhealth",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 105822028255922
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 684803980288206
+				}
+			],
+			"actions": [
+				{
+					"id": "set-width",
+					"objectClass": "playerHealth",
+					"sid": 745677676787131,
+					"parameters": {
+						"width": "213.629328*(player.playerhealth/10)"
+					}
+				}
+			],
+			"sid": 238508594749219
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "player",
+					"sid": 235962035433295,
+					"parameters": {
+						"instance-variable": "playerhealth",
+						"comparison": 3,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "restart-layout",
+					"objectClass": "System",
+					"sid": 611213673554384
+				}
+			],
+			"sid": 221198586041798
+		},
+		{
 			"eventType": "comment",
 			"text": "[h1]BOSS STUFF[/h1]"
 		},
@@ -1759,6 +1881,28 @@
 				}
 			],
 			"sid": 844197551429684
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 501219599109853
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "magMeter",
+					"sid": 200413058232082,
+					"parameters": {
+						"x": "lerp(Self.X, player.X, 0.02)",
+						"y": "lerp(Self.Y, player.Y, 0.15)"
+					}
+				}
+			],
+			"sid": 612057957550443
 		}
 	],
 	"sid": 607571918746669

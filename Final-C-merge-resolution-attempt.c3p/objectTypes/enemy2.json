@@ -1,0 +1,102 @@
+{
+	"name": "enemy2",
+	"plugin-id": "Sprite",
+	"sid": 435127098077922,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "face",
+			"type": "number",
+			"desc": "at zero face right, at 1 face left",
+			"sid": 251265104797189
+		},
+		{
+			"name": "ehealth",
+			"type": "number",
+			"desc": "",
+			"sid": 235412904773506
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 262,
+						"height": 212,
+						"originX": 0.4618320610687023,
+						"originY": 0.42924528301886794,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8156995,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.4618320610687023,
+								0,
+								1,
+								0,
+								1,
+								0.42924528301886794,
+								1,
+								1,
+								0.4618320610687023,
+								1,
+								0,
+								1,
+								0,
+								0.42924528301886794
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 262,
+						"height": 152,
+						"originX": 0.5381679389312977,
+						"originY": 0.26973684210526316,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 397118,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5381679389312977,
+								0,
+								1,
+								0,
+								1,
+								0.26973684210526316,
+								1,
+								1,
+								0.5381679389312977,
+								1,
+								0,
+								1,
+								0,
+								0.26973684210526316
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 672608736101952,
+				"name": "Animation 1",
+				"isLooping": true,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 15
+			}
+		],
+		"subfolders": []
+	}
+}

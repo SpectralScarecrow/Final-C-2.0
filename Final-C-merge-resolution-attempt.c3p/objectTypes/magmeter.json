@@ -1,0 +1,16 @@
+{
+	"name": "magMeter",
+	"plugin-id": "Text",
+	"sid": 979989964739536,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "expansion",
+			"type": "number",
+			"desc": "",
+			"sid": 350427172011403
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": []
+}

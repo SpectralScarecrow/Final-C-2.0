@@ -144,6 +144,14 @@
 		},
 		{
 			"type": "behavior",
+			"id": "Anchor",
+			"name": "Anchor",
+			"author": "Scirra",
+			"version": "r276",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
 			"id": "Flash",
 			"name": "Flash",
 			"author": "Scirra",
@@ -277,7 +285,7 @@
 			"Layer4",
 			"Breakable",
 			"playerHealth",
-			"Text",
+			"magMeter",
 			"Boottext",
 			"MagicTxt",
 			"health",
@@ -328,7 +336,8 @@
 			"unlck",
 			"Text8",
 			"Audio",
-			"PLAY"
+			"PLAY",
+			"enemy2"
 		],
 		"subfolders": []
 	},
