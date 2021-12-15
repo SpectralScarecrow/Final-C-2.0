@@ -1,0 +1,37 @@
+{
+	"name": "sun",
+	"plugin-id": "Sprite",
+	"sid": 389607900012213,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 202,
+						"height": 169,
+						"originX": 0.5544554455445545,
+						"originY": 0.6686390532544378,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5785926,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 871160283612592,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

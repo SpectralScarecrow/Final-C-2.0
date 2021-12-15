@@ -1,0 +1,62 @@
+{
+	"name": "Fireball",
+	"plugin-id": "Sprite",
+	"sid": 566488717842856,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "bulletdamage",
+			"type": "number",
+			"desc": "",
+			"sid": 373791297808652
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Bullet",
+			"name": "Bullet",
+			"sid": 592516706355701
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 121,
+						"height": 124,
+						"originX": 0.5619834710743802,
+						"originY": 0.6935483870967742,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4911977,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.9917355371900827,
+								0,
+								0.9917355371900827,
+								1,
+								0,
+								1
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 973807762065519,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

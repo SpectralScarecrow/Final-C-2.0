@@ -1,0 +1,37 @@
+{
+	"name": "OpndDrr",
+	"plugin-id": "Sprite",
+	"sid": 384696672582393,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 171,
+						"height": 170,
+						"originX": 0.40350877192982454,
+						"originY": 0.5470588235294118,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 1551564,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 615028739821844,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

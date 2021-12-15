@@ -1,0 +1,55 @@
+{
+	"name": "Event sheet 2",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-click",
+					"objectClass": "Mouse",
+					"sid": 942057225040156,
+					"parameters": {
+						"mouse-button": "right",
+						"click-type": "clicked"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 706088797829173,
+					"parameters": {
+						"layout": "Layout1"
+					}
+				}
+			],
+			"sid": 595219716370297
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "cursor-is-over-object",
+					"objectClass": "Mouse",
+					"sid": 962914069722452,
+					"parameters": {
+						"object": "PLAY"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-cursor-style",
+					"objectClass": "Mouse",
+					"sid": 877893283894871,
+					"parameters": {
+						"cursor-style": "crosshair"
+					}
+				}
+			],
+			"sid": 777658429104313
+		}
+	],
+	"sid": 497797205577017
+}

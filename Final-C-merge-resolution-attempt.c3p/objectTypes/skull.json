@@ -1,0 +1,37 @@
+{
+	"name": "skull",
+	"plugin-id": "Sprite",
+	"sid": 421754099235980,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 140,
+						"height": 159,
+						"originX": 0.4357142857142857,
+						"originY": 0.6037735849056604,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 147968,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 820096812784498,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

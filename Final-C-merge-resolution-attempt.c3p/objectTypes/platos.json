@@ -1,0 +1,26 @@
+{
+	"name": "platos",
+	"plugin-id": "TiledBg",
+	"sid": 995350451561343,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 566775744360707
+		}
+	],
+	"effectTypes": [],
+	"image": {
+		"width": 250,
+		"height": 250,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "",
+		"exportFormat": "png",
+		"exportQuality": 0.8,
+		"imageSpriteId": 5489805,
+		"useCollisionPoly": true
+	}
+}

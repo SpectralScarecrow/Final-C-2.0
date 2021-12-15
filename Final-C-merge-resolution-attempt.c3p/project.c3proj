@@ -1,0 +1,554 @@
+{
+	"projectFormatVersion": 1,
+	"savedWithRelease": 27600,
+	"name": "baseline final",
+	"runtime": "c3",
+	"useWorker": "auto",
+	"bundleAddons": false,
+	"usedAddons": [
+		{
+			"type": "plugin",
+			"id": "Keyboard",
+			"name": "Keyboard",
+			"author": "Scirra",
+			"version": "r276",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Sprite",
+			"name": "Sprite",
+			"author": "Scirra",
+			"version": "r276",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "PlatformInfo",
+			"name": "Platform info",
+			"author": "Scirra",
+			"version": "r276",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "TiledBg",
+			"name": "Tiled Background",
+			"author": "Scirra",
+			"version": "r276",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Text",
+			"name": "Text",
+			"author": "Scirra",
+			"version": "r276",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Tilemap",
+			"name": "Tilemap",
+			"author": "Scirra",
+			"version": "r276",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Mouse",
+			"name": "Mouse",
+			"author": "Scirra",
+			"version": "r276",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Timeline",
+			"name": "Timeline",
+			"author": "Scirra",
+			"version": "r276",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Camera3D",
+			"name": "3D camera",
+			"author": "Scirra",
+			"version": "r276",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Audio",
+			"name": "Audio",
+			"author": "Scirra",
+			"version": "r276",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Platform",
+			"name": "Platform",
+			"author": "Scirra",
+			"version": "r276",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "scrollto",
+			"name": "Scroll To",
+			"author": "Scirra",
+			"version": "r276",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "solid",
+			"name": "Solid",
+			"author": "Scirra",
+			"version": "r276",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Turret",
+			"name": "Turret",
+			"author": "Scirra",
+			"version": "r276",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Bullet",
+			"name": "Bullet",
+			"author": "Scirra",
+			"version": "r276",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Sin",
+			"name": "Sine",
+			"author": "Scirra",
+			"version": "r276",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Pin",
+			"name": "Pin",
+			"author": "Scirra",
+			"version": "r276",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Flash",
+			"name": "Flash",
+			"author": "Scirra",
+			"version": "r276",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "jumpthru",
+			"name": "Jump-thru",
+			"author": "Scirra",
+			"version": "r276",
+			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "glowvertical",
+			"name": "Glow vertical",
+			"author": "Scirra",
+			"version": "r276",
+			"bundled": false
+		}
+	],
+	"uniqueId": "femdptn72o0",
+	"objectTypes": {
+		"items": [
+			"Keyboard",
+			"player",
+			"enemy",
+			"grass",
+			"PlatformInfo",
+			"border",
+			"border2",
+			"hole",
+			"bottomlessPitDarkpt",
+			"ground",
+			"Layer1Txture",
+			"Sky",
+			"invisibleWall",
+			"sun",
+			"opening",
+			"platformwallfloor1",
+			"mossy",
+			"Layer1",
+			"MagicExpansion",
+			"watery",
+			"TestriaJmpBoots",
+			"cicadaBoss1",
+			"rocks",
+			"extraplatfm",
+			"Point",
+			"Arrow",
+			"Boss",
+			"Fireball",
+			"blueDoor",
+			"redDoor",
+			"platformwallfloor2",
+			"bottomlessPitDarkpt2",
+			"Layer2txture",
+			"Layer2",
+			"WaterBallUpgrade",
+			"Waterball",
+			"water",
+			"WaterSrpntBoss2",
+			"lifty",
+			"platformwallfloor3",
+			"Layer3txture",
+			"Layer3",
+			"Forest",
+			"SurfaceGrass",
+			"ArrièreplanRépété",
+			"Crater",
+			"Cloud1",
+			"Cloud2",
+			"Cloud3",
+			"Mouse",
+			"playerBullet",
+			"melee",
+			"Timeline",
+			"enemyBoundary",
+			"bossbullet",
+			"sword",
+			"bosscolli",
+			"dirta",
+			"roof",
+			"florringh",
+			"housy",
+			"build",
+			"housy2",
+			"TestrianHook",
+			"stairs",
+			"OpndDrr",
+			"Ladder",
+			"3DCamera",
+			"BringBack",
+			"Ladder2",
+			"housy3",
+			"fountain",
+			"bench",
+			"model",
+			"BossHlth1",
+			"BossHlth2",
+			"bosscolli2",
+			"bosscolli3",
+			"teleport",
+			"stairs2",
+			"model2",
+			"entrance",
+			"reddngn",
+			"reddngn2",
+			"DungnBlck",
+			"MiniBossLacnclot",
+			"MiniBossHlth",
+			"EtherCrystal",
+			"ForlornEntityBoss3",
+			"BossHlth3",
+			"Deadbodies",
+			"rope",
+			"spiketable",
+			"cage",
+			"holder",
+			"Sprite2",
+			"deadhead",
+			"GraphicDeath",
+			"spike",
+			"Sprite3",
+			"deadimpaled",
+			"platformwallfloor4",
+			"DisguisedWall",
+			"layer4txture",
+			"Layer4",
+			"Breakable",
+			"playerHealth",
+			"Text",
+			"Boottext",
+			"MagicTxt",
+			"health",
+			"magic",
+			"acid",
+			"wavy",
+			"platos",
+			"UndyingSpiritBossChase",
+			"rocks2",
+			"spikey",
+			"TiledBackground",
+			"thunder",
+			"Eviltree",
+			"BloodFountain",
+			"entrance2",
+			"Sprite",
+			"Sprite4",
+			"Sprite5",
+			"Sprite6",
+			"Sprite7",
+			"window",
+			"windowy",
+			"ValerianFarnhameFinalBss",
+			"FinalBossHlth",
+			"Sprite8",
+			"housy4",
+			"teleport2",
+			"Final",
+			"waterblltxt",
+			"magitxt",
+			"Text2",
+			"threat",
+			"skull",
+			"Text4",
+			"Text5",
+			"Text3",
+			"Text6",
+			"Text7",
+			"ArrièreplanRépété2",
+			"CaveBackground",
+			"ArrièreplanRépété3",
+			"ArrièreplanRépété4",
+			"FlowingWater",
+			"ArrièreplanRépété5",
+			"ArrièreplanRépété6",
+			"TiledBackground2",
+			"platformwallfloorJmpThr",
+			"unlck",
+			"Text8",
+			"Audio",
+			"PLAY"
+		],
+		"subfolders": []
+	},
+	"autosaveData": null,
+	"containers": [],
+	"families": {
+		"items": [],
+		"subfolders": []
+	},
+	"layouts": {
+		"items": [
+			"Layout1",
+			"Layout 2"
+		],
+		"subfolders": []
+	},
+	"eventSheets": {
+		"items": [
+			"Event sheet 1",
+			"Event sheet 2"
+		],
+		"subfolders": []
+	},
+	"rootFileFolders": {
+		"script": {
+			"items": [],
+			"subfolders": []
+		},
+		"sound": {
+			"items": [
+				{
+					"name": "mixkit-fireball-spell-1347.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 679330386449703
+				},
+				{
+					"name": "mixkit-sword-slides-a-body-2791.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 458722010619070
+				},
+				{
+					"name": "mixkit-light-wind-1165.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 145862792263204
+				},
+				{
+					"name": "mixkit-thunderstorm-and-clear-rain-2397.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 931611314319209
+				},
+				{
+					"name": "mixkit-angry-dragon-roar-echo-1727.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 616244925579560
+				},
+				{
+					"name": "mixkit-male-falling-scream-392.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 136293095742268
+				},
+				{
+					"name": "mixkit-creepy-cavern-ambience-loop-2492.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 298442106847983
+				},
+				{
+					"name": "mixkit-scream-in-pain-2200.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 713823073941515
+				},
+				{
+					"name": "mixkit-giant-monster-roar-1972.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 149591648583509
+				},
+				{
+					"name": "A mystical journey_3.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 978227010609027
+				}
+			],
+			"subfolders": []
+		},
+		"music": {
+			"items": [],
+			"subfolders": []
+		},
+		"video": {
+			"items": [],
+			"subfolders": []
+		},
+		"font": {
+			"items": [],
+			"subfolders": []
+		},
+		"icon": {
+			"items": [
+				{
+					"name": "icon-32.png",
+					"type": "image/png",
+					"sid": 552802556024788,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-512.png",
+					"type": "image/png",
+					"sid": 424963456946978,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-64.png",
+					"type": "image/png",
+					"sid": 405551619456364,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-16.png",
+					"type": "image/png",
+					"sid": 600843427007358,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "loading-logo.png",
+					"type": "image/png",
+					"sid": 561960747310465,
+					"icon-info": {
+						"purpose": "loading-logo"
+					}
+				},
+				{
+					"name": "icon-128.png",
+					"type": "image/png",
+					"sid": 454703135601618,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-256.png",
+					"type": "image/png",
+					"sid": 239633871823638,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				}
+			],
+			"subfolders": []
+		},
+		"general": {
+			"items": [],
+			"subfolders": []
+		}
+	},
+	"timelines": {
+		"items": [
+			"Timeline 1"
+		],
+		"subfolders": [
+			{
+				"items": [],
+				"subfolders": []
+			}
+		]
+	},
+	"properties": {
+		"description": "",
+		"version": "1.0.0.0",
+		"author": "",
+		"authorEmail": "",
+		"authorWebsite": "",
+		"appId": "",
+		"pixelRounding": false,
+		"useLoaderLayout": false,
+		"fullscreenMode": "letterbox-scale",
+		"fullscreenQuality": "high",
+		"viewportFit": "auto",
+		"backgroundColor": [
+			0,
+			0,
+			0,
+			0
+		],
+		"splashColor": [
+			1,
+			1,
+			1,
+			0
+		],
+		"useThemeColor": false,
+		"themeColor": [
+			1,
+			1,
+			1,
+			0
+		],
+		"orientations": "landscape",
+		"webgpu": "auto",
+		"gpuPreference": "high-performance",
+		"scriptsType": "module",
+		"framerateMode": "vsync",
+		"compositingMode": "standard",
+		"sampling": "trilinear",
+		"downscaling": "medium",
+		"renderingMode": "auto",
+		"anisotropicFiltering": "auto",
+		"maxSpriteSheetSize": 2048,
+		"loaderStyle": "splash",
+		"preloadSounds": true,
+		"cordovaiOSScheme": "app",
+		"cordovaAndroidScheme": "https"
+	},
+	"viewportWidth": 1280,
+	"viewportHeight": 720,
+	"firstLayout": null
+}

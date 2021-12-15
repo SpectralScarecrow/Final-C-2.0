@@ -1,0 +1,1765 @@
+{
+	"name": "Event sheet 1",
+	"events": [
+		{
+			"eventType": "comment",
+			"text": "[h1]Items and Upgrades[/h1]"
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "player",
+					"sid": 254058820469084,
+					"parameters": {
+						"object": "health"
+					}
+				},
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "player",
+					"sid": 701616394259138,
+					"parameters": {
+						"instance-variable": "playerhealth",
+						"comparison": 2,
+						"value": "5"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "add-to-instvar",
+					"objectClass": "player",
+					"sid": 959710777700753,
+					"parameters": {
+						"instance-variable": "playerhealth",
+						"value": "1"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "health",
+					"sid": 272368720955505
+				}
+			],
+			"sid": 639516013239204
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "player",
+					"sid": 618369635267513,
+					"parameters": {
+						"object": "magic"
+					}
+				},
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "player",
+					"sid": 549812134553648,
+					"parameters": {
+						"instance-variable": "magammo",
+						"comparison": 2,
+						"value": "player.maxammo"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "add-to-instvar",
+					"objectClass": "player",
+					"sid": 307344542507500,
+					"parameters": {
+						"instance-variable": "magammo",
+						"value": "1"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "magic",
+					"sid": 387480237786381
+				}
+			],
+			"sid": 833559269361950
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "MagicExpansion",
+					"sid": 133198159941574,
+					"parameters": {
+						"object": "player"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "add-to-instvar",
+					"objectClass": "player",
+					"sid": 201936097175359,
+					"parameters": {
+						"instance-variable": "maxammo",
+						"value": "2"
+					}
+				},
+				{
+					"id": "set-instvar-value",
+					"objectClass": "player",
+					"sid": 272537711140670,
+					"parameters": {
+						"instance-variable": "magammo",
+						"value": "player.maxammo"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "MagicExpansion",
+					"sid": 418713848116346
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "magitxt",
+					"sid": 105891890077447,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 225754176614623
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "player",
+					"sid": 837276740013627,
+					"parameters": {
+						"object": "TestriaJmpBoots"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-double-jump",
+					"objectClass": "player",
+					"sid": 784732243499193,
+					"behaviorType": "Platform",
+					"parameters": {
+						"state": "enabled"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "TestriaJmpBoots",
+					"sid": 388187292687177
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Boottext",
+					"sid": 112522254255189,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 198676018160345
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "player",
+					"sid": 384072718898747,
+					"parameters": {
+						"object": "WaterBallUpgrade"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-boolean-instvar",
+					"objectClass": "player",
+					"sid": 285078680839326,
+					"parameters": {
+						"instance-variable": "waterfound",
+						"value": "true"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "WaterBallUpgrade",
+					"sid": 916893776771698
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "waterblltxt",
+					"sid": 964312381542293,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 189499707324795
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "player",
+					"sid": 457229245932785,
+					"parameters": {
+						"object": "TestrianHook"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "toggle-boolean-instvar",
+					"objectClass": "player",
+					"sid": 626596685166192,
+					"parameters": {
+						"instance-variable": "hookfound"
+					}
+				},
+				{
+					"id": "add-to-instvar",
+					"objectClass": "sword",
+					"sid": 803878365374133,
+					"parameters": {
+						"instance-variable": "meleedamage",
+						"value": "2"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "TestrianHook",
+					"sid": 706018130399314
+				}
+			],
+			"sid": 328405216373593
+		},
+		{
+			"eventType": "comment",
+			"text": "[h1]BASIC MOVEMENT[/h1]"
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 265273969929384,
+					"parameters": {
+						"key": 87
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "simulate-control",
+					"objectClass": "player",
+					"sid": 367151421594768,
+					"behaviorType": "Platform",
+					"parameters": {
+						"control": "jump"
+					}
+				}
+			],
+			"sid": 145040563888010
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 507552791133005,
+					"parameters": {
+						"key": 87
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-max-fall-speed",
+					"objectClass": "player",
+					"sid": 373364776407886,
+					"behaviorType": "Platform",
+					"parameters": {
+						"max-fall-speed": "250"
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "player",
+					"sid": 162201017066931,
+					"parameters": {
+						"animation": "\"Jump\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 135163480298378
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-released",
+					"objectClass": "Keyboard",
+					"sid": 214540927124686,
+					"parameters": {
+						"key": 87
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-max-fall-speed",
+					"objectClass": "player",
+					"sid": 359963834334675,
+					"behaviorType": "Platform",
+					"parameters": {
+						"max-fall-speed": "500"
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "player",
+					"sid": 458306514137349,
+					"parameters": {
+						"animation": "\"Fall\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 641885812659166,
+					"parameters": {
+						"audio-file": "mixkit-light-wind-1165",
+						"loop": "not-looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 148199140541901
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 949708157650317,
+					"parameters": {
+						"key": 65
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "simulate-control",
+					"objectClass": "player",
+					"sid": 935225401118473,
+					"behaviorType": "Platform",
+					"parameters": {
+						"control": "left"
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "player",
+					"sid": 282024948481944,
+					"parameters": {
+						"animation": "\"Run\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 462489017076471
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 314298503196932,
+					"parameters": {
+						"key": 68
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "player",
+					"sid": 172763171388514,
+					"parameters": {
+						"animation": "\"Run\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "simulate-control",
+					"objectClass": "player",
+					"sid": 955709855267701,
+					"behaviorType": "Platform",
+					"parameters": {
+						"control": "right"
+					}
+				}
+			],
+			"sid": 558375015356270
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-click",
+					"objectClass": "Mouse",
+					"sid": 582209864296755,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "spawn-another-object",
+					"objectClass": "player",
+					"sid": 511032720520848,
+					"parameters": {
+						"object": "sword",
+						"layer": "0",
+						"image-point": "1",
+						"create-hierarchy": false
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 835000661903957,
+					"parameters": {
+						"seconds": "0.25"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "sword",
+					"sid": 494823372789804
+				}
+			],
+			"sid": 198185318372280
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-click",
+					"objectClass": "Mouse",
+					"sid": 346067419794134,
+					"parameters": {
+						"mouse-button": "right",
+						"click-type": "clicked"
+					}
+				}
+			],
+			"actions": [],
+			"sid": 766594639037849,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "player",
+							"sid": 220976156680550,
+							"parameters": {
+								"instance-variable": "waterfound"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "spawn-another-object",
+							"objectClass": "player",
+							"sid": 516682886407415,
+							"parameters": {
+								"object": "Waterball",
+								"layer": "0",
+								"image-point": "1",
+								"create-hierarchy": false
+							}
+						},
+						{
+							"id": "subtract-from-instvar",
+							"objectClass": "player",
+							"sid": 909727397895721,
+							"parameters": {
+								"instance-variable": "magammo",
+								"value": "1"
+							}
+						}
+					],
+					"sid": 118979188059415
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "else",
+							"objectClass": "System",
+							"sid": 119723697475827
+						}
+					],
+					"actions": [],
+					"sid": 211350842395467,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "player",
+									"sid": 727714394774711,
+									"parameters": {
+										"instance-variable": "magammo",
+										"comparison": 4,
+										"value": "0"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "subtract-from-instvar",
+									"objectClass": "player",
+									"sid": 957692353544482,
+									"parameters": {
+										"instance-variable": "magammo",
+										"value": "1"
+									}
+								},
+								{
+									"id": "spawn-another-object",
+									"objectClass": "player",
+									"sid": 213193330650763,
+									"parameters": {
+										"object": "Fireball",
+										"layer": "0",
+										"image-point": "1",
+										"create-hierarchy": false
+									}
+								},
+								{
+									"id": "play",
+									"objectClass": "Audio",
+									"sid": 293652895036859,
+									"parameters": {
+										"audio-file": "mixkit-fireball-spell-1347",
+										"loop": "not-looping",
+										"volume": "0",
+										"tag-optional": "\"\""
+									}
+								}
+							],
+							"sid": 874026865216394
+						}
+					]
+				}
+			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-released",
+					"objectClass": "Keyboard",
+					"sid": 855769212604941,
+					"parameters": {
+						"key": 65
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "player",
+					"sid": 602632128823776,
+					"parameters": {
+						"state": "mirrored"
+					}
+				}
+			],
+			"sid": 469981088247629
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-released",
+					"objectClass": "Keyboard",
+					"sid": 264718490052047,
+					"parameters": {
+						"key": 68
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "player",
+					"sid": 442481427683639,
+					"parameters": {
+						"state": "not-mirrored"
+					}
+				}
+			],
+			"sid": 566198377483618
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "sword",
+					"sid": 221735790347879,
+					"parameters": {
+						"object": "platformwallfloor4"
+					}
+				},
+				{
+					"id": "is-boolean-instance-variable-set",
+					"objectClass": "player",
+					"sid": 979544607472987,
+					"parameters": {
+						"instance-variable": "hookfound"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "reset-double-jump",
+					"objectClass": "player",
+					"sid": 499582550015615,
+					"behaviorType": "Platform",
+					"parameters": {
+						"double-jump-allowed": true
+					}
+				}
+			],
+			"sid": 864460210686972
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "sword",
+					"sid": 195046608852510,
+					"parameters": {
+						"object": "platformwallfloor3"
+					}
+				},
+				{
+					"id": "is-boolean-instance-variable-set",
+					"objectClass": "player",
+					"sid": 382609809029665,
+					"parameters": {
+						"instance-variable": "hookfound"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "reset-double-jump",
+					"objectClass": "player",
+					"sid": 180776000819385,
+					"behaviorType": "Platform",
+					"parameters": {
+						"double-jump-allowed": true
+					}
+				}
+			],
+			"sid": 173266168196960
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "sword",
+					"sid": 765556082305984,
+					"parameters": {
+						"object": "platformwallfloor2"
+					}
+				},
+				{
+					"id": "is-boolean-instance-variable-set",
+					"objectClass": "player",
+					"sid": 817282905139138,
+					"parameters": {
+						"instance-variable": "hookfound"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "reset-double-jump",
+					"objectClass": "player",
+					"sid": 201771248625257,
+					"behaviorType": "Platform",
+					"parameters": {
+						"double-jump-allowed": true
+					}
+				}
+			],
+			"sid": 906342906960911
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "sword",
+					"sid": 721665922192571,
+					"parameters": {
+						"object": "platformwallfloor1"
+					}
+				},
+				{
+					"id": "is-boolean-instance-variable-set",
+					"objectClass": "player",
+					"sid": 738106349797691,
+					"parameters": {
+						"instance-variable": "hookfound"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "reset-double-jump",
+					"objectClass": "player",
+					"sid": 643766282435305,
+					"behaviorType": "Platform",
+					"parameters": {
+						"double-jump-allowed": true
+					}
+				}
+			],
+			"sid": 831593892133178
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "sword",
+					"sid": 688400860931338,
+					"parameters": {
+						"object": "border2"
+					}
+				},
+				{
+					"id": "is-boolean-instance-variable-set",
+					"objectClass": "player",
+					"sid": 100433920655251,
+					"parameters": {
+						"instance-variable": "hookfound"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "reset-double-jump",
+					"objectClass": "player",
+					"sid": 311638582154404,
+					"behaviorType": "Platform",
+					"parameters": {
+						"double-jump-allowed": true
+					}
+				}
+			],
+			"sid": 195258893820346
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "sword",
+					"sid": 392765915250508,
+					"parameters": {
+						"object": "border"
+					}
+				},
+				{
+					"id": "is-boolean-instance-variable-set",
+					"objectClass": "player",
+					"sid": 422153283653044,
+					"parameters": {
+						"instance-variable": "hookfound"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "reset-double-jump",
+					"objectClass": "player",
+					"sid": 113170028191868,
+					"behaviorType": "Platform",
+					"parameters": {
+						"double-jump-allowed": true
+					}
+				}
+			],
+			"sid": 518752977156779
+		},
+		{
+			"eventType": "comment",
+			"text": "[h1]Angling[/h1]"
+		},
+		{
+			"eventType": "block",
+			"conditions": [],
+			"actions": [],
+			"sid": 308212148508071
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-mirrored",
+					"objectClass": "player",
+					"sid": 116303361001783
+				}
+			],
+			"actions": [
+				{
+					"id": "set-angle",
+					"objectClass": "Fireball",
+					"sid": 618202795393191,
+					"parameters": {
+						"angle": "180"
+					}
+				},
+				{
+					"id": "set-angle",
+					"objectClass": "Waterball",
+					"sid": 831966970110912,
+					"parameters": {
+						"angle": "180"
+					}
+				}
+			],
+			"sid": 133756515285237
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-mirrored",
+					"objectClass": "player",
+					"sid": 618065793304662
+				}
+			],
+			"actions": [
+				{
+					"id": "set-angle",
+					"objectClass": "sword",
+					"sid": 278022889763784,
+					"parameters": {
+						"angle": "180"
+					}
+				}
+			],
+			"sid": 905913215923001
+		},
+		{
+			"eventType": "comment",
+			"text": "[h1]Hurting the Enemy[/h1]"
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "enemy",
+					"sid": 593436159097241,
+					"parameters": {
+						"object": "sword"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "enemy",
+					"sid": 753492812778401,
+					"parameters": {
+						"instance-variable": "ehealth",
+						"value": "sword.meleedamage"
+					}
+				}
+			],
+			"sid": 300178219695547
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "sword",
+					"sid": 595640425137931,
+					"parameters": {
+						"object": "cicadaBoss1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 287867542279685,
+					"parameters": {
+						"audio-file": "mixkit-sword-slides-a-body-2791",
+						"loop": "not-looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 857264037313574
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "enemy",
+					"sid": 369008617932487,
+					"parameters": {
+						"object": "Fireball"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "enemy",
+					"sid": 181944358133921,
+					"parameters": {
+						"instance-variable": "ehealth",
+						"value": "Fireball.bulletdamage"
+					}
+				}
+			],
+			"sid": 921037131054008
+		},
+		{
+			"eventType": "block",
+			"conditions": [],
+			"actions": [],
+			"sid": 369822288244158
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "enemy",
+					"sid": 228442890025839,
+					"parameters": {
+						"instance-variable": "ehealth",
+						"comparison": 0,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 473048203250559,
+					"parameters": {
+						"audio-file": "mixkit-angry-dragon-roar-echo-1727",
+						"loop": "not-looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "enemy",
+					"sid": 781966566650085
+				}
+			],
+			"sid": 975699672278123
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "enemy",
+					"sid": 406649828157953,
+					"parameters": {
+						"object": "Waterball"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "enemy",
+					"sid": 565088859816949,
+					"parameters": {
+						"instance-variable": "ehealth",
+						"value": "Waterball.bulletDamage"
+					}
+				}
+			],
+			"sid": 704931699961836
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "enemy",
+					"sid": 369358763975878,
+					"parameters": {
+						"instance-variable": "face",
+						"comparison": 0,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "simulate-control",
+					"objectClass": "enemy",
+					"sid": 618145605244942,
+					"behaviorType": "Platform",
+					"parameters": {
+						"control": "left"
+					}
+				},
+				{
+					"id": "set-mirrored",
+					"objectClass": "enemy",
+					"sid": 611335805656494,
+					"parameters": {
+						"state": "mirrored"
+					}
+				}
+			],
+			"sid": 749637087186680
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "enemy",
+					"sid": 182745572637139,
+					"parameters": {
+						"instance-variable": "face",
+						"comparison": 0,
+						"value": "1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "simulate-control",
+					"objectClass": "enemy",
+					"sid": 167532376038813,
+					"behaviorType": "Platform",
+					"parameters": {
+						"control": "right"
+					}
+				},
+				{
+					"id": "set-mirrored",
+					"objectClass": "enemy",
+					"sid": 834667222652815,
+					"parameters": {
+						"state": "not-mirrored"
+					}
+				}
+			],
+			"sid": 327113142099068
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "enemy",
+					"sid": 175711029059584,
+					"parameters": {
+						"object": "enemyBoundary"
+					}
+				}
+			],
+			"actions": [],
+			"sid": 319995769666872,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "enemy",
+							"sid": 155264335762009,
+							"parameters": {
+								"instance-variable": "face",
+								"comparison": 0,
+								"value": "0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-instvar-value",
+							"objectClass": "enemy",
+							"sid": 200570663212657,
+							"parameters": {
+								"instance-variable": "face",
+								"value": "1"
+							}
+						}
+					],
+					"sid": 859392122548732
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "else",
+							"objectClass": "System",
+							"sid": 956031892336163
+						}
+					],
+					"actions": [
+						{
+							"id": "set-instvar-value",
+							"objectClass": "enemy",
+							"sid": 683994212697218,
+							"parameters": {
+								"instance-variable": "face",
+								"value": "0"
+							}
+						}
+					],
+					"sid": 827404362842969
+				}
+			]
+		},
+		{
+			"eventType": "comment",
+			"text": "[h1]Taking Player Damage[/h1]"
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "bossbullet",
+					"sid": 413389980599682,
+					"parameters": {
+						"object": "player"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "player",
+					"sid": 963169528053392,
+					"parameters": {
+						"instance-variable": "playerhealth",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 743466774600187
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "enemy",
+					"sid": 136502477218564,
+					"parameters": {
+						"object": "player"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "player",
+					"sid": 425410653258271,
+					"parameters": {
+						"instance-variable": "playerhealth",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 882039021969077
+		},
+		{
+			"eventType": "comment",
+			"text": "[h1]BOSS STUFF[/h1]"
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 279469076407738
+				}
+			],
+			"actions": [
+				{
+					"id": "pin-to-object-properties",
+					"objectClass": "BossHlth1",
+					"sid": 838392257645376,
+					"behaviorType": "Pin",
+					"parameters": {
+						"pin-to": "cicadaBoss1",
+						"x": true,
+						"y": true,
+						"angle": true,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
+				}
+			],
+			"sid": 461699200654462
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 412652361672323
+				}
+			],
+			"actions": [
+				{
+					"id": "pin-to-object-properties",
+					"objectClass": "BossHlth2",
+					"sid": 477846578023003,
+					"behaviorType": "Pin",
+					"parameters": {
+						"pin-to": "WaterSrpntBoss2",
+						"x": true,
+						"y": true,
+						"angle": true,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
+				}
+			],
+			"sid": 825609373399888
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 846481227649689
+				}
+			],
+			"actions": [
+				{
+					"id": "pin-to-object-properties",
+					"objectClass": "MiniBossHlth",
+					"sid": 512358450360687,
+					"behaviorType": "Pin",
+					"parameters": {
+						"pin-to": "MiniBossLacnclot",
+						"x": true,
+						"y": true,
+						"angle": true,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
+				}
+			],
+			"sid": 404455414338630
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 451411340245136
+				}
+			],
+			"actions": [
+				{
+					"id": "pin-to-object-properties",
+					"objectClass": "BossHlth3",
+					"sid": 955745220131196,
+					"behaviorType": "Pin",
+					"parameters": {
+						"pin-to": "ForlornEntityBoss3",
+						"x": true,
+						"y": true,
+						"angle": true,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
+				}
+			],
+			"sid": 888918420859385
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 340210802798472
+				}
+			],
+			"actions": [
+				{
+					"id": "pin-to-object-properties",
+					"objectClass": "FinalBossHlth",
+					"sid": 413888694224499,
+					"behaviorType": "Pin",
+					"parameters": {
+						"pin-to": "ValerianFarnhameFinalBss",
+						"x": true,
+						"y": true,
+						"angle": true,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
+				}
+			],
+			"sid": 123519197764583
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Fireball",
+					"sid": 269514509182639,
+					"parameters": {
+						"object": "cicadaBoss1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "cicadaBoss1",
+					"sid": 741369592226203,
+					"parameters": {
+						"instance-variable": "bosshealth",
+						"value": "Fireball.bulletdamage"
+					}
+				}
+			],
+			"sid": 698643148156685
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "sword",
+					"sid": 837236835273439,
+					"parameters": {
+						"object": "cicadaBoss1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "cicadaBoss1",
+					"sid": 377601918129443,
+					"parameters": {
+						"instance-variable": "bosshealth",
+						"value": "sword.meleedamage"
+					}
+				}
+			],
+			"sid": 567894732760923
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-shoot",
+					"objectClass": "cicadaBoss1",
+					"sid": 228253353707457,
+					"behaviorType": "Turret"
+				}
+			],
+			"actions": [
+				{
+					"id": "spawn-another-object",
+					"objectClass": "cicadaBoss1",
+					"sid": 694965191288019,
+					"parameters": {
+						"object": "bossbullet",
+						"layer": "0",
+						"image-point": "0",
+						"create-hierarchy": false
+					}
+				}
+			],
+			"sid": 999356368721727
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 446659773099307
+				}
+			],
+			"actions": [
+				{
+					"id": "add-object-to-target",
+					"objectClass": "cicadaBoss1",
+					"sid": 110565715682594,
+					"behaviorType": "Turret",
+					"parameters": {
+						"target": "player"
+					}
+				}
+			],
+			"sid": 243510648355211
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 319809928412271
+				}
+			],
+			"actions": [
+				{
+					"id": "add-object-to-target",
+					"objectClass": "WaterSrpntBoss2",
+					"sid": 617299720903835,
+					"behaviorType": "Turret",
+					"parameters": {
+						"target": "player"
+					}
+				}
+			],
+			"sid": 860759025985878
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-shoot",
+					"objectClass": "WaterSrpntBoss2",
+					"sid": 788994163710263,
+					"behaviorType": "Turret"
+				}
+			],
+			"actions": [
+				{
+					"id": "spawn-another-object",
+					"objectClass": "WaterSrpntBoss2",
+					"sid": 293340279259904,
+					"parameters": {
+						"object": "acid",
+						"layer": "0",
+						"image-point": "0",
+						"create-hierarchy": false
+					}
+				}
+			],
+			"sid": 134055505509836
+		},
+		{
+			"eventType": "comment",
+			"text": "[h1]Other [/h1]"
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Fireball",
+					"sid": 461989873777342,
+					"parameters": {
+						"object": "redDoor"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "redDoor",
+					"sid": 189767430826176
+				}
+			],
+			"sid": 594717038182334
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 694822314624809
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "Boottext",
+					"sid": 393174552831207,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "MagicTxt",
+					"sid": 192925844688145,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "waterblltxt",
+					"sid": 823595721173824,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "magitxt",
+					"sid": 247266887609242,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 854734172218736
+		},
+		{
+			"eventType": "script",
+			"script": ""
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 534369581711086
+				}
+			],
+			"actions": [
+				{
+					"id": "flash",
+					"objectClass": "thunder",
+					"sid": 390685684809189,
+					"behaviorType": "Flash",
+					"parameters": {
+						"on-time": "1.5",
+						"off-time": "0.14",
+						"duration": "60.0"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "unlck",
+					"sid": 449711068212759,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 644393370629090
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Waterball",
+					"sid": 132203306859828,
+					"parameters": {
+						"object": "blueDoor"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "blueDoor",
+					"sid": 696000157595202
+				}
+			],
+			"sid": 239388220502892
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-x-seconds",
+					"objectClass": "System",
+					"sid": 670433882757176,
+					"parameters": {
+						"interval-seconds": "5"
+					}
+				},
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "player",
+					"sid": 597447356094329,
+					"parameters": {
+						"instance-variable": "magammo",
+						"comparison": 2,
+						"value": "player.maxammo"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "add-to-instvar",
+					"objectClass": "player",
+					"sid": 519465111930008,
+					"parameters": {
+						"instance-variable": "magammo",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 816584462994058
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "cicadaBoss1",
+					"sid": 180799350020545,
+					"parameters": {
+						"instance-variable": "bosshealth",
+						"comparison": 0,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "cicadaBoss1",
+					"sid": 801519535520342
+				},
+				{
+					"id": "destroy",
+					"objectClass": "DisguisedWall",
+					"sid": 881926066843622
+				},
+				{
+					"id": "destroy",
+					"objectClass": "bosscolli",
+					"sid": 603068158462372
+				},
+				{
+					"id": "destroy",
+					"objectClass": "BossHlth1",
+					"sid": 242205966396209
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "unlck",
+					"sid": 706791646380629,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 119662196296116
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "rocks",
+					"sid": 402092627612243,
+					"parameters": {
+						"object": "sword"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "rocks",
+					"sid": 114043353600675
+				}
+			],
+			"sid": 173221606762738
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "rocks2",
+					"sid": 691028791596082,
+					"parameters": {
+						"object": "sword"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "rocks2",
+					"sid": 225636174241911
+				}
+			],
+			"sid": 844197551429684
+		}
+	],
+	"sid": 607571918746669
+}

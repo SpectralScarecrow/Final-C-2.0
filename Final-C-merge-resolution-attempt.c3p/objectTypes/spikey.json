@@ -1,0 +1,42 @@
+{
+	"name": "spikey",
+	"plugin-id": "Sprite",
+	"sid": 677186007349281,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [
+		{
+			"effectId": "glowvertical",
+			"name": "GlowVertical"
+		}
+	],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 216,
+						"height": 90,
+						"originX": 0.4444444444444444,
+						"originY": 0.8111111111111111,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7396980,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 479375913064712,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

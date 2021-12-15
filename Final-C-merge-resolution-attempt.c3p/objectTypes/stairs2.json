@@ -1,0 +1,55 @@
+{
+	"name": "stairs2",
+	"plugin-id": "Sprite",
+	"sid": 139150594398273,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 591029143960813
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 192,
+						"height": 147,
+						"originX": 0.5052083333333334,
+						"originY": 0.4489795918367347,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 286990,
+						"collisionPoly": {
+							"points": [
+								0.7890625,
+								0,
+								1,
+								0.30272108843537415,
+								0.11979166666666664,
+								1,
+								0,
+								0.6768707482993194
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 244397642724665,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

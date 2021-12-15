@@ -1,0 +1,37 @@
+{
+	"name": "WaterBallUpgrade",
+	"plugin-id": "Sprite",
+	"sid": 531072391405838,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 121,
+						"height": 103,
+						"originX": 0.35537190082644626,
+						"originY": 0.7184466019417476,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 9811905,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 162583618197477,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

@@ -1,0 +1,57 @@
+{
+	"name": "Crater",
+	"plugin-id": "Sprite",
+	"sid": 275155418769601,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 1922,
+						"height": 474,
+						"originX": 0.5,
+						"originY": -0.04852320675105485,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 1473776,
+						"collisionPoly": {
+							"points": [
+								0.3758689481494252,
+								0,
+								0.5,
+								0,
+								0.6315198049369184,
+								0,
+								0.9980019580195679,
+								0,
+								0.7320068469111934,
+								0.8922302948593117,
+								0.5,
+								0.9281826579781788,
+								0.2916371629651066,
+								0.79036526602252,
+								0.05076381235030078,
+								0
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 407763031917561,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

@@ -1,0 +1,49 @@
+{
+	"name": "rope",
+	"plugin-id": "Sprite",
+	"sid": 741165062109746,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 90,
+						"height": 157,
+						"originX": 0.5555555555555556,
+						"originY": 0.802547770700637,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3935221,
+						"collisionPoly": {
+							"points": [
+								0,
+								0.006369426751592357,
+								0.9888888888888889,
+								0.006369426751592357,
+								0.9888888888888889,
+								1,
+								0,
+								1
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 486890264204804,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

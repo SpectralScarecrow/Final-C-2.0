@@ -1,0 +1,44 @@
+{
+	"name": "sword",
+	"plugin-id": "Sprite",
+	"sid": 132707609638475,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "meleedamage",
+			"type": "number",
+			"desc": "",
+			"sid": 996401898707124
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 236,
+						"height": 55,
+						"originX": 0,
+						"originY": 0.6,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 9347510,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 682485521906193,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

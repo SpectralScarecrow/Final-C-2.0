@@ -1,0 +1,20 @@
+{
+	"name": "wavy",
+	"plugin-id": "TiledBg",
+	"sid": 533273403073422,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"image": {
+		"width": 250,
+		"height": 250,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "",
+		"exportFormat": "png",
+		"exportQuality": 0.8,
+		"imageSpriteId": 3786465,
+		"useCollisionPoly": true
+	}
+}
