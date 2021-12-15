@@ -344,7 +344,8 @@
 			"Sprite9",
 			"Sprite10",
 			"spider",
-			"blob"
+			"blob",
+			"Tilemap"
 		],
 		"subfolders": []
 	},
