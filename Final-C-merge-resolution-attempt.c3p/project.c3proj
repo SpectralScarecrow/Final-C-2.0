@@ -168,6 +168,54 @@
 		},
 		{
 			"type": "effect",
+			"id": "lumblend",
+			"name": "Luminosity",
+			"author": "Scirra",
+			"version": "r276",
+			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "waterbg",
+			"name": "Water background",
+			"author": "Viktor Korsun",
+			"version": "r276",
+			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "exclusion",
+			"name": "Exclusion",
+			"author": "Scirra",
+			"version": "r276",
+			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "gamma",
+			"name": "Gamma",
+			"author": "Scirra",
+			"version": "r276",
+			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "water",
+			"name": "Water",
+			"author": "Viktor Korsun",
+			"version": "r276",
+			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "fogexponential",
+			"name": "Fog (exponential)",
+			"author": "Scirra",
+			"version": "r276",
+			"bundled": false
+		},
+		{
+			"type": "effect",
 			"id": "glowvertical",
 			"name": "Glow vertical",
 			"author": "Scirra",
@@ -344,8 +392,7 @@
 			"Sprite9",
 			"Sprite10",
 			"spider",
-			"blob",
-			"Tilemap"
+			"blob"
 		],
 		"subfolders": []
 	},
@@ -425,6 +472,16 @@
 					"name": "A mystical journey_3.webm",
 					"type": "audio/webm; codecs=opus",
 					"sid": 978227010609027
+				},
+				{
+					"name": "mixkit-aquatic-creature-scream-2203.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 641817251258339
+				},
+				{
+					"name": "mixkit-jumping-into-water-1304.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 207691671292702
 				}
 			],
 			"subfolders": []

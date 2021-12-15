@@ -11,7 +11,16 @@
 			"sid": 249079859377641
 		}
 	],
-	"effectTypes": [],
+	"effectTypes": [
+		{
+			"effectId": "lumblend",
+			"name": "Luminosity"
+		},
+		{
+			"effectId": "fogexponential",
+			"name": "Fogexponential"
+		}
+	],
 	"image": {
 		"width": 250,
 		"height": 250,

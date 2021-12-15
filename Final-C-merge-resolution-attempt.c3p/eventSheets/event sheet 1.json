@@ -194,6 +194,30 @@
 			"eventType": "block",
 			"conditions": [
 				{
+					"id": "is-any-playing",
+					"objectClass": "Audio",
+					"sid": 856717341058220
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 302364483066944,
+					"parameters": {
+						"audio-file": "mixkit-creepy-cavern-ambience-loop-2492",
+						"loop": "not-looping",
+						"volume": "-45",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 294696952115161
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
 					"id": "on-collision-with-another-object",
 					"objectClass": "player",
 					"sid": 384072718898747,
@@ -1097,11 +1121,11 @@
 				{
 					"id": "play",
 					"objectClass": "Audio",
-					"sid": 809413263398023,
+					"sid": 632896970688403,
 					"parameters": {
 						"audio-file": "mixkit-sword-slides-a-body-2791",
 						"loop": "not-looping",
-						"volume": "-12",
+						"volume": "-20",
 						"tag-optional": "\"\""
 					}
 				}
@@ -1157,11 +1181,11 @@
 				{
 					"id": "play",
 					"objectClass": "Audio",
-					"sid": 122514334229263,
+					"sid": 448862918351875,
 					"parameters": {
 						"audio-file": "mixkit-angry-dragon-roar-echo-1727",
 						"loop": "not-looping",
-						"volume": "-12",
+						"volume": "-20",
 						"tag-optional": "\"\""
 					}
 				},

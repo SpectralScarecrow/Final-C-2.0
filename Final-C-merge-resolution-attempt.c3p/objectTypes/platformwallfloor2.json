@@ -11,7 +11,20 @@
 			"sid": 522365788767666
 		}
 	],
-	"effectTypes": [],
+	"effectTypes": [
+		{
+			"effectId": "lumblend",
+			"name": "Luminosity"
+		},
+		{
+			"effectId": "exclusion",
+			"name": "Exclusion"
+		},
+		{
+			"effectId": "gamma",
+			"name": "Gamma"
+		}
+	],
 	"image": {
 		"width": 250,
 		"height": 250,

@@ -11,7 +11,12 @@
 			"sid": 589479372090388
 		}
 	],
-	"effectTypes": [],
+	"effectTypes": [
+		{
+			"effectId": "waterbg",
+			"name": "WaterBackground"
+		}
+	],
 	"image": {
 		"width": 250,
 		"height": 250,

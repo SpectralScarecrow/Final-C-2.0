@@ -146,6 +146,21 @@
 					"uid": 642,
 					"instanceVariables": {},
 					"behaviors": {},
+					"effects": {
+						"Water": {
+							"parameters": {
+								"speed": 0.1,
+								"x-speed": 0.3,
+								"y-speed": 0.3,
+								"intensity": 3,
+								"frequency": 4,
+								"angle": 7,
+								"delta": 20,
+								"reflectivity": 400,
+								"emboss": 0.3
+							}
+						}
+					},
 					"world": {
 						"x": 35528.35015584237,
 						"y": 24642.61537048734,
@@ -175,6 +190,21 @@
 					"uid": 585,
 					"instanceVariables": {},
 					"behaviors": {},
+					"effects": {
+						"Water": {
+							"parameters": {
+								"speed": 0.1,
+								"x-speed": 0.3,
+								"y-speed": 0.3,
+								"intensity": 3,
+								"frequency": 4,
+								"angle": 7,
+								"delta": 20,
+								"reflectivity": 400,
+								"emboss": 0.3
+							}
+						}
+					},
 					"world": {
 						"x": 32435.095922982822,
 						"y": 25729.63752312306,
@@ -204,6 +234,21 @@
 					"uid": 498,
 					"instanceVariables": {},
 					"behaviors": {},
+					"effects": {
+						"Water": {
+							"parameters": {
+								"speed": 0.1,
+								"x-speed": 0.3,
+								"y-speed": 0.3,
+								"intensity": 3,
+								"frequency": 4,
+								"angle": 7,
+								"delta": 20,
+								"reflectivity": 400,
+								"emboss": 0.3
+							}
+						}
+					},
 					"world": {
 						"x": 23105.295497393123,
 						"y": 24244.136972305136,
@@ -233,6 +278,21 @@
 					"uid": 492,
 					"instanceVariables": {},
 					"behaviors": {},
+					"effects": {
+						"Water": {
+							"parameters": {
+								"speed": 0.1,
+								"x-speed": 0.3,
+								"y-speed": 0.3,
+								"intensity": 3,
+								"frequency": 4,
+								"angle": 7,
+								"delta": 20,
+								"reflectivity": 400,
+								"emboss": 0.3
+							}
+						}
+					},
 					"world": {
 						"x": 22202.129616495058,
 						"y": 23749.521720936667,
@@ -262,6 +322,21 @@
 					"uid": 65,
 					"instanceVariables": {},
 					"behaviors": {},
+					"effects": {
+						"Water": {
+							"parameters": {
+								"speed": 0.1,
+								"x-speed": 0.3,
+								"y-speed": 0.3,
+								"intensity": 3,
+								"frequency": 4,
+								"angle": 7,
+								"delta": 20,
+								"reflectivity": 400,
+								"emboss": 0.3
+							}
+						}
+					},
 					"world": {
 						"x": 23393.474043478844,
 						"y": 23204.574231680188,
@@ -291,6 +366,21 @@
 					"uid": 64,
 					"instanceVariables": {},
 					"behaviors": {},
+					"effects": {
+						"Water": {
+							"parameters": {
+								"speed": 0.1,
+								"x-speed": 0.3,
+								"y-speed": 0.3,
+								"intensity": 3,
+								"frequency": 4,
+								"angle": 7,
+								"delta": 20,
+								"reflectivity": 400,
+								"emboss": 0.3
+							}
+						}
+					},
 					"world": {
 						"x": 25898,
 						"y": 23508,
@@ -320,6 +410,21 @@
 					"uid": 59,
 					"instanceVariables": {},
 					"behaviors": {},
+					"effects": {
+						"Water": {
+							"parameters": {
+								"speed": 0.1,
+								"x-speed": 0.3,
+								"y-speed": 0.3,
+								"intensity": 3,
+								"frequency": 4,
+								"angle": 7,
+								"delta": 20,
+								"reflectivity": 400,
+								"emboss": 0.3
+							}
+						}
+					},
 					"world": {
 						"x": 26264.493667689705,
 						"y": 21349.025799723775,
@@ -349,6 +454,21 @@
 					"uid": 67,
 					"instanceVariables": {},
 					"behaviors": {},
+					"effects": {
+						"Water": {
+							"parameters": {
+								"speed": 0.1,
+								"x-speed": 0.3,
+								"y-speed": 0.3,
+								"intensity": 3,
+								"frequency": 4,
+								"angle": 7,
+								"delta": 20,
+								"reflectivity": 400,
+								"emboss": 0.3
+							}
+						}
+					},
 					"world": {
 						"x": 26346,
 						"y": 23430,
@@ -378,6 +498,21 @@
 					"uid": 63,
 					"instanceVariables": {},
 					"behaviors": {},
+					"effects": {
+						"Water": {
+							"parameters": {
+								"speed": 0.1,
+								"x-speed": 0.3,
+								"y-speed": 0.3,
+								"intensity": 3,
+								"frequency": 4,
+								"angle": 7,
+								"delta": 20,
+								"reflectivity": 400,
+								"emboss": 0.3
+							}
+						}
+					},
 					"world": {
 						"x": 26996.51679130398,
 						"y": 22601.04569054416,
@@ -2433,6 +2568,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 34986.2549013681,
 						"y": 33510.2294822287,
@@ -2470,6 +2618,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -2531,6 +2692,21 @@
 					"uid": 518,
 					"instanceVariables": {},
 					"behaviors": {},
+					"effects": {
+						"Water": {
+							"parameters": {
+								"speed": 0.1,
+								"x-speed": 0.3,
+								"y-speed": 0.3,
+								"intensity": 3,
+								"frequency": 4,
+								"angle": 7,
+								"delta": 20,
+								"reflectivity": 400,
+								"emboss": 0.3
+							}
+						}
+					},
 					"world": {
 						"x": 24915.744245389877,
 						"y": 24517.591784099215,
@@ -2560,6 +2736,21 @@
 					"uid": 517,
 					"instanceVariables": {},
 					"behaviors": {},
+					"effects": {
+						"Water": {
+							"parameters": {
+								"speed": 0.1,
+								"x-speed": 0.3,
+								"y-speed": 0.3,
+								"intensity": 3,
+								"frequency": 4,
+								"angle": 7,
+								"delta": 20,
+								"reflectivity": 400,
+								"emboss": 0.3
+							}
+						}
+					},
 					"world": {
 						"x": 25608.044740714417,
 						"y": 24617.021284923012,
@@ -3317,6 +3508,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 16355,
 						"y": 8250,
@@ -3437,6 +3633,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 13533,
 						"y": 8271,
@@ -3519,6 +3720,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 20170,
 						"y": 9453,
@@ -3557,6 +3763,11 @@
 								"enabled": true,
 								"tags": ""
 							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -3751,6 +3962,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 13527,
 						"y": 9599,
@@ -3789,6 +4005,11 @@
 								"enabled": true,
 								"tags": ""
 							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -3831,6 +4052,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 12838.997721981223,
 						"y": 9604.001227140514,
@@ -3869,6 +4095,11 @@
 								"enabled": true,
 								"tags": ""
 							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -3911,6 +4142,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 12815.255119372801,
 						"y": 6869.460769967153,
@@ -3949,6 +4185,11 @@
 								"enabled": true,
 								"tags": ""
 							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -3991,6 +4232,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 13559.148792086304,
 						"y": 9604.033621685592,
@@ -4029,6 +4275,11 @@
 								"enabled": true,
 								"tags": ""
 							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -4071,6 +4322,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 12977,
 						"y": 9111,
@@ -4109,6 +4365,11 @@
 								"enabled": true,
 								"tags": ""
 							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -4151,6 +4412,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 13463,
 						"y": 8824,
@@ -4191,6 +4457,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 13253.00226981864,
 						"y": 8806.951981442977,
@@ -4229,6 +4500,11 @@
 								"enabled": true,
 								"tags": ""
 							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -4329,6 +4605,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 17024,
 						"y": 9483,
@@ -4367,6 +4648,11 @@
 								"enabled": true,
 								"tags": ""
 							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -4409,6 +4695,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 18416,
 						"y": 9489,
@@ -4447,6 +4738,11 @@
 								"enabled": true,
 								"tags": ""
 							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -4489,6 +4785,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 22136.75680137142,
 						"y": 9451.93569753642,
@@ -4527,6 +4828,11 @@
 								"enabled": true,
 								"tags": ""
 							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -4569,6 +4875,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 22410.597448906396,
 						"y": 9580.402551093606,
@@ -4607,6 +4918,11 @@
 								"enabled": true,
 								"tags": ""
 							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -4649,6 +4965,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 23970.562162871676,
 						"y": 8429.859885920605,
@@ -4687,6 +5008,11 @@
 								"enabled": true,
 								"tags": ""
 							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -4729,6 +5055,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 22140,
 						"y": 9253,
@@ -4767,6 +5098,11 @@
 								"enabled": true,
 								"tags": ""
 							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -4809,6 +5145,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 23261,
 						"y": 9159,
@@ -4847,6 +5188,11 @@
 								"enabled": true,
 								"tags": ""
 							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -4889,6 +5235,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 23125,
 						"y": 8788,
@@ -4927,6 +5278,11 @@
 								"enabled": true,
 								"tags": ""
 							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -4969,6 +5325,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 23383,
 						"y": 9440,
@@ -5007,6 +5368,11 @@
 								"enabled": true,
 								"tags": ""
 							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -5049,6 +5415,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 16483.68932880273,
 						"y": 9582.563549934028,
@@ -5087,6 +5458,11 @@
 								"enabled": true,
 								"tags": ""
 							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -5129,6 +5505,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 23179,
 						"y": 9594,
@@ -5167,6 +5548,11 @@
 								"enabled": true,
 								"tags": ""
 							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -5209,6 +5595,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 22979,
 						"y": 10075,
@@ -5249,6 +5640,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 22777,
 						"y": 10305,
@@ -5287,6 +5683,11 @@
 								"enabled": true,
 								"tags": ""
 							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -5369,6 +5770,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 23512.97064705966,
 						"y": 10624.69777008148,
@@ -5407,6 +5813,11 @@
 								"enabled": true,
 								"tags": ""
 							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -5449,6 +5860,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 23464.71358529081,
 						"y": 10625,
@@ -5487,6 +5903,11 @@
 								"enabled": true,
 								"tags": ""
 							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -5529,6 +5950,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 23875,
 						"y": 10079.817421405045,
@@ -5569,6 +5995,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 23921.311842882016,
 						"y": 10369.655921441008,
@@ -5606,6 +6037,21 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"WaterBackground": {
+							"parameters": {
+								"speed": 0.1,
+								"x-speed": 0.3,
+								"y-speed": 0.3,
+								"intensity": 3,
+								"frequency": 4,
+								"angle": 7,
+								"delta": 20,
+								"reflectivity": 400,
+								"emboss": 0.3
 							}
 						}
 					},
@@ -5649,6 +6095,21 @@
 							}
 						}
 					},
+					"effects": {
+						"WaterBackground": {
+							"parameters": {
+								"speed": 0.1,
+								"x-speed": 0.3,
+								"y-speed": 0.3,
+								"intensity": 3,
+								"frequency": 4,
+								"angle": 7,
+								"delta": 20,
+								"reflectivity": 400,
+								"emboss": 0.3
+							}
+						}
+					},
 					"world": {
 						"x": 23919,
 						"y": 9643,
@@ -5687,6 +6148,11 @@
 								"enabled": true,
 								"tags": ""
 							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -5990,6 +6456,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 22210.79747735815,
 						"y": 10337.392432074455,
@@ -6028,6 +6499,11 @@
 								"enabled": true,
 								"tags": ""
 							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -6070,6 +6546,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 22953.51544908709,
 						"y": 10918,
@@ -6108,6 +6589,11 @@
 								"enabled": true,
 								"tags": ""
 							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -6150,6 +6636,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 22953,
 						"y": 10698,
@@ -6188,6 +6679,11 @@
 								"enabled": true,
 								"tags": ""
 							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -6230,6 +6726,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 21074,
 						"y": 9433,
@@ -6268,6 +6769,11 @@
 								"enabled": true,
 								"tags": ""
 							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -6368,6 +6874,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 19924,
 						"y": 9736,
@@ -6406,6 +6917,11 @@
 								"enabled": true,
 								"tags": ""
 							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -6448,6 +6964,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 20325,
 						"y": 9871,
@@ -6486,6 +7007,11 @@
 								"enabled": true,
 								"tags": ""
 							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -6528,6 +7054,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 20512,
 						"y": 10114,
@@ -6566,6 +7097,11 @@
 								"enabled": true,
 								"tags": ""
 							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -6608,6 +7144,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 20689,
 						"y": 10318,
@@ -6648,6 +7189,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 15351,
 						"y": 13882,
@@ -6686,6 +7232,11 @@
 								"enabled": true,
 								"tags": ""
 							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -6768,6 +7319,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 18486.99590329383,
 						"y": 13891.992611654772,
@@ -6808,6 +7364,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 17908.99918617989,
 						"y": 13881.991793794816,
@@ -6846,6 +7407,11 @@
 								"enabled": true,
 								"tags": ""
 							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -6968,6 +7534,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 15322,
 						"y": 13960,
@@ -7006,6 +7577,11 @@
 								"enabled": true,
 								"tags": ""
 							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -7048,6 +7624,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 18899,
 						"y": 13891,
@@ -7086,6 +7667,11 @@
 								"enabled": true,
 								"tags": ""
 							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -7128,6 +7714,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 19335.073251196573,
 						"y": 14911.563545740513,
@@ -7168,6 +7759,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 16492.10909422216,
 						"y": 14234.087362620701,
@@ -7206,6 +7802,11 @@
 								"enabled": true,
 								"tags": ""
 							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -7433,6 +8034,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 19043.073304876412,
 						"y": 15115.3654365646,
@@ -7471,6 +8077,11 @@
 								"enabled": true,
 								"tags": ""
 							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -7513,6 +8124,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 17059,
 						"y": 14921,
@@ -7553,6 +8169,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 19335,
 						"y": 14906,
@@ -7591,6 +8212,11 @@
 								"enabled": true,
 								"tags": ""
 							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -7720,6 +8346,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 17071.55917182657,
 						"y": 15668.032546439126,
@@ -7758,6 +8389,11 @@
 								"enabled": true,
 								"tags": ""
 							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -7800,6 +8436,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 17053,
 						"y": 15345,
@@ -7838,6 +8479,11 @@
 								"enabled": true,
 								"tags": ""
 							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -7880,6 +8526,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 19049,
 						"y": 15459,
@@ -7918,6 +8569,11 @@
 								"enabled": true,
 								"tags": ""
 							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -7960,6 +8616,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 17909.60022539102,
 						"y": 14892.768049870318,
@@ -7998,6 +8659,11 @@
 								"enabled": true,
 								"tags": ""
 							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -8040,6 +8706,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 17906,
 						"y": 14573,
@@ -8078,6 +8749,11 @@
 								"enabled": true,
 								"tags": ""
 							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -8120,6 +8796,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 17908,
 						"y": 14221,
@@ -8158,6 +8839,11 @@
 								"enabled": true,
 								"tags": ""
 							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -8258,6 +8944,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 14561.984910241565,
 						"y": 9162.895203888162,
@@ -8296,6 +8987,11 @@
 								"enabled": true,
 								"tags": ""
 							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -8338,6 +9034,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 14690.568716740741,
 						"y": 13315.75055082482,
@@ -8376,6 +9077,11 @@
 								"enabled": true,
 								"tags": ""
 							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -8498,6 +9204,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 16518,
 						"y": 16508,
@@ -8536,6 +9247,11 @@
 								"enabled": true,
 								"tags": ""
 							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -8658,6 +9374,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 15582,
 						"y": 16699,
@@ -8696,6 +9417,11 @@
 								"enabled": true,
 								"tags": ""
 							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -8738,6 +9464,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 15318,
 						"y": 16689.255110118247,
@@ -8776,6 +9507,11 @@
 								"enabled": true,
 								"tags": ""
 							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -8818,6 +9554,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 16190.077256328646,
 						"y": 15671,
@@ -8856,6 +9597,11 @@
 								"enabled": true,
 								"tags": ""
 							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -8898,6 +9644,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 15348.81251540233,
 						"y": 15545.929908908474,
@@ -8936,6 +9687,11 @@
 								"enabled": true,
 								"tags": ""
 							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -8978,6 +9734,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 15613,
 						"y": 16463.481300827687,
@@ -9016,6 +9777,11 @@
 								"enabled": true,
 								"tags": ""
 							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -9058,6 +9824,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 15615.255110118247,
 						"y": 15929,
@@ -9096,6 +9867,11 @@
 								"enabled": true,
 								"tags": ""
 							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -9138,6 +9914,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 16272,
 						"y": 15188,
@@ -9178,6 +9959,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 15961.81016260346,
 						"y": 15186.18983739654,
@@ -9216,6 +10002,11 @@
 								"enabled": true,
 								"tags": ""
 							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -9287,6 +10078,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 17930,
 						"y": 16626,
@@ -9325,6 +10121,11 @@
 								"enabled": true,
 								"tags": ""
 							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -9367,6 +10168,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 17925,
 						"y": 16447,
@@ -9405,6 +10211,11 @@
 								"enabled": true,
 								"tags": ""
 							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -9447,6 +10258,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 19111,
 						"y": 16998,
@@ -9487,6 +10303,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 17922,
 						"y": 16992,
@@ -9525,6 +10346,11 @@
 								"enabled": true,
 								"tags": ""
 							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -9654,6 +10480,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 19174.93807407062,
 						"y": 15966.225883805198,
@@ -9692,6 +10523,11 @@
 								"enabled": true,
 								"tags": ""
 							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -9734,6 +10570,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 20686.98247447553,
 						"y": 15957,
@@ -9772,6 +10613,11 @@
 								"enabled": true,
 								"tags": ""
 							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -9814,6 +10660,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 21647.769577563213,
 						"y": 16003.787976302732,
@@ -9852,6 +10703,11 @@
 								"enabled": true,
 								"tags": ""
 							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -9894,6 +10750,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 20726,
 						"y": 17001,
@@ -9932,6 +10793,11 @@
 								"enabled": true,
 								"tags": ""
 							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -10135,6 +11001,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 20703.93877239802,
 						"y": 13363.837186836014,
@@ -10173,6 +11044,11 @@
 								"enabled": true,
 								"tags": ""
 							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -10341,6 +11217,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 19444.941752877185,
 						"y": 16804.22343532296,
@@ -10379,6 +11260,11 @@
 								"enabled": true,
 								"tags": ""
 							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -10421,6 +11307,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 19312,
 						"y": 16412,
@@ -10459,6 +11350,11 @@
 								"enabled": true,
 								"tags": ""
 							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -10501,6 +11397,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 20695,
 						"y": 16465,
@@ -10539,6 +11440,11 @@
 								"enabled": true,
 								"tags": ""
 							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -10581,6 +11487,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 21268,
 						"y": 16769,
@@ -10619,6 +11530,11 @@
 								"enabled": true,
 								"tags": ""
 							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -10661,6 +11577,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 21228,
 						"y": 16459,
@@ -10701,6 +11622,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 19616,
 						"y": 16240,
@@ -10739,6 +11665,11 @@
 								"enabled": true,
 								"tags": ""
 							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -10821,6 +11752,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 22226.41810198243,
 						"y": 16993.98479121648,
@@ -10861,6 +11797,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 21658,
 						"y": 16992,
@@ -10899,6 +11840,11 @@
 								"enabled": true,
 								"tags": ""
 							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -10981,6 +11927,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 21609,
 						"y": 16689,
@@ -11019,6 +11970,11 @@
 								"enabled": true,
 								"tags": ""
 							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -11119,6 +12075,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 23887.21719113638,
 						"y": 16584.043452791804,
@@ -11157,6 +12118,11 @@
 								"enabled": true,
 								"tags": ""
 							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -11199,6 +12165,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 24417.089206430275,
 						"y": 17505.24395472815,
@@ -11237,6 +12208,11 @@
 								"enabled": true,
 								"tags": ""
 							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -11319,6 +12295,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 23878.820827795153,
 						"y": 17499.20515601873,
@@ -11357,6 +12338,11 @@
 								"enabled": true,
 								"tags": ""
 							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -11439,6 +12425,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 24413.060225080895,
 						"y": 17734.268959840436,
@@ -11477,6 +12468,11 @@
 								"enabled": true,
 								"tags": ""
 							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -11519,6 +12515,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 24456.998312746487,
 						"y": 17458.998310846466,
@@ -11559,6 +12560,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 24447,
 						"y": 16967,
@@ -11597,6 +12603,11 @@
 								"enabled": true,
 								"tags": ""
 							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -11726,6 +12737,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 23714,
 						"y": 16788,
@@ -11764,6 +12780,11 @@
 								"enabled": true,
 								"tags": ""
 							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -12606,6 +13627,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 14689.107381622382,
 						"y": 13314.035793874127,
@@ -12646,6 +13672,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 15384.420953166758,
 						"y": 12979.099019523792,
@@ -12684,6 +13715,11 @@
 								"enabled": true,
 								"tags": ""
 							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -13177,8 +14213,8 @@
 						}
 					},
 					"world": {
-						"x": 18790,
-						"y": 8083,
+						"x": 13803,
+						"y": 448,
 						"width": 85.5533244210087,
 						"height": 93.0610607888342,
 						"originX": 0.4146341463414634,
@@ -13944,8 +14980,8 @@
 						}
 					},
 					"world": {
-						"x": 13898,
-						"y": 432,
+						"x": 13955,
+						"y": 431,
 						"width": 490,
 						"height": 228,
 						"originX": 0.5,
@@ -15011,6 +16047,23 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
+							}
+						}
+					},
 					"world": {
 						"x": 37039.31479679628,
 						"y": 33519.78086720062,
@@ -15048,6 +16101,23 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
 							}
 						}
 					},
@@ -15091,6 +16161,23 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
+							}
+						}
+					},
 					"world": {
 						"x": 37900.18312572232,
 						"y": 33724.570234955216,
@@ -15128,6 +16215,23 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
 							}
 						}
 					},
@@ -15494,6 +16598,23 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
+							}
+						}
+					},
 					"world": {
 						"x": 38420.95133164089,
 						"y": 33891.91141480706,
@@ -15531,6 +16652,23 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
 							}
 						}
 					},
@@ -15574,6 +16712,23 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
+							}
+						}
+					},
 					"world": {
 						"x": 39242.955466529136,
 						"y": 34127.02574869482,
@@ -15611,6 +16766,23 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
 							}
 						}
 					},
@@ -15654,6 +16826,23 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
+							}
+						}
+					},
 					"world": {
 						"x": 38421.09952219717,
 						"y": 33288.96162754453,
@@ -15691,6 +16880,23 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
 							}
 						}
 					},
@@ -15789,6 +16995,23 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
 							}
 						}
 					},
@@ -15952,6 +17175,23 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
+							}
+						}
+					},
 					"world": {
 						"x": 39223.13316832698,
 						"y": 33161.71077231196,
@@ -15989,6 +17229,23 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
 							}
 						}
 					},
@@ -16072,6 +17329,23 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
+							}
+						}
+					},
 					"world": {
 						"x": 41152,
 						"y": 33861,
@@ -16109,6 +17383,23 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
 							}
 						}
 					},
@@ -16185,6 +17476,23 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
+							}
+						}
+					},
 					"world": {
 						"x": 42092,
 						"y": 33184,
@@ -16222,6 +17530,23 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
 							}
 						}
 					},
@@ -16265,6 +17590,23 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
+							}
+						}
+					},
 					"world": {
 						"x": 40376,
 						"y": 34025,
@@ -16305,6 +17647,23 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
+							}
+						}
+					},
 					"world": {
 						"x": 39815,
 						"y": 34004,
@@ -16342,6 +17701,23 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
 							}
 						}
 					},
@@ -16523,6 +17899,23 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
+							}
+						}
+					},
 					"world": {
 						"x": 42086,
 						"y": 33398,
@@ -16560,6 +17953,23 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
 							}
 						}
 					},
@@ -16603,6 +18013,23 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
+							}
+						}
+					},
 					"world": {
 						"x": 42088,
 						"y": 33113,
@@ -16640,6 +18067,23 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
 							}
 						}
 					},
@@ -16683,6 +18127,23 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
+							}
+						}
+					},
 					"world": {
 						"x": 42725.41131848524,
 						"y": 33150.257786475275,
@@ -16723,6 +18184,23 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
+							}
+						}
+					},
 					"world": {
 						"x": 42089,
 						"y": 33551,
@@ -16760,6 +18238,23 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
 							}
 						}
 					},
@@ -16829,6 +18324,23 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
 							}
 						}
 					},
@@ -16944,6 +18456,23 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
+							}
+						}
+					},
 					"world": {
 						"x": 44386,
 						"y": 33760,
@@ -17050,6 +18579,23 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
 							}
 						}
 					},
@@ -17162,6 +18708,23 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
+							}
+						}
+					},
 					"world": {
 						"x": 42713,
 						"y": 35603,
@@ -17202,6 +18765,23 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
+							}
+						}
+					},
 					"world": {
 						"x": 43056.70923024198,
 						"y": 35571.647849425775,
@@ -17239,6 +18819,23 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
 							}
 						}
 					},
@@ -17319,6 +18916,23 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
 							}
 						}
 					},
@@ -17729,6 +19343,23 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
+							}
+						}
+					},
 					"world": {
 						"x": 36323.54094497794,
 						"y": 37509.9959504096,
@@ -17766,6 +19397,23 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
 							}
 						}
 					},
@@ -17809,6 +19457,23 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
+							}
+						}
+					},
 					"world": {
 						"x": 51855.28726470673,
 						"y": 42331.064447132165,
@@ -17846,6 +19511,23 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
 							}
 						}
 					},
@@ -18349,6 +20031,23 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
+							}
+						}
+					},
 					"world": {
 						"x": 48003.104537106155,
 						"y": 40662.422219123255,
@@ -18386,6 +20085,23 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
 							}
 						}
 					},
@@ -18501,6 +20217,23 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
+							}
+						}
+					},
 					"world": {
 						"x": 46102,
 						"y": 39461,
@@ -18538,6 +20271,23 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
 							}
 						}
 					},
@@ -18741,6 +20491,23 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
+							}
+						}
+					},
 					"world": {
 						"x": 40627,
 						"y": 39444,
@@ -18858,6 +20625,23 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
 							}
 						}
 					},
@@ -19061,6 +20845,23 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
+							}
+						}
+					},
 					"world": {
 						"x": 35594,
 						"y": 39379,
@@ -19098,6 +20899,23 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
 							}
 						}
 					},
@@ -19141,6 +20959,23 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
+							}
+						}
+					},
 					"world": {
 						"x": 35598.9412623854,
 						"y": 38869.00518455013,
@@ -19178,6 +21013,23 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
 							}
 						}
 					},
@@ -19221,6 +21073,23 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
+							}
+						}
+					},
 					"world": {
 						"x": 35596.48106600489,
 						"y": 39524.24965802017,
@@ -19258,6 +21127,23 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
 							}
 						}
 					},
@@ -19373,9 +21259,26 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
+							}
+						}
+					},
 					"world": {
-						"x": 36635.576132837916,
-						"y": 39025.78788950965,
+						"x": 26051,
+						"y": 15870,
 						"width": 40.611359526719134,
 						"height": 190.90653565623523,
 						"originX": 0,
@@ -19521,6 +21424,23 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
+							}
+						}
+					},
 					"world": {
 						"x": 37159.8890461416,
 						"y": 38996.42422098069,
@@ -19630,6 +21550,23 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
 							}
 						}
 					},
@@ -19745,6 +21682,23 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
+							}
+						}
+					},
 					"world": {
 						"x": 36827,
 						"y": 38546,
@@ -19782,6 +21736,23 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
 							}
 						}
 					},
@@ -19825,6 +21796,23 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
+							}
+						}
+					},
 					"world": {
 						"x": 34758,
 						"y": 39387,
@@ -19862,6 +21850,23 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
 							}
 						}
 					},
@@ -20028,6 +22033,23 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
+							}
+						}
+					},
 					"world": {
 						"x": 45905,
 						"y": 40488,
@@ -20104,6 +22126,23 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
+							}
+						}
+					},
 					"world": {
 						"x": 46785,
 						"y": 40778,
@@ -20141,6 +22180,23 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
 							}
 						}
 					},
@@ -20336,6 +22392,23 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
+							}
+						}
+					},
 					"world": {
 						"x": 44415.386277136,
 						"y": 40715.99461878984,
@@ -20373,6 +22446,23 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
 							}
 						}
 					},
@@ -20478,6 +22568,23 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
 							}
 						}
 					},
@@ -20810,6 +22917,23 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
+							}
+						}
+					},
 					"world": {
 						"x": 45035,
 						"y": 40981,
@@ -21042,6 +23166,23 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
+							}
+						}
+					},
 					"world": {
 						"x": 41835,
 						"y": 41241,
@@ -21270,6 +23411,23 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
+							}
+						}
+					},
 					"world": {
 						"x": 42357.08668289599,
 						"y": 41506.11388263923,
@@ -21307,6 +23465,23 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
 							}
 						}
 					},
@@ -21582,6 +23757,23 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
+							}
+						}
+					},
 					"world": {
 						"x": 41642,
 						"y": 41148,
@@ -21658,6 +23850,23 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
+							}
+						}
+					},
 					"world": {
 						"x": 40245,
 						"y": 41908,
@@ -21698,6 +23907,23 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
+							}
+						}
+					},
 					"world": {
 						"x": 42608.58575789835,
 						"y": 41643.15520732022,
@@ -21735,6 +23961,23 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
 							}
 						}
 					},
@@ -21923,6 +24166,23 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
+							}
+						}
+					},
 					"world": {
 						"x": 42625,
 						"y": 42142,
@@ -21989,6 +24249,23 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
 							}
 						}
 					},
@@ -22397,6 +24674,23 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
+							}
+						}
+					},
 					"world": {
 						"x": 45077,
 						"y": 43398,
@@ -22434,6 +24728,23 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
 							}
 						}
 					},
@@ -22549,6 +24860,23 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
+							}
+						}
+					},
 					"world": {
 						"x": 44915.50505253254,
 						"y": 44475.12784035165,
@@ -22586,6 +24914,23 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
 							}
 						}
 					},
@@ -22763,6 +25108,23 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
 							}
 						}
 					},
@@ -23921,6 +26283,23 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
+							}
+						}
+					},
 					"world": {
 						"x": 37529.526380867595,
 						"y": 46786.79417993824,
@@ -24023,6 +26402,23 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
 							}
 						}
 					},
@@ -24131,6 +26527,23 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
+							}
+						}
+					},
 					"world": {
 						"x": 36665,
 						"y": 46856,
@@ -24233,6 +26646,23 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
 							}
 						}
 					},
@@ -24341,6 +26771,23 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
+							}
+						}
+					},
 					"world": {
 						"x": 35731,
 						"y": 46276,
@@ -24446,6 +26893,23 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
+							}
+						}
+					},
 					"world": {
 						"x": 36497,
 						"y": 45659,
@@ -24548,6 +27012,23 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
 							}
 						}
 					},
@@ -24692,6 +27173,23 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
+							}
+						}
+					},
 					"world": {
 						"x": 34798.201699030215,
 						"y": 47596.04560924371,
@@ -24732,6 +27230,23 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
+							}
+						}
+					},
 					"world": {
 						"x": 35877.69555510212,
 						"y": 47587.67247763538,
@@ -24769,6 +27284,23 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
 							}
 						}
 					},
@@ -24892,6 +27424,23 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
+							}
+						}
+					},
 					"world": {
 						"x": 32496,
 						"y": 49187,
@@ -24929,6 +27478,23 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
 							}
 						}
 					},
@@ -25052,6 +27618,23 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
+							}
+						}
+					},
 					"world": {
 						"x": 33493.16958081052,
 						"y": 49689.860242884475,
@@ -25089,6 +27672,23 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
 							}
 						}
 					},
@@ -25132,6 +27732,23 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
+							}
+						}
+					},
 					"world": {
 						"x": 34320.67979807968,
 						"y": 49679.23611830461,
@@ -25169,6 +27786,23 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
 							}
 						}
 					},
@@ -25248,6 +27882,23 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
+							}
+						}
+					},
 					"world": {
 						"x": 34563.05557215741,
 						"y": 51034.05506214867,
@@ -25285,6 +27936,23 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
 							}
 						}
 					},
@@ -25328,6 +27996,23 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
+							}
+						}
+					},
 					"world": {
 						"x": 35474,
 						"y": 50465,
@@ -25365,6 +28050,23 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
 							}
 						}
 					},
@@ -25408,6 +28110,23 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
+							}
+						}
+					},
 					"world": {
 						"x": 34814.89633536089,
 						"y": 51024.850664680875,
@@ -25445,6 +28164,23 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
 							}
 						}
 					},
@@ -25669,6 +28405,23 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
 							}
 						}
 					},
@@ -27414,6 +30167,23 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
+							}
+						}
+					},
 					"world": {
 						"x": 48397,
 						"y": 52761,
@@ -27451,6 +30221,23 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
 							}
 						}
 					},
@@ -27524,6 +30311,23 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
 							}
 						}
 					},
@@ -27647,6 +30451,23 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
+							}
+						}
+					},
 					"world": {
 						"x": 50131,
 						"y": 52526,
@@ -27684,6 +30505,23 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
 							}
 						}
 					},
@@ -27727,6 +30565,23 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
+							}
+						}
+					},
 					"world": {
 						"x": 50960,
 						"y": 52850,
@@ -27764,6 +30619,23 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
 							}
 						}
 					},
@@ -27807,6 +30679,23 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
+							}
+						}
+					},
 					"world": {
 						"x": 50122,
 						"y": 52878,
@@ -27844,6 +30733,23 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
 							}
 						}
 					},
@@ -27887,6 +30793,23 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
+							}
+						}
+					},
 					"world": {
 						"x": 50959,
 						"y": 52405,
@@ -27924,6 +30847,23 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
 							}
 						}
 					},
@@ -27967,6 +30907,23 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
+							}
+						}
+					},
 					"world": {
 						"x": 50906,
 						"y": 52301,
@@ -28004,6 +30961,23 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
 							}
 						}
 					},
@@ -28376,6 +31350,23 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
 							}
 						}
 					},
@@ -28970,6 +31961,23 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
+							}
+						}
+					},
 					"world": {
 						"x": 56208,
 						"y": 54109,
@@ -29010,6 +32018,23 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
+							}
+						}
+					},
 					"world": {
 						"x": 55487,
 						"y": 52548,
@@ -29047,6 +32072,23 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
 							}
 						}
 					},
@@ -29293,6 +32335,23 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
+							}
+						}
+					},
 					"world": {
 						"x": 55880,
 						"y": 54082,
@@ -29330,6 +32389,23 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
 							}
 						}
 					},
@@ -29373,6 +32449,23 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
+							}
+						}
+					},
 					"world": {
 						"x": 55879,
 						"y": 54785,
@@ -29411,6 +32504,11 @@
 								"enabled": true,
 								"tags": ""
 							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -30119,6 +33217,23 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
+							}
+						}
+					},
 					"world": {
 						"x": 41015,
 						"y": 34109,
@@ -30156,6 +33271,23 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
 							}
 						}
 					},
@@ -30254,6 +33386,23 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
 							}
 						}
 					},
@@ -31219,6 +34368,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 15686.983492588373,
 						"y": 8297.805827270864,
@@ -31848,6 +35002,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 18430,
 						"y": 8140,
@@ -31886,6 +35045,11 @@
 								"enabled": true,
 								"tags": ""
 							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -31928,6 +35092,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 15676,
 						"y": 7618,
@@ -31966,6 +35135,11 @@
 								"enabled": true,
 								"tags": ""
 							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -32008,6 +35182,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 18816,
 						"y": 7858,
@@ -32046,6 +35225,11 @@
 								"enabled": true,
 								"tags": ""
 							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -32088,6 +35272,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 15679,
 						"y": 7264,
@@ -32126,6 +35315,11 @@
 								"enabled": true,
 								"tags": ""
 							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -32168,6 +35362,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 20218,
 						"y": 6817,
@@ -32206,6 +35405,11 @@
 								"enabled": true,
 								"tags": ""
 							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -32248,6 +35452,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 17900,
 						"y": 13944,
@@ -32285,6 +35494,23 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
 							}
 						}
 					},
@@ -47870,6 +51096,23 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
+							}
+						}
+					},
 					"world": {
 						"x": 40891,
 						"y": 33315,
@@ -47907,6 +51150,23 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
 							}
 						}
 					},
@@ -48066,6 +51326,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 38662,
 						"y": 25161,
@@ -48103,6 +51376,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -48146,6 +51432,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 38471.22273870658,
 						"y": 24741.14375031761,
@@ -48183,6 +51482,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -48224,6 +51536,11 @@
 								"enabled": true,
 								"tags": ""
 							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -49630,6 +52947,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 20490.726656667324,
 						"y": 14286.041672898553,
@@ -49670,6 +52992,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 20110,
 						"y": 13962,
@@ -49708,6 +53035,11 @@
 								"enabled": true,
 								"tags": ""
 							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -49792,6 +53124,11 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						}
+					},
 					"world": {
 						"x": 20164,
 						"y": 8408,
@@ -49821,6 +53158,21 @@
 					"uid": 57,
 					"instanceVariables": {},
 					"behaviors": {},
+					"effects": {
+						"Water": {
+							"parameters": {
+								"speed": 0.1,
+								"x-speed": 0.3,
+								"y-speed": 0.3,
+								"intensity": 3,
+								"frequency": 4,
+								"angle": 7,
+								"delta": 20,
+								"reflectivity": 400,
+								"emboss": 0.3
+							}
+						}
+					},
 					"world": {
 						"x": 25838,
 						"y": 19390,
@@ -49861,6 +53213,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 25114.775618176835,
 						"y": 21200.164965702643,
@@ -49898,6 +53263,23 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
 							}
 						}
 					},
@@ -50013,6 +53395,23 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
+							}
+						}
+					},
 					"world": {
 						"x": 35483.84376240294,
 						"y": 50469.96007027874,
@@ -50050,6 +53449,23 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
 							}
 						}
 					},
@@ -50419,6 +53835,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 22891.140578698847,
 						"y": 24357.857068369518,
@@ -50456,6 +53885,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -50499,6 +53941,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 23083.072054556094,
 						"y": 24575,
@@ -50537,6 +53992,11 @@
 								"enabled": true,
 								"tags": ""
 							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -50871,8 +54331,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 28852.5,
-						"y": 13306,
+						"x": 34536,
+						"y": 12126,
 						"width": 7371,
 						"height": 5810.874687006673,
 						"originX": 0.5,
@@ -50899,6 +54359,21 @@
 					"uid": 422,
 					"instanceVariables": {},
 					"behaviors": {},
+					"effects": {
+						"Water": {
+							"parameters": {
+								"speed": 0.1,
+								"x-speed": 0.3,
+								"y-speed": 0.3,
+								"intensity": 3,
+								"frequency": 4,
+								"angle": 7,
+								"delta": 20,
+								"reflectivity": 400,
+								"emboss": 0.3
+							}
+						}
+					},
 					"world": {
 						"x": 27435.5,
 						"y": 17820,
@@ -50928,6 +54403,21 @@
 					"uid": 634,
 					"instanceVariables": {},
 					"behaviors": {},
+					"effects": {
+						"Water": {
+							"parameters": {
+								"speed": 0.1,
+								"x-speed": 0.3,
+								"y-speed": 0.3,
+								"intensity": 3,
+								"frequency": 4,
+								"angle": 7,
+								"delta": 20,
+								"reflectivity": 400,
+								"emboss": 0.3
+							}
+						}
+					},
 					"world": {
 						"x": 37097.4328041235,
 						"y": 24105.85639204312,
@@ -50957,6 +54447,21 @@
 					"uid": 556,
 					"instanceVariables": {},
 					"behaviors": {},
+					"effects": {
+						"Water": {
+							"parameters": {
+								"speed": 0.1,
+								"x-speed": 0.3,
+								"y-speed": 0.3,
+								"intensity": 3,
+								"frequency": 4,
+								"angle": 7,
+								"delta": 20,
+								"reflectivity": 400,
+								"emboss": 0.3
+							}
+						}
+					},
 					"world": {
 						"x": 29729.995787684955,
 						"y": 25352.519347486545,
@@ -50986,6 +54491,21 @@
 					"uid": 551,
 					"instanceVariables": {},
 					"behaviors": {},
+					"effects": {
+						"Water": {
+							"parameters": {
+								"speed": 0.1,
+								"x-speed": 0.3,
+								"y-speed": 0.3,
+								"intensity": 3,
+								"frequency": 4,
+								"angle": 7,
+								"delta": 20,
+								"reflectivity": 400,
+								"emboss": 0.3
+							}
+						}
+					},
 					"world": {
 						"x": 29997.500265740295,
 						"y": 25717.061865953267,
@@ -51015,6 +54535,21 @@
 					"uid": 387,
 					"instanceVariables": {},
 					"behaviors": {},
+					"effects": {
+						"Water": {
+							"parameters": {
+								"speed": 0.1,
+								"x-speed": 0.3,
+								"y-speed": 0.3,
+								"intensity": 3,
+								"frequency": 4,
+								"angle": 7,
+								"delta": 20,
+								"reflectivity": 400,
+								"emboss": 0.3
+							}
+						}
+					},
 					"world": {
 						"x": 27653,
 						"y": 17130,
@@ -51044,6 +54579,21 @@
 					"uid": 433,
 					"instanceVariables": {},
 					"behaviors": {},
+					"effects": {
+						"Water": {
+							"parameters": {
+								"speed": 0.1,
+								"x-speed": 0.3,
+								"y-speed": 0.3,
+								"intensity": 3,
+								"frequency": 4,
+								"angle": 7,
+								"delta": 20,
+								"reflectivity": 400,
+								"emboss": 0.3
+							}
+						}
+					},
 					"world": {
 						"x": 25793,
 						"y": 18985.5,
@@ -51564,6 +55114,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 25793.610688774294,
 						"y": 10367.592453608062,
@@ -51601,6 +55164,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -51673,6 +55249,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 26379.587836139697,
 						"y": 9888.090363285162,
@@ -51713,6 +55302,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 25783.037706523326,
 						"y": 9898.123620879735,
@@ -51750,6 +55352,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -51862,6 +55477,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 25754,
 						"y": 10403,
@@ -51899,6 +55527,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -51942,6 +55583,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 25874,
 						"y": 15827,
@@ -51982,6 +55636,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 25525.94060544717,
 						"y": 17450.29693186526,
@@ -52019,6 +55686,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -52104,6 +55784,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 28704,
 						"y": 16198,
@@ -52144,6 +55837,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 26627.448924792414,
 						"y": 17697.80987912819,
@@ -52181,6 +55887,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -52253,6 +55972,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 25358,
 						"y": 16647,
@@ -52290,6 +56022,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -52333,6 +56078,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 25360.989370347557,
 						"y": 16906.01070551832,
@@ -52370,6 +56128,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -52413,6 +56184,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 25536,
 						"y": 17199,
@@ -52450,6 +56234,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -52493,6 +56290,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 27224.16000345429,
 						"y": 17026.993907848402,
@@ -52530,6 +56340,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -52573,6 +56396,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 27080.981183857366,
 						"y": 16769.70848255444,
@@ -52610,6 +56446,21 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"WaterBackground": {
+							"parameters": {
+								"speed": 0.1,
+								"x-speed": 0.3,
+								"y-speed": 0.3,
+								"intensity": 3,
+								"frequency": 4,
+								"angle": 7,
+								"delta": 20,
+								"reflectivity": 400,
+								"emboss": 0.3
 							}
 						}
 					},
@@ -52653,6 +56504,21 @@
 							}
 						}
 					},
+					"effects": {
+						"WaterBackground": {
+							"parameters": {
+								"speed": 0.1,
+								"x-speed": 0.3,
+								"y-speed": 0.3,
+								"intensity": 3,
+								"frequency": 4,
+								"angle": 7,
+								"delta": 20,
+								"reflectivity": 400,
+								"emboss": 0.3
+							}
+						}
+					},
 					"world": {
 						"x": 28744,
 						"y": 17205,
@@ -52690,6 +56556,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -52733,6 +56612,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 29356.86757033438,
 						"y": 15806.313390702091,
@@ -52770,6 +56662,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -52813,6 +56718,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 28708.608304548998,
 						"y": 17201.01266032245,
@@ -52850,6 +56768,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -52893,6 +56824,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 29358.996393560952,
 						"y": 17642.985789197137,
@@ -52930,6 +56874,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -52973,6 +56930,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 29398.999355140037,
 						"y": 18230.818651048496,
@@ -53010,6 +56980,21 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"WaterBackground": {
+							"parameters": {
+								"speed": 0.1,
+								"x-speed": 0.3,
+								"y-speed": 0.3,
+								"intensity": 3,
+								"frequency": 4,
+								"angle": 7,
+								"delta": 20,
+								"reflectivity": 400,
+								"emboss": 0.3
 							}
 						}
 					},
@@ -53053,6 +57038,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 24440,
 						"y": 18511,
@@ -53090,6 +57088,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -53133,6 +57144,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 25105,
 						"y": 18960,
@@ -53170,6 +57194,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -53213,6 +57250,21 @@
 							}
 						}
 					},
+					"effects": {
+						"WaterBackground": {
+							"parameters": {
+								"speed": 0.1,
+								"x-speed": 0.3,
+								"y-speed": 0.3,
+								"intensity": 3,
+								"frequency": 4,
+								"angle": 7,
+								"delta": 20,
+								"reflectivity": 400,
+								"emboss": 0.3
+							}
+						}
+					},
 					"world": {
 						"x": 24474,
 						"y": 19288,
@@ -53250,6 +57302,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -53293,6 +57358,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 27214.38636306162,
 						"y": 19246.431656551737,
@@ -53330,6 +57408,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -53373,6 +57464,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 30216,
 						"y": 22739,
@@ -53410,6 +57514,21 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"WaterBackground": {
+							"parameters": {
+								"speed": 0.1,
+								"x-speed": 0.3,
+								"y-speed": 0.3,
+								"intensity": 3,
+								"frequency": 4,
+								"angle": 7,
+								"delta": 20,
+								"reflectivity": 400,
+								"emboss": 0.3
 							}
 						}
 					},
@@ -53453,6 +57572,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 24425,
 						"y": 20157,
@@ -53490,6 +57622,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -53533,6 +57678,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 25117.44768454531,
 						"y": 20741.898842686325,
@@ -53570,6 +57728,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -53613,6 +57784,21 @@
 							}
 						}
 					},
+					"effects": {
+						"WaterBackground": {
+							"parameters": {
+								"speed": 0.1,
+								"x-speed": 0.3,
+								"y-speed": 0.3,
+								"intensity": 3,
+								"frequency": 4,
+								"angle": 7,
+								"delta": 20,
+								"reflectivity": 400,
+								"emboss": 0.3
+							}
+						}
+					},
 					"world": {
 						"x": 24475,
 						"y": 21125,
@@ -53650,6 +57836,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -53693,6 +57892,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 25087,
 						"y": 21091,
@@ -53730,6 +57942,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -53773,6 +57998,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 25085,
 						"y": 21088,
@@ -53810,6 +58048,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -53853,6 +58104,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 28255.790408773595,
 						"y": 17932.725442060146,
@@ -53890,6 +58154,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -54032,6 +58309,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 28473,
 						"y": 17958,
@@ -54069,6 +58359,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -54112,6 +58415,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 25784.59569387775,
 						"y": 18301.300133842393,
@@ -54149,6 +58465,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -54192,6 +58521,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 25379,
 						"y": 18852,
@@ -54229,6 +58571,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -54272,6 +58627,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 25368,
 						"y": 18927,
@@ -54309,6 +58677,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -54352,6 +58733,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 28429.96306580569,
 						"y": 20579.168839355098,
@@ -54389,6 +58783,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -54432,6 +58839,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 23461.90242344239,
 						"y": 21101.854247842657,
@@ -54469,6 +58889,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -54512,6 +58945,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 26833,
 						"y": 21492,
@@ -54549,6 +58995,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -54683,6 +59142,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 27413,
 						"y": 21118,
@@ -54781,6 +59253,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 30220.079904485687,
 						"y": 16421.810068032995,
@@ -54818,6 +59303,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -54919,6 +59417,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 27407,
 						"y": 23673,
@@ -54959,6 +59470,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 26852.06411931111,
 						"y": 23200.031775158513,
@@ -54996,6 +59520,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -55068,6 +59605,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 24940,
 						"y": 23262,
@@ -55108,6 +59658,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 23732,
 						"y": 22901,
@@ -55145,6 +59708,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -55246,6 +59822,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 21901.479685269624,
 						"y": 22057.217111865528,
@@ -55283,6 +59872,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -55326,6 +59928,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 23004.601313133873,
 						"y": 22054.706102758424,
@@ -55363,6 +59978,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -55406,6 +60034,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 22997,
 						"y": 21740,
@@ -55443,6 +60084,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -55486,6 +60140,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 22447,
 						"y": 22853,
@@ -55523,6 +60190,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -55682,6 +60362,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 23007.1910819671,
 						"y": 22385.173301289087,
@@ -55719,6 +60412,21 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"WaterBackground": {
+							"parameters": {
+								"speed": 0.1,
+								"x-speed": 0.3,
+								"y-speed": 0.3,
+								"intensity": 3,
+								"frequency": 4,
+								"angle": 7,
+								"delta": 20,
+								"reflectivity": 400,
+								"emboss": 0.3
 							}
 						}
 					},
@@ -55762,6 +60470,21 @@
 							}
 						}
 					},
+					"effects": {
+						"WaterBackground": {
+							"parameters": {
+								"speed": 0.1,
+								"x-speed": 0.3,
+								"y-speed": 0.3,
+								"intensity": 3,
+								"frequency": 4,
+								"angle": 7,
+								"delta": 20,
+								"reflectivity": 400,
+								"emboss": 0.3
+							}
+						}
+					},
 					"world": {
 						"x": 22928.97976668608,
 						"y": 23408.062122818967,
@@ -55799,6 +60522,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -55842,6 +60578,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 21398.71077378799,
 						"y": 23390.114792322627,
@@ -55879,6 +60628,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -55922,6 +60684,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 22006.828399049446,
 						"y": 24016.194206757667,
@@ -55959,6 +60734,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -56002,6 +60790,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 22923,
 						"y": 23397,
@@ -56039,6 +60840,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -56082,6 +60896,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 24343,
 						"y": 24330,
@@ -56119,6 +60946,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -56162,6 +61002,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 24790.02364918772,
 						"y": 24684.23069668337,
@@ -56199,6 +61052,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -56242,6 +61108,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 20721.474424900185,
 						"y": 24602.90894335826,
@@ -56279,6 +61158,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -56322,6 +61214,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 21476.85346890566,
 						"y": 25245.399569600668,
@@ -56359,6 +61264,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -56402,6 +61320,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 19866.7447359374,
 						"y": 25305.83459729391,
@@ -56439,6 +61370,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -56482,6 +61426,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 25450.94165077051,
 						"y": 24622.852740655075,
@@ -56519,6 +61476,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -56562,6 +61532,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 25492,
 						"y": 24891,
@@ -56602,6 +61585,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 25774,
 						"y": 24890,
@@ -56639,6 +61635,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -56708,6 +61717,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -56896,6 +61918,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 23087,
 						"y": 24921,
@@ -57081,6 +62116,21 @@
 							}
 						}
 					},
+					"effects": {
+						"WaterBackground": {
+							"parameters": {
+								"speed": 0.1,
+								"x-speed": 0.3,
+								"y-speed": 0.3,
+								"intensity": 3,
+								"frequency": 4,
+								"angle": 7,
+								"delta": 20,
+								"reflectivity": 400,
+								"emboss": 0.3
+							}
+						}
+					},
 					"world": {
 						"x": 26658,
 						"y": 24844,
@@ -57118,6 +62168,21 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"WaterBackground": {
+							"parameters": {
+								"speed": 0.1,
+								"x-speed": 0.3,
+								"y-speed": 0.3,
+								"intensity": 3,
+								"frequency": 4,
+								"angle": 7,
+								"delta": 20,
+								"reflectivity": 400,
+								"emboss": 0.3
 							}
 						}
 					},
@@ -57161,6 +62226,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 26053.694271655884,
 						"y": 24891.814610902034,
@@ -57198,6 +62276,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -57241,6 +62332,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 26038.97404331722,
 						"y": 24560.095771339118,
@@ -57278,6 +62382,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -57321,6 +62438,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 26047,
 						"y": 25555,
@@ -57361,6 +62491,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 26711.072241354068,
 						"y": 25542.998259385673,
@@ -57398,6 +62541,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -57474,6 +62630,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 26706,
 						"y": 24888,
@@ -57511,6 +62680,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -57554,6 +62736,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 27762.314762038764,
 						"y": 24882.923931031037,
@@ -57591,6 +62786,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -57634,6 +62842,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 30679.787466622303,
 						"y": 24777.02757858893,
@@ -57671,6 +62892,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -57714,6 +62948,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 30635,
 						"y": 25186,
@@ -57751,6 +62998,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -57794,6 +63054,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 30023.982701174922,
 						"y": 25378.135185969746,
@@ -57834,6 +63107,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 30020.472385423003,
 						"y": 25314.26327025299,
@@ -57871,6 +63157,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -58291,6 +63590,21 @@
 							}
 						}
 					},
+					"effects": {
+						"WaterBackground": {
+							"parameters": {
+								"speed": 0.1,
+								"x-speed": 0.3,
+								"y-speed": 0.3,
+								"intensity": 3,
+								"frequency": 4,
+								"angle": 7,
+								"delta": 20,
+								"reflectivity": 400,
+								"emboss": 0.3
+							}
+						}
+					},
 					"world": {
 						"x": 31319.873927571818,
 						"y": 25378.703365850633,
@@ -58328,6 +63642,21 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"WaterBackground": {
+							"parameters": {
+								"speed": 0.1,
+								"x-speed": 0.3,
+								"y-speed": 0.3,
+								"intensity": 3,
+								"frequency": 4,
+								"angle": 7,
+								"delta": 20,
+								"reflectivity": 400,
+								"emboss": 0.3
 							}
 						}
 					},
@@ -58404,6 +63733,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 31322.685041153643,
 						"y": 25376.707603112765,
@@ -58441,6 +63783,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -58484,6 +63839,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 31355.86883409753,
 						"y": 24964.890984199475,
@@ -58524,6 +63892,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 31357,
 						"y": 24973,
@@ -58561,6 +63942,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -58633,6 +64027,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 31395,
 						"y": 24849,
@@ -58670,6 +64077,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -58713,6 +64133,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 31402.104081214584,
 						"y": 25007.12986198526,
@@ -58750,6 +64183,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -58793,6 +64239,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 31327,
 						"y": 26268,
@@ -58830,6 +64289,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -58873,6 +64345,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 31671.50681896585,
 						"y": 25955.59062876869,
@@ -58910,6 +64395,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -58953,6 +64451,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 35027.508417402074,
 						"y": 25177.896616526767,
@@ -58990,6 +64501,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -59033,6 +64557,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 33500,
 						"y": 25940,
@@ -59073,6 +64610,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 33506,
 						"y": 25713,
@@ -59110,6 +64660,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -59396,6 +64959,21 @@
 							}
 						}
 					},
+					"effects": {
+						"WaterBackground": {
+							"parameters": {
+								"speed": 0.1,
+								"x-speed": 0.3,
+								"y-speed": 0.3,
+								"intensity": 3,
+								"frequency": 4,
+								"angle": 7,
+								"delta": 20,
+								"reflectivity": 400,
+								"emboss": 0.3
+							}
+						}
+					},
 					"world": {
 						"x": 34184,
 						"y": 24895,
@@ -59433,6 +65011,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -59476,6 +65067,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 34232.92510842187,
 						"y": 24937.86971190652,
@@ -59513,6 +65117,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -59556,6 +65173,21 @@
 							}
 						}
 					},
+					"effects": {
+						"WaterBackground": {
+							"parameters": {
+								"speed": 0.1,
+								"x-speed": 0.3,
+								"y-speed": 0.3,
+								"intensity": 3,
+								"frequency": 4,
+								"angle": 7,
+								"delta": 20,
+								"reflectivity": 400,
+								"emboss": 0.3
+							}
+						}
+					},
 					"world": {
 						"x": 34166,
 						"y": 25377,
@@ -59596,6 +65228,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 34168,
 						"y": 25375,
@@ -59633,6 +65278,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -59738,6 +65396,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 34203.30030094158,
 						"y": 25415.068605870238,
@@ -59775,6 +65446,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -59818,6 +65502,21 @@
 							}
 						}
 					},
+					"effects": {
+						"WaterBackground": {
+							"parameters": {
+								"speed": 0.1,
+								"x-speed": 0.3,
+								"y-speed": 0.3,
+								"intensity": 3,
+								"frequency": 4,
+								"angle": 7,
+								"delta": 20,
+								"reflectivity": 400,
+								"emboss": 0.3
+							}
+						}
+					},
 					"world": {
 						"x": 37221.86110445883,
 						"y": 24895.757784078305,
@@ -59855,6 +65554,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -59898,6 +65610,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 32405.054251654172,
 						"y": 24142.716394051113,
@@ -59935,6 +65660,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -60036,6 +65774,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 38160.70570298996,
 						"y": 24932.753555357715,
@@ -60073,6 +65824,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -60116,6 +65880,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 37223.93701526191,
 						"y": 24892.942866598656,
@@ -60153,6 +65930,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -60225,6 +66015,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 36469.96182334105,
 						"y": 24033.94388655556,
@@ -60262,6 +66065,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -60305,6 +66121,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 37678.329916686256,
 						"y": 24189.097369398467,
@@ -60342,6 +66171,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -60385,6 +66227,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 36497.82078143871,
 						"y": 25207.034704711863,
@@ -60422,6 +66277,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -60483,6 +66351,21 @@
 					"uid": 643,
 					"instanceVariables": {},
 					"behaviors": {},
+					"effects": {
+						"Water": {
+							"parameters": {
+								"speed": 0.1,
+								"x-speed": 0.3,
+								"y-speed": 0.3,
+								"intensity": 3,
+								"frequency": 4,
+								"angle": 7,
+								"delta": 20,
+								"reflectivity": 400,
+								"emboss": 0.3
+							}
+						}
+					},
 					"world": {
 						"x": 35010.29080271545,
 						"y": 23613.89456702515,
@@ -60520,6 +66403,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -60563,6 +66459,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 32409.733091595226,
 						"y": 23721.068121776938,
@@ -60600,6 +66509,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -60643,6 +66565,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 36482.21387050938,
 						"y": 24716.510102892775,
@@ -60680,6 +66615,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -60723,6 +66671,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 34221.94289365105,
 						"y": 24181.08655560744,
@@ -60760,6 +66721,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -60803,6 +66777,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 35381.95699791444,
 						"y": 24269.028966751714,
@@ -60840,6 +66827,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -60883,6 +66883,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 35966.95699791444,
 						"y": 24126.028966751714,
@@ -60923,6 +66936,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 35307.95699791444,
 						"y": 23986.028966751714,
@@ -60960,6 +66986,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -61497,6 +67536,19 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
+							}
+						}
+					},
 					"world": {
 						"x": 37266.01528196469,
 						"y": 24276.95986293497,
@@ -61534,6 +67586,19 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Exclusion": {
+							"parameters": {}
+						},
+						"Gamma": {
+							"parameters": {
+								"gamma": 1
 							}
 						}
 					},
@@ -61744,6 +67809,23 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
+							}
+						}
+					},
 					"world": {
 						"x": 35024,
 						"y": 26753,
@@ -61781,6 +67863,23 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
 							}
 						}
 					},
@@ -61824,6 +67923,23 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
+							}
+						}
+					},
 					"world": {
 						"x": 34350.958293356576,
 						"y": 33560.79260685866,
@@ -61861,6 +67977,23 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
 							}
 						}
 					},
@@ -61904,6 +68037,23 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
+							}
+						}
+					},
 					"world": {
 						"x": 34733.892126333856,
 						"y": 33930.95791610096,
@@ -61944,6 +68094,23 @@
 							}
 						}
 					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
+							}
+						}
+					},
 					"world": {
 						"x": 35329.98408588301,
 						"y": 33560.066530516015,
@@ -61981,6 +68148,23 @@
 							"properties": {
 								"enabled": true,
 								"tags": ""
+							}
+						}
+					},
+					"effects": {
+						"Luminosity": {
+							"parameters": {}
+						},
+						"Fogexponential": {
+							"parameters": {
+								"fog-color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"fog-density": 0.02,
+								"near-dist": 10
 							}
 						}
 					},
@@ -62604,61 +68788,6 @@
 							1
 						],
 						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 32,
-						"tile-height": 32,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 632,
-					"instanceVariables": {},
-					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						}
-					},
-					"ownData": {
-						"tilemapData": {
-							"width": 3125,
-							"height": 3125,
-							"max-width": 3125,
-							"max-height": 3125,
-							"data": "575191x0,7,418772x0,15,14,15,14,15,14,15,2x14,15,2x14,3x15,2x14,15,3x14,2x15,3x14,15,5x14,15,6x14,4x23,2x14,15,14,4x23,3x14,23,2x14,15,3x14,23,15,14,23,2x14,15,2x14,23,9x15,2x14,23,14,15,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,23,3124x0,2x22,3123x0,2x22,3124x0,22,3124x0,21,3124x0,21,3124x0,21,3124x0,21,3124x0,21,3124x0,21,3124x0,21,3124x0,21,3124x0,21,3124x0,21,3124x0,21,3124x0,21,3124x0,21,3124x0,21,3124x0,21,3124x0,21,3124x0,21,3124x0,21,3124x0,21,3124x0,21,3124x0,21,3124x0,21,3124x0,21,3124x0,21,3124x0,21,3124x0,21,3124x0,21,3124x0,21,3124x0,21,20x0,5x20,3099x0,21,2x14,19x20,3x0,20,3124x0,20,3124x0,20,3124x0,22,3124x0,22,3124x0,22,3124x0,22,3124x0,22,3124x0,22,3124x0,22,3124x0,22,3124x0,22,3124x0,22,3124x0,22,3124x0,22,3124x0,22,3124x0,22,3124x0,22,3124x0,22,3124x0,22,3124x0,22,3124x0,22,3124x0,22,3124x0,22,79x0,2x15,3043x0,22,79x0,15,3044x0,20x14,42x21,6x17,7x21,6x15,8265219x0"
-						},
-						"tile-width": 32,
-						"tile-height": 32,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": 0,
-						"y": 0,
-						"width": 100000,
-						"height": 100000,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
 						"zElevation": 0
 					}
 				}

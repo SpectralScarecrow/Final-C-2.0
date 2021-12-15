@@ -11,7 +11,12 @@
 			"sid": 976979150108174
 		}
 	],
-	"effectTypes": [],
+	"effectTypes": [
+		{
+			"effectId": "lumblend",
+			"name": "Luminosity"
+		}
+	],
 	"image": {
 		"width": 250,
 		"height": 250,
