@@ -1,0 +1,70 @@
+{
+	"name": "fish2",
+	"plugin-id": "Sprite",
+	"sid": 962330101659876,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "ehealth",
+			"type": "number",
+			"desc": "",
+			"sid": 138935373173238
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Sin",
+			"name": "Sine",
+			"sid": 910486732469652
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 32,
+						"height": 32,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 9448136,
+						"collisionPoly": {
+							"points": [
+								0.96875,
+								0.5,
+								0.75,
+								0.71875,
+								0.5,
+								0.75,
+								0.46875,
+								0.53125,
+								0.4375,
+								0.5,
+								0.15625,
+								0.125,
+								0.5,
+								0.03125,
+								0.8125,
+								0.1875
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 849010735837224,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

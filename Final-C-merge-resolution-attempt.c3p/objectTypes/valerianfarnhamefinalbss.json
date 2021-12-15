@@ -3,8 +3,31 @@
 	"plugin-id": "Sprite",
 	"sid": 596382348619496,
 	"isGlobal": false,
-	"instanceVariables": [],
-	"behaviorTypes": [],
+	"instanceVariables": [
+		{
+			"name": "finalbossHealth",
+			"type": "number",
+			"desc": "",
+			"sid": 105525377286655
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Platform",
+			"name": "Platform",
+			"sid": 667526400760209
+		},
+		{
+			"behaviorId": "Turret",
+			"name": "Turret",
+			"sid": 565530671248827
+		},
+		{
+			"behaviorId": "Sin",
+			"name": "Sine",
+			"sid": 964709331163954
+		}
+	],
 	"effectTypes": [],
 	"animations": {
 		"items": [

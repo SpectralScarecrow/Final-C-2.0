@@ -333,7 +333,6 @@
 			"Layer4",
 			"Breakable",
 			"playerHealth",
-			"magMeter",
 			"Boottext",
 			"MagicTxt",
 			"health",
@@ -392,7 +391,28 @@
 			"Sprite9",
 			"Sprite10",
 			"spider",
-			"blob"
+			"blob",
+			"ArrièreplanRépété7",
+			"bat1",
+			"bat2",
+			"fish1",
+			"fish2",
+			"goblin",
+			"goblin2",
+			"goblin3",
+			"threat2",
+			"pathos",
+			"Sprite11",
+			"Text",
+			"Text9",
+			"Text10",
+			"Text11",
+			"Sprite12",
+			"Sprite13",
+			"Text12",
+			"Sprite14",
+			"Text13",
+			"Text14"
 		],
 		"subfolders": []
 	},
@@ -404,8 +424,10 @@
 	},
 	"layouts": {
 		"items": [
+			"TitleScreen",
+			"Intro",
 			"Layout1",
-			"Layout 2"
+			"Layout 3"
 		],
 		"subfolders": []
 	},

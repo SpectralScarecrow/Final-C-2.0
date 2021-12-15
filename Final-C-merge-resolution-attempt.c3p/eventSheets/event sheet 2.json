@@ -5,12 +5,13 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "on-click",
+					"id": "on-object-clicked",
 					"objectClass": "Mouse",
-					"sid": 942057225040156,
+					"sid": 380152590872646,
 					"parameters": {
-						"mouse-button": "right",
-						"click-type": "clicked"
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "PLAY"
 					}
 				}
 			],
@@ -18,37 +19,39 @@
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 706088797829173,
+					"sid": 148634712082977,
 					"parameters": {
-						"layout": "Layout1"
+						"layout": "Intro"
 					}
 				}
 			],
-			"sid": 595219716370297
+			"sid": 777658429104313
 		},
 		{
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "cursor-is-over-object",
+					"id": "on-object-clicked",
 					"objectClass": "Mouse",
-					"sid": 962914069722452,
+					"sid": 601490715016003,
 					"parameters": {
-						"object": "PLAY"
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "Sprite14"
 					}
 				}
 			],
 			"actions": [
 				{
-					"id": "set-cursor-style",
-					"objectClass": "Mouse",
-					"sid": 877893283894871,
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 907396813274042,
 					"parameters": {
-						"cursor-style": "crosshair"
+						"layout": "Layout1"
 					}
 				}
 			],
-			"sid": 777658429104313
+			"sid": 408184574858213
 		}
 	],
 	"sid": 497797205577017

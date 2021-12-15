@@ -41,10 +41,10 @@
 				{
 					"id": "add-to-instvar",
 					"objectClass": "player",
-					"sid": 959710777700753,
+					"sid": 865167297355956,
 					"parameters": {
 						"instance-variable": "playerhealth",
-						"value": "1"
+						"value": "2"
 					}
 				},
 				{
@@ -91,15 +91,6 @@
 					"id": "destroy",
 					"objectClass": "magic",
 					"sid": 387480237786381
-				},
-				{
-					"id": "add-to-instvar",
-					"objectClass": "magMeter",
-					"sid": 282665967265067,
-					"parameters": {
-						"instance-variable": "expansion",
-						"value": "1"
-					}
 				}
 			],
 			"sid": 833559269361950
@@ -139,15 +130,6 @@
 					"id": "destroy",
 					"objectClass": "MagicExpansion",
 					"sid": 418713848116346
-				},
-				{
-					"id": "add-to-instvar",
-					"objectClass": "magMeter",
-					"sid": 160087894247383,
-					"parameters": {
-						"instance-variable": "expansion",
-						"value": "5"
-					}
 				}
 			],
 			"sid": 225754176614623
@@ -388,6 +370,7 @@
 					"id": "play",
 					"objectClass": "Audio",
 					"sid": 438680405930523,
+					"disabled": true,
 					"parameters": {
 						"audio-file": "mixkit-light-wind-1165",
 						"loop": "not-looping",
@@ -610,6 +593,7 @@
 									"id": "play",
 									"objectClass": "Audio",
 									"sid": 174955509574994,
+									"disabled": true,
 									"parameters": {
 										"audio-file": "mixkit-fireball-spell-1347",
 										"loop": "not-looping",
@@ -624,14 +608,6 @@
 									"parameters": {
 										"variable": "Magic",
 										"value": "1"
-									}
-								},
-								{
-									"id": "set-text",
-									"objectClass": "magMeter",
-									"sid": 783805045737304,
-									"parameters": {
-										"text": "\"Magic: \" &Magic"
 									}
 								}
 							],
@@ -1009,6 +985,188 @@
 			"eventType": "block",
 			"conditions": [
 				{
+					"id": "is-between-values",
+					"objectClass": "System",
+					"sid": 938501816568822,
+					"parameters": {
+						"value": "spider.Sine.CyclePosition",
+						"lower-bound": "0.27",
+						"upper-bound": "0.77"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "spider",
+					"sid": 544530590802018,
+					"parameters": {
+						"state": "mirrored"
+					}
+				}
+			],
+			"sid": 931787170699896
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-between-values",
+					"objectClass": "System",
+					"sid": 835191539615616,
+					"parameters": {
+						"value": "bat1.Sine.CyclePosition",
+						"lower-bound": "0.27",
+						"upper-bound": "0.77"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "bat1",
+					"sid": 812126853052340,
+					"parameters": {
+						"state": "mirrored"
+					}
+				}
+			],
+			"sid": 316700239756881
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-between-values",
+					"objectClass": "System",
+					"sid": 353117407843134,
+					"parameters": {
+						"value": "bat2.Sine.CyclePosition",
+						"lower-bound": "0.47",
+						"upper-bound": "0.77"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "bat2",
+					"sid": 205488579534141,
+					"parameters": {
+						"state": "mirrored"
+					}
+				}
+			],
+			"sid": 238486745023966
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-between-values",
+					"objectClass": "System",
+					"sid": 764519806480868,
+					"parameters": {
+						"value": "fish1.Sine.CyclePosition",
+						"lower-bound": "0.27",
+						"upper-bound": "0.77"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "fish1",
+					"sid": 346822148507708,
+					"parameters": {
+						"state": "mirrored"
+					}
+				}
+			],
+			"sid": 592984358265785
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-between-values",
+					"objectClass": "System",
+					"sid": 629203399902577,
+					"parameters": {
+						"value": "fish2.Sine.CyclePosition",
+						"lower-bound": "0.47",
+						"upper-bound": "0.77"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "fish2",
+					"sid": 711633818004034,
+					"parameters": {
+						"state": "mirrored"
+					}
+				}
+			],
+			"sid": 117462657683402
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-between-values",
+					"objectClass": "System",
+					"sid": 993576949679433,
+					"parameters": {
+						"value": "goblin.Sine.CyclePosition",
+						"lower-bound": "0.27",
+						"upper-bound": "0.77"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "goblin",
+					"sid": 242151064741334,
+					"parameters": {
+						"state": "mirrored"
+					}
+				}
+			],
+			"sid": 396959806973454
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-between-values",
+					"objectClass": "System",
+					"sid": 644511544663394,
+					"parameters": {
+						"value": "goblin2.Sine.CyclePosition",
+						"lower-bound": "0.27",
+						"upper-bound": "0.77"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "goblin",
+					"sid": 915948239527372,
+					"parameters": {
+						"state": "mirrored"
+					}
+				}
+			],
+			"sid": 839937688846413
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
 					"id": "else",
 					"objectClass": "System",
 					"sid": 187011607562864
@@ -1019,6 +1177,62 @@
 					"id": "set-mirrored",
 					"objectClass": "lizard",
 					"sid": 797260296360660,
+					"parameters": {
+						"state": "not-mirrored"
+					}
+				},
+				{
+					"id": "set-mirrored",
+					"objectClass": "spider",
+					"sid": 642694738196123,
+					"parameters": {
+						"state": "not-mirrored"
+					}
+				},
+				{
+					"id": "set-mirrored",
+					"objectClass": "bat1",
+					"sid": 842566993405560,
+					"parameters": {
+						"state": "not-mirrored"
+					}
+				},
+				{
+					"id": "set-mirrored",
+					"objectClass": "bat2",
+					"sid": 154438300264559,
+					"parameters": {
+						"state": "not-mirrored"
+					}
+				},
+				{
+					"id": "set-mirrored",
+					"objectClass": "fish1",
+					"sid": 838812606947240,
+					"parameters": {
+						"state": "not-mirrored"
+					}
+				},
+				{
+					"id": "set-mirrored",
+					"objectClass": "fish2",
+					"sid": 137895213437247,
+					"parameters": {
+						"state": "not-mirrored"
+					}
+				},
+				{
+					"id": "set-mirrored",
+					"objectClass": "goblin",
+					"sid": 229948651527498,
+					"parameters": {
+						"state": "not-mirrored"
+					}
+				},
+				{
+					"id": "set-mirrored",
+					"objectClass": "goblin2",
+					"sid": 606434017031757,
 					"parameters": {
 						"state": "not-mirrored"
 					}
@@ -1110,6 +1324,231 @@
 			"conditions": [
 				{
 					"id": "on-collision-with-another-object",
+					"objectClass": "spider",
+					"sid": 342638538481684,
+					"parameters": {
+						"object": "sword"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "spider",
+					"sid": 634457510798021,
+					"parameters": {
+						"instance-variable": "ehealth",
+						"value": "sword.meleedamage"
+					}
+				}
+			],
+			"sid": 892671561085383
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "bat1",
+					"sid": 153555795563744,
+					"parameters": {
+						"object": "sword"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "bat1",
+					"sid": 513066596868789,
+					"parameters": {
+						"instance-variable": "ehealth",
+						"value": "sword.meleedamage"
+					}
+				}
+			],
+			"sid": 386028383859986
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "bat2",
+					"sid": 616087625534874,
+					"parameters": {
+						"object": "sword"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "bat2",
+					"sid": 178211713274055,
+					"parameters": {
+						"instance-variable": "ehealth",
+						"value": "sword.meleedamage"
+					}
+				}
+			],
+			"sid": 324126151446545
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "fish1",
+					"sid": 476317709570633,
+					"parameters": {
+						"object": "sword"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "fish1",
+					"sid": 780128203170581,
+					"parameters": {
+						"instance-variable": "ehealth",
+						"value": "sword.meleedamage"
+					}
+				}
+			],
+			"sid": 952814796741461
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "fish2",
+					"sid": 792977075033747,
+					"parameters": {
+						"object": "sword"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "fish2",
+					"sid": 829345083808238,
+					"parameters": {
+						"instance-variable": "ehealth",
+						"value": "sword.meleedamage"
+					}
+				}
+			],
+			"sid": 146577681475683
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "goblin",
+					"sid": 919168551247684,
+					"parameters": {
+						"object": "sword"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "goblin",
+					"sid": 366926109970722,
+					"parameters": {
+						"instance-variable": "ehealth",
+						"value": "sword.meleedamage"
+					}
+				}
+			],
+			"sid": 832049392996092
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "goblin2",
+					"sid": 200646794584271,
+					"parameters": {
+						"object": "sword"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "goblin2",
+					"sid": 925690408712475,
+					"parameters": {
+						"instance-variable": "ehealth",
+						"value": "sword.meleedamage"
+					}
+				}
+			],
+			"sid": 580831189062020
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "goblin3",
+					"sid": 481240075138827,
+					"parameters": {
+						"object": "sword"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "goblin3",
+					"sid": 585430476469340,
+					"parameters": {
+						"instance-variable": "ehealth",
+						"value": "sword.meleedamage"
+					}
+				}
+			],
+			"sid": 599133895010966
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "goblin3",
+					"sid": 761577516451183,
+					"parameters": {
+						"object": "sword"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "goblin3",
+					"sid": 968513829934097,
+					"parameters": {
+						"instance-variable": "ehealth",
+						"value": "sword.meleedamage"
+					}
+				}
+			],
+			"sid": 642141644133803
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
 					"objectClass": "sword",
 					"sid": 595640425137931,
 					"parameters": {
@@ -1156,6 +1595,381 @@
 				}
 			],
 			"sid": 921037131054008
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "lizard",
+					"sid": 493021630233182,
+					"parameters": {
+						"object": "Fireball"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "lizard",
+					"sid": 838034195836161,
+					"parameters": {
+						"instance-variable": "ehealth",
+						"value": "Fireball.bulletdamage"
+					}
+				}
+			],
+			"sid": 864798591595029
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "blob",
+					"sid": 747640568860547,
+					"parameters": {
+						"object": "Fireball"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "blob",
+					"sid": 241745601830487,
+					"parameters": {
+						"instance-variable": "ehealth",
+						"value": "Fireball.bulletdamage"
+					}
+				}
+			],
+			"sid": 709471460433667
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "spider",
+					"sid": 304239047929108,
+					"parameters": {
+						"object": "Fireball"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "spider",
+					"sid": 221314104211736,
+					"parameters": {
+						"instance-variable": "ehealth",
+						"value": "Fireball.bulletdamage"
+					}
+				}
+			],
+			"sid": 194687198415629
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "bat1",
+					"sid": 810553868341401,
+					"parameters": {
+						"object": "Fireball"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "bat1",
+					"sid": 346526795025169,
+					"parameters": {
+						"instance-variable": "ehealth",
+						"value": "Fireball.bulletdamage"
+					}
+				}
+			],
+			"sid": 500601248691847
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "bat2",
+					"sid": 276069791715765,
+					"parameters": {
+						"object": "Fireball"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "bat2",
+					"sid": 123909812299694,
+					"parameters": {
+						"instance-variable": "ehealth",
+						"value": "Fireball.bulletdamage"
+					}
+				}
+			],
+			"sid": 938343663251061
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "goblin",
+					"sid": 473634805360904,
+					"parameters": {
+						"object": "Fireball"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "goblin",
+					"sid": 643892492192773,
+					"parameters": {
+						"instance-variable": "ehealth",
+						"value": "Fireball.bulletdamage"
+					}
+				}
+			],
+			"sid": 206907067680538
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "goblin2",
+					"sid": 474240180131088,
+					"parameters": {
+						"object": "Fireball"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "goblin2",
+					"sid": 195774115175496,
+					"parameters": {
+						"instance-variable": "ehealth",
+						"value": "Fireball.bulletdamage"
+					}
+				}
+			],
+			"sid": 589205859988932
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "goblin3",
+					"sid": 769942866902979,
+					"parameters": {
+						"object": "Fireball"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "goblin3",
+					"sid": 704489396303641,
+					"parameters": {
+						"instance-variable": "ehealth",
+						"value": "Fireball.bulletdamage"
+					}
+				}
+			],
+			"sid": 970874425638559
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "goblin2",
+					"sid": 308918651850001,
+					"parameters": {
+						"object": "Waterball"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "goblin2",
+					"sid": 546220212072640,
+					"parameters": {
+						"instance-variable": "ehealth",
+						"value": "Fireball.bulletdamage"
+					}
+				}
+			],
+			"sid": 937150316594812
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "goblin3",
+					"sid": 252859780453551,
+					"parameters": {
+						"object": "Waterball"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "goblin3",
+					"sid": 249423095113578,
+					"parameters": {
+						"instance-variable": "ehealth",
+						"value": "Fireball.bulletdamage"
+					}
+				}
+			],
+			"sid": 416075202652722
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "goblin3",
+					"sid": 742286619441455,
+					"parameters": {
+						"object": "Waterball"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "goblin3",
+					"sid": 924537933374560,
+					"parameters": {
+						"instance-variable": "ehealth",
+						"value": "Fireball.bulletdamage"
+					}
+				}
+			],
+			"sid": 866915315948782
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "bat1",
+					"sid": 130332183388679,
+					"parameters": {
+						"object": "Waterball"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "bat1",
+					"sid": 909787627211689,
+					"parameters": {
+						"instance-variable": "ehealth",
+						"value": "Fireball.bulletdamage"
+					}
+				}
+			],
+			"sid": 538216283178784
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "bat2",
+					"sid": 100794225801867,
+					"parameters": {
+						"object": "Waterball"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "bat2",
+					"sid": 661640490880750,
+					"parameters": {
+						"instance-variable": "ehealth",
+						"value": "Fireball.bulletdamage"
+					}
+				}
+			],
+			"sid": 967184806514514
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "lizard",
+					"sid": 579651463951311,
+					"parameters": {
+						"object": "Waterball"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "lizard",
+					"sid": 759635228420928,
+					"parameters": {
+						"instance-variable": "ehealth",
+						"value": "Fireball.bulletdamage"
+					}
+				}
+			],
+			"sid": 578084731697575
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "blob",
+					"sid": 299254893303442,
+					"parameters": {
+						"object": "Waterball"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "blob",
+					"sid": 853112791293109,
+					"parameters": {
+						"instance-variable": "ehealth",
+						"value": "Fireball.bulletdamage"
+					}
+				}
+			],
+			"sid": 210639340438071
 		},
 		{
 			"eventType": "block",
@@ -1275,6 +2089,303 @@
 				}
 			],
 			"sid": 329764104725201
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "spider",
+					"sid": 732507857147740,
+					"parameters": {
+						"instance-variable": "ehealth",
+						"comparison": 0,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "spider",
+					"sid": 963275996473128
+				},
+				{
+					"id": "spawn-another-object",
+					"objectClass": "spider",
+					"sid": 939623663414144,
+					"parameters": {
+						"object": "health",
+						"layer": "0",
+						"image-point": "0",
+						"create-hierarchy": false
+					}
+				}
+			],
+			"sid": 124820971452174
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "bat1",
+					"sid": 513020809429520,
+					"parameters": {
+						"instance-variable": "ehealth",
+						"comparison": 0,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "bat1",
+					"sid": 378692661321532
+				},
+				{
+					"id": "spawn-another-object",
+					"objectClass": "bat1",
+					"sid": 708488040208649,
+					"parameters": {
+						"object": "health",
+						"layer": "0",
+						"image-point": "0",
+						"create-hierarchy": false
+					}
+				}
+			],
+			"sid": 614535589844595
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "bat2",
+					"sid": 611210970867483,
+					"parameters": {
+						"instance-variable": "ehealth",
+						"comparison": 0,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "bat2",
+					"sid": 554922799214866
+				},
+				{
+					"id": "spawn-another-object",
+					"objectClass": "bat2",
+					"sid": 223125675641118,
+					"parameters": {
+						"object": "health",
+						"layer": "0",
+						"image-point": "0",
+						"create-hierarchy": false
+					}
+				}
+			],
+			"sid": 280198046051519
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "fish1",
+					"sid": 306687493231161,
+					"parameters": {
+						"instance-variable": "ehealth",
+						"comparison": 0,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "fish1",
+					"sid": 462213489541073
+				},
+				{
+					"id": "spawn-another-object",
+					"objectClass": "fish1",
+					"sid": 964524464957579,
+					"parameters": {
+						"object": "health",
+						"layer": "0",
+						"image-point": "0",
+						"create-hierarchy": false
+					}
+				}
+			],
+			"sid": 829172540541840
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "fish2",
+					"sid": 668335827693696,
+					"parameters": {
+						"instance-variable": "ehealth",
+						"comparison": 0,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "fish2",
+					"sid": 785840043892600
+				},
+				{
+					"id": "spawn-another-object",
+					"objectClass": "fish2",
+					"sid": 208070374757352,
+					"parameters": {
+						"object": "health",
+						"layer": "0",
+						"image-point": "0",
+						"create-hierarchy": false
+					}
+				}
+			],
+			"sid": 986213810524731
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "goblin",
+					"sid": 494124542005212,
+					"parameters": {
+						"instance-variable": "ehealth",
+						"comparison": 0,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "goblin",
+					"sid": 906316582162695
+				},
+				{
+					"id": "spawn-another-object",
+					"objectClass": "goblin",
+					"sid": 886900188856977,
+					"parameters": {
+						"object": "health",
+						"layer": "0",
+						"image-point": "0",
+						"create-hierarchy": false
+					}
+				}
+			],
+			"sid": 743739837304770
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "goblin2",
+					"sid": 481141311954186,
+					"parameters": {
+						"instance-variable": "ehealth",
+						"comparison": 0,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "goblin2",
+					"sid": 849239063985103
+				},
+				{
+					"id": "spawn-another-object",
+					"objectClass": "goblin2",
+					"sid": 996948942585006,
+					"parameters": {
+						"object": "health",
+						"layer": "0",
+						"image-point": "0",
+						"create-hierarchy": false
+					}
+				}
+			],
+			"sid": 886603919668793
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "goblin3",
+					"sid": 486402968782867,
+					"parameters": {
+						"instance-variable": "ehealth",
+						"comparison": 0,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "goblin3",
+					"sid": 930939941520673
+				},
+				{
+					"id": "spawn-another-object",
+					"objectClass": "goblin3",
+					"sid": 411087904853979,
+					"parameters": {
+						"object": "health",
+						"layer": "0",
+						"image-point": "0",
+						"create-hierarchy": false
+					}
+				}
+			],
+			"sid": 644876261821475
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "spider",
+					"sid": 551573786884138,
+					"parameters": {
+						"object": "sword"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "spider",
+					"sid": 453117255133843,
+					"parameters": {
+						"instance-variable": "ehealth",
+						"value": "sword.meleedamage"
+					}
+				}
+			],
+			"sid": 228572340598427
 		},
 		{
 			"eventType": "block",
@@ -1613,6 +2724,226 @@
 			"eventType": "block",
 			"conditions": [
 				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "bat1",
+					"sid": 782075680219034,
+					"parameters": {
+						"object": "player"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "bat1",
+					"sid": 722865562565914,
+					"parameters": {
+						"animation": "\"attack\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "player",
+					"sid": 827379863936625,
+					"parameters": {
+						"instance-variable": "playerhealth",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 967301467065809
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "bat2",
+					"sid": 111758855135894,
+					"parameters": {
+						"object": "player"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "bat2",
+					"sid": 396147707142602,
+					"parameters": {
+						"animation": "\"attack\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "player",
+					"sid": 371229865067569,
+					"parameters": {
+						"instance-variable": "playerhealth",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 710145842771291
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "fish1",
+					"sid": 302261052889090,
+					"parameters": {
+						"object": "player"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "player",
+					"sid": 833336512471893,
+					"parameters": {
+						"instance-variable": "playerhealth",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 741400426999148
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "fish2",
+					"sid": 729903237301463,
+					"parameters": {
+						"object": "player"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "player",
+					"sid": 226673098494274,
+					"parameters": {
+						"instance-variable": "playerhealth",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 539396436751239
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "goblin",
+					"sid": 625035803115256,
+					"parameters": {
+						"object": "player"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "goblin",
+					"sid": 590623978095070,
+					"parameters": {
+						"animation": "\"attack\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "player",
+					"sid": 347796977625904,
+					"parameters": {
+						"instance-variable": "playerhealth",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 329425778925102
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "goblin2",
+					"sid": 109704139431372,
+					"parameters": {
+						"object": "player"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "goblin2",
+					"sid": 578625497938894,
+					"parameters": {
+						"animation": "\"attack\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "player",
+					"sid": 855039783558228,
+					"parameters": {
+						"instance-variable": "playerhealth",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 580298968988574
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "goblin3",
+					"sid": 642565734714836,
+					"parameters": {
+						"object": "player"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "goblin3",
+					"sid": 959070571443301,
+					"parameters": {
+						"animation": "\"attack\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "player",
+					"sid": 169949703553996,
+					"parameters": {
+						"instance-variable": "playerhealth",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 334393049064186
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
 					"id": "every-tick",
 					"objectClass": "System",
 					"sid": 684803980288206
@@ -1876,6 +3207,140 @@
 			"eventType": "block",
 			"conditions": [
 				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "sword",
+					"sid": 173578865551451,
+					"parameters": {
+						"object": "MiniBossLacnclot"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "MiniBossLacnclot",
+					"sid": 404595348296380,
+					"parameters": {
+						"instance-variable": "minibosshealth",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 203069675963340
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "sword",
+					"sid": 775095460341667,
+					"parameters": {
+						"object": "ValerianFarnhameFinalBss"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "ValerianFarnhameFinalBss",
+					"sid": 828404164677882,
+					"parameters": {
+						"instance-variable": "finalbossHealth",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 657357839837432
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Waterball",
+					"sid": 472228483402177,
+					"parameters": {
+						"object": "MiniBossLacnclot"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "MiniBossLacnclot",
+					"sid": 573336214803204,
+					"parameters": {
+						"instance-variable": "minibosshealth",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 288500624552565
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "MiniBossLacnclot",
+					"sid": 261144427442959,
+					"parameters": {
+						"object": "player"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "MiniBossLacnclot",
+					"sid": 969103428837638,
+					"parameters": {
+						"animation": "\"attack\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "player",
+					"sid": 838262641488349,
+					"parameters": {
+						"instance-variable": "playerhealth",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 465020595060876
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "ValerianFarnhameFinalBss",
+					"sid": 990980000723081,
+					"parameters": {
+						"object": "player"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "player",
+					"sid": 710987770783242,
+					"parameters": {
+						"instance-variable": "playerhealth",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 109683165062922
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
 					"id": "every-tick",
 					"objectClass": "System",
 					"sid": 529549177397585
@@ -1913,6 +3378,48 @@
 				}
 			],
 			"sid": 907548607240689
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 824264900482319
+				}
+			],
+			"actions": [
+				{
+					"id": "set-width",
+					"objectClass": "MiniBossHlth",
+					"sid": 906131331707318,
+					"parameters": {
+						"width": "106*(MiniBossLacnclot.minibosshealth/35)"
+					}
+				}
+			],
+			"sid": 431272364010420
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 785530965849684
+				}
+			],
+			"actions": [
+				{
+					"id": "set-width",
+					"objectClass": "FinalBossHlth",
+					"sid": 285458678391298,
+					"parameters": {
+						"width": "137*(ValerianFarnhameFinalBss.finalbossHealth/45)"
+					}
+				}
+			],
+			"sid": 748371778696744
 		},
 		{
 			"eventType": "block",
@@ -2082,6 +3589,14 @@
 					"parameters": {
 						"visibility": "invisible"
 					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "pathos",
+					"sid": 313373742160175,
+					"parameters": {
+						"visibility": "invisible"
+					}
 				}
 			],
 			"sid": 854734172218736
@@ -2220,6 +3735,17 @@
 					"parameters": {
 						"visibility": "visible"
 					}
+				},
+				{
+					"id": "spawn-another-object",
+					"objectClass": "cicadaBoss1",
+					"sid": 158571846186346,
+					"parameters": {
+						"object": "health",
+						"layer": "0",
+						"image-point": "0",
+						"create-hierarchy": false
+					}
 				}
 			],
 			"sid": 119662196296116
@@ -2264,6 +3790,94 @@
 				}
 			],
 			"sid": 325125832946686
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "MiniBossLacnclot",
+					"sid": 578384794149401,
+					"parameters": {
+						"instance-variable": "minibosshealth",
+						"comparison": 3,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "MiniBossLacnclot",
+					"sid": 330788137885761
+				},
+				{
+					"id": "destroy",
+					"objectClass": "MiniBossHlth",
+					"sid": 488358390483433
+				},
+				{
+					"id": "destroy",
+					"objectClass": "DungnBlck",
+					"sid": 911757750135482
+				},
+				{
+					"id": "spawn-another-object",
+					"objectClass": "MiniBossLacnclot",
+					"sid": 541724731898843,
+					"parameters": {
+						"object": "health",
+						"layer": "0",
+						"image-point": "0",
+						"create-hierarchy": false
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "pathos",
+					"sid": 945649988425671,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 489549322573499
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "ValerianFarnhameFinalBss",
+					"sid": 107099235908660,
+					"parameters": {
+						"instance-variable": "finalbossHealth",
+						"comparison": 3,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "ValerianFarnhameFinalBss",
+					"sid": 393380541901954
+				},
+				{
+					"id": "destroy",
+					"objectClass": "FinalBossHlth",
+					"sid": 744722100996017
+				},
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 902041149210225,
+					"parameters": {
+						"layout": "Layout 3"
+					}
+				}
+			],
+			"sid": 983121682996033
 		},
 		{
 			"eventType": "block",
@@ -2316,17 +3930,7 @@
 					"sid": 501219599109853
 				}
 			],
-			"actions": [
-				{
-					"id": "set-position",
-					"objectClass": "magMeter",
-					"sid": 200413058232082,
-					"parameters": {
-						"x": "lerp(Self.X, player.X, 0.02)",
-						"y": "lerp(Self.Y, player.Y, 0.15)"
-					}
-				}
-			],
+			"actions": [],
 			"sid": 612057957550443
 		}
 	],
